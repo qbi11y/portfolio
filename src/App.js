@@ -7,7 +7,7 @@ function App() {
       <header className="App-header">
         
         <p>
-          Test 1
+          Test 2
         </p>
         <a
           className="App-link"
