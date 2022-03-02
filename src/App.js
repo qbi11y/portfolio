@@ -6,7 +6,6 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 function App() {
   return (
     <Router>
-      <div>WTF</div>
       <Routes>
         <Route path="/portfolio" element={<Home />} />
         <Route path="/portfolio/project/:id" element={<Project />} />
