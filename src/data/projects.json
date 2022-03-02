@@ -4,5 +4,6 @@
     "3": {"name": "SVG Animation"},
     "4": {"name": "Data Pipeline"},
     "5": {"name": "User Profile Image"},
-    "6": {"name": "Watson Assistant"}
+    "6": {"name": "Watson Assistant"},
+    "7": {"name": "Auto AI Utility"}
 }
