@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 const Home = () => (
         <div className="container">
             <section>
-                <h5>whoami: jamesqthompson</h5>
+                <h5>whoami:: jamesqthompson</h5>
                 <h1>Design Technologist</h1>
                 <p>Statement about design and tech</p>
             </section>
