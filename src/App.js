@@ -1,24 +1,16 @@
 
-import './App.css';
+import './App.scss';
+import { Home, Project } from './components';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        
-        <p>
-          Testing branch now with another test updating another pass to merge
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/project/:id" element={<Project />} />
+      </Routes>
+    </Router>
   );
 }
 
