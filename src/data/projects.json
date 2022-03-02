@@ -1,8 +1,8 @@
 {
-    "Photography Utility": {"id": 1},
-    "Cloud Brokerage": {"id": 2},
-    "SVG Animation": {"id": 3},
-    "Data Pipeline": {"id": 4},
-    "User Profile Image": {"id": 5},
-    "Watson Assistant": {"id": 6}
+    "1": {"name": "Photography Utility"},
+    "2": {"name": "Cloud Brokerage"},
+    "3": {"name": "SVG Animation"},
+    "4": {"name": "Data Pipeline"},
+    "5": {"name": "User Profile Image"},
+    "6": {"name": "Watson Assistant"}
 }
