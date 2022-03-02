@@ -1,5 +1,8 @@
 {
-    "Project Title 1": {"id": 1},
-    "Project Title 2": {"id": 2},
-    "Project Title 3": {"id": 3}
+    "Photography Utility": {"id": 1},
+    "Cloud Brokerage": {"id": 2},
+    "SVG Animation": {"id": 3},
+    "Data Pipeline": {"id": 4},
+    "User Profile Image": {"id": 5},
+    "Watson Assistant": {"id": 6}
 }
