@@ -5,10 +5,11 @@ import projects from 'data/projects.json';
 
 const Project = () => {
     let { id } = useParams()
+    console.log(projects[id]["name"])
     return(
         <div>
-            <h1>Project here { projects[id]["name"] }</h1>
-            <p>Project { projects[id]["name"] } description here</p>
+            <h1>{ projects[id]["name"] }</h1>
+            <p>{ projects[id]["name"] } description here</p>
             <p><Link to="/portfolio">Back</Link></p>
         </div>
     )

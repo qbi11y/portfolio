@@ -1,15 +1,16 @@
 import React from "react";
 import { render, screen } from '@testing-library/react';
-import { BrowserRouter as Router } from "react-router-dom";
+import { MemoryRouter, Routes, Route } from "react-router";
 
 import Project from './Project';
 
 describe('Project', () => {
-    test('renders Project component', () => {
+    test('renders Project component with project id param', () => {
         render(
-            <Router>
-                <Project />
-            </Router>);
-        //screen.debug();
-    })
+            <MemoryRouter initialEntries={['/portfolio/project/2']}>
+                <Routes>
+                    <Route path="/portfolio/project/:id" element={<Project />} />
+                </Routes>
+            </MemoryRouter>
+        );})
 })
