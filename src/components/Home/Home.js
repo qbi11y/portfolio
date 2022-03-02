@@ -1,6 +1,6 @@
 import React from "react";
-import projects from 'data/projects.json'   
-import { Link } from "react-router-dom";
+// import projects from 'data/projects.json'   
+// import { Link } from "react-router-dom";
 
 const Home = () => (
         <div className="container">
@@ -10,7 +10,7 @@ const Home = () => (
             </div>
             <div className="column">
                 
-                <ul>
+                {/* <ul>
                     {
                         Object.keys(projects).map((project, index) => {
                             console.log(project)
@@ -19,7 +19,7 @@ const Home = () => (
                             )
                         })
                     }
-                </ul>
+                </ul> */}
                 
                 <ul>
                     <li>Projects</li>
