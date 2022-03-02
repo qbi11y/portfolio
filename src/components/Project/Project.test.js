@@ -6,6 +6,6 @@ import Project from './Project';
 describe('Project', () => {
     test('renders Project component', () => {
         render(<Project />);
-        screen.debug();
+        //screen.debug();
     })
 })
