@@ -1,6 +1,6 @@
 import React from "react";
 import projects from 'data/projects.json'   
-import { Link, BrowserRouter as Router, Route, } from "react-router-dom";
+import { Link, BrowserRouter as Router } from "react-router-dom";
 
 const Home = () => (
         <div className="container">
