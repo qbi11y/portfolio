@@ -4,11 +4,11 @@ import { Link } from "react-router-dom";
 
 const Home = () => (
         <div className="container">
-            <div className="column">
+            <section>
                 <h1>Design Technologist</h1>
                 <p>Statement about design and tech</p>
-            </div>
-            <div className="column">                
+            </section>
+            <section>                
                 <ul>
                     {
                         Object.keys(projects).map((project, index) => {
@@ -28,7 +28,7 @@ const Home = () => (
                     <li>Contact</li>
                     <li>Built with...</li>
                 </ul>
-            </div>        
+            </section>        
         </div>
     )
 
