@@ -9,6 +9,16 @@ const Project = () => {
     return(
         <div>
             <h1>{ projects[id]["name"] }</h1>
+            {
+                projects[id]["sections"].map((section, index) => {
+                    return(
+                        <section key={index}>
+                            <h1>{section.header}</h1>
+                            <p>{section.text}</p>
+                        </section>
+                    )
+                })
+            }
             <p>{ projects[id]["name"] } description here</p>
             <p><Link to="/portfolio">Back</Link></p>
         </div>

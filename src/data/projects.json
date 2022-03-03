@@ -1,9 +1,79 @@
 {
-    "1": {"name": "Photography Utility"},
-    "2": {"name": "Cloud Brokerage"},
-    "3": {"name": "SVG Animation"},
-    "4": {"name": "Data Pipeline"},
-    "5": {"name": "User Profile Image"},
-    "6": {"name": "Watson Assistant"},
-    "7": {"name": "Auto AI Utility"}
+    "1": {
+        "name": "Photography Utility",
+        "sections": [{
+            "header": "Section Header",
+            "text": "section text here",
+            "images": [{
+                "caption": "image caption",
+                "url": "image url"
+            }]
+        }]
+    },
+    "2": {
+        "name": "Cloud Brokerage",
+        "sections": [{
+            "header": "Section Header",
+            "text": "section text here",
+            "images": [{
+                "caption": "image caption",
+                "url": "image url"
+            }]
+        }]
+    },
+    "3": {
+        "name": "SVG Animation",
+        "sections": [{
+            "header": "Section Header",
+            "text": "section text here",
+            "images": [{
+                "caption": "image caption",
+                "url": "image url"
+            }]
+        }]
+    },
+    "4": {
+        "name": "Data Pipeline",
+        "sections": [{
+            "header": "Section Header",
+            "text": "section text here",
+            "images": [{
+                "caption": "image caption",
+                "url": "image url"
+            }]
+        }]
+    },
+    "5": {
+        "name": "User Profile Image",
+        "sections": [{
+            "header": "Section Header",
+            "text": "section text here",
+            "images": [{
+                "caption": "image caption",
+                "url": "image url"
+            }]
+        }]
+    },
+    "6": {
+        "name": "Watson Assistant",
+        "sections": [{
+            "header": "Section Header",
+            "text": "section text here",
+            "images": [{
+                "caption": "image caption",
+                "url": "image url"
+            }]
+        }]
+    },
+    "7": {
+        "name": "Auto AI Utility",
+        "sections": [{
+            "header": "Section Header",
+            "text": "section text here",
+            "images": [{
+                "caption": "image caption",
+                "url": "image url"
+            }]
+        }]
+    }
 }
