@@ -1,35 +1,41 @@
 import React from "react";
-import projects from 'data/projects.json';   
-import { Link } from "react-router-dom";
+import projects from 'data/projects.json';
+import content from 'data/content.json';  
+import { Link, useNavigate } from "react-router-dom";
 
-const Home = () => (
+const Home = () => {
+    const navigate = useNavigate()
+
+    const viewProject = (e) => {
+        navigate('/portfolio/project/'+e.target.id)
+    }
+
+    return(
         <div className="container">
-            <section>
-                <h5>whoami:: jamesqthompson</h5>
-                <h1>Design Technologist</h1>
-                <p>Statement about design and tech</p>
+            <section className="section">
+                <h5>{content.personal.tag}</h5>
+                <h1 className="is-size-1 is-size-2-mobile has-text-weight-medium">{content.personal.title}</h1>
+                <p className="is-hidden-desktop">{content.personal.shortStatement}</p>
+                <p className="is-hidden-touch">{content.personal.longStatement}</p>
             </section>
-            <section>                
+            <section className="section">                
                 <ul>
                     {
                         Object.keys(projects).map((project, index) => 
                             (
-                                <li key={index}><Link to={"/portfolio/project/"+ project}>{ projects[index + 1]["name"] }</Link></li>
+                                <li className="project" id={index + 1} onClick={(e)=> {viewProject(e)}}key={index}>{ projects[index + 1]["name"] }</li>
                             )
                         )
                     }
                 </ul>
                 
                 <ul>
-                    <li>Projects</li>
                     <li>Resume</li>
-                    <li>Certifications</li>
-                    <li>Patents</li>
                     <li>Contact</li>
                     <li>Built with...</li>
                 </ul>
             </section>        
         </div>
-    )
+    )}
 
 export default Home
