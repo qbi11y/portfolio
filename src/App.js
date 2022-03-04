@@ -2,7 +2,7 @@
 import './App.scss';
 import 'bulma/css/bulma.min.css';
 import { Home, Project } from './components';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { HashRouter as Router, Route, Routes } from 'react-router-dom';
 
 function App() {
   return (
