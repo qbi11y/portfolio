@@ -12,10 +12,7 @@
         {
             "header": "Solution",
             "text": "I didn't know much about working with Node and file systems so I researched how to watch a file folder for updates. With the knowledge in hand I set out to build a simply utility that would watch a folder and copy any added files to a new directory. This new directory was the “web” directory. The website was hosted from this directory. In addition to the images was a web template setup to read in the images. The template had both list and details pages.\n\nOnce complete, I reached out to my friend to have him test everything out. I took his feedback to fine tune the utility documentation as well as the web template. He integrated the utility into his workflow and was able to fine tune photographs based on what he saw on the web demo",
-            "images": [{
-                "caption": "image caption",
-                "url": "image url"
-            }]
+            "images": []
         }]
     },
     "2": {
@@ -23,18 +20,12 @@
         "sections": [{
             "header": "Problem",
             "text": "section text here",
-            "images": [{
-                "caption": "image caption",
-                "url": "image url"
-            }]
+            "images": []
         },
         {
             "header": "Solution",
             "text": "section text here",
-            "images": [{
-                "caption": "image caption",
-                "url": "image url"
-            }]
+            "images": []
         }]
     },
     "3": {
@@ -42,18 +33,12 @@
         "sections": [{
             "header": "Problem",
             "text": "section text here",
-            "images": [{
-                "caption": "image caption",
-                "url": "image url"
-            }]
+            "images": []
         },
         {
             "header": "Solution",
             "text": "section text here",
-            "images": [{
-                "caption": "image caption",
-                "url": "image url"
-            }]
+            "images": []
         }]
     },
     "4": {
@@ -61,18 +46,12 @@
         "sections": [{
             "header": "Problem",
             "text": "section text here",
-            "images": [{
-                "caption": "image caption",
-                "url": "image url"
-            }]
+            "images": []
         },
         {
             "header": "Solution",
             "text": "section text here",
-            "images": [{
-                "caption": "image caption",
-                "url": "image url"
-            }]
+            "images": []
         }]
     },
     "5": {
@@ -80,18 +59,12 @@
         "sections": [{
             "header": "Problem",
             "text": "section text here",
-            "images": [{
-                "caption": "image caption",
-                "url": "image url"
-            }]
+            "images": []
         },
         {
             "header": "Solution",
             "text": "section text here",
-            "images": [{
-                "caption": "image caption",
-                "url": "image url"
-            }]
+            "images": []
         }]
     },
     "6": {
@@ -99,18 +72,12 @@
         "sections": [{
             "header": "Problem",
             "text": "section text here",
-            "images": [{
-                "caption": "image caption",
-                "url": "image url"
-            }]
+            "images": []
         },
         {
             "header": "Solution",
             "text": "section text here",
-            "images": [{
-                "caption": "image caption",
-                "url": "image url"
-            }]
+            "images": []
         }]
     },
     "7": {
@@ -118,18 +85,12 @@
         "sections": [{
             "header": "Problem",
             "text": "section text here",
-            "images": [{
-                "caption": "image caption",
-                "url": "image url"
-            }]
+            "images": []
         },
         {
             "header": "Solution",
             "text": "section text here",
-            "images": [{
-                "caption": "image caption",
-                "url": "image url"
-            }]
+            "images": []
         }]
     }
 }

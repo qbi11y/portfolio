@@ -26,7 +26,14 @@ const Project = () => {
                         <section className="section text" key={index}>
                             <h1 className="has-text-weight-bold">{section.header}</h1>
                             <p>{section.text}</p>
-                            <img src={process.env.PUBLIC_URL + section.images[0].url} />
+                            {
+                                section.images.length && Object.keys(section.images).map((image, index) => {
+                                    console.log('image', section.images[image]['url'])
+                                    return(
+                                    <img alt={index} src={process.env.PUBLIC_URL + section.images[image]['url']} />
+                                    )
+                                })
+                            }
                         </section>
                     )
                 })
