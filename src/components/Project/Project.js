@@ -26,7 +26,7 @@ const Project = () => {
                         <section className="section text" key={index}>
                             <h1 className="has-text-weight-bold">{section.header}</h1>
                             <p>{section.text}</p>
-                            
+                            <img src={process.env.PUBLIC_URL + section.images[0].url} />
                         </section>
                     )
                 })

@@ -6,7 +6,7 @@
             "text": "My photographer friend was doing a product photoshoot. The photos were going to be used on a website but he had no idea how they would look. As he was shooting tethered to the computer the idea came to mind to take the photos as they come in and drop them into a web template, allowing him to see how the photos would look online in real-time.",
             "images": [{
                 "caption": "image caption",
-                "url": "images/photography-utility/hero.png"
+                "url": "/images/photography-utility/hero.png"
             }]
         },
         {
