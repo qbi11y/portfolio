@@ -21,10 +21,12 @@ const Project = () => {
 
             {
                 projects[id]["sections"].map((section, index) => {
+                    
                     return(
                         <section className="section text" key={index}>
                             <h1 className="has-text-weight-bold">{section.header}</h1>
                             <p>{section.text}</p>
+                            <img src={section.images[0].url} />
                         </section>
                     )
                 })
