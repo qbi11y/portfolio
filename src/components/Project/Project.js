@@ -26,7 +26,7 @@ const Project = () => {
                         <section className="section text" key={index}>
                             <h1 className="has-text-weight-bold">{section.header}</h1>
                             <p>{section.text}</p>
-                            <img alt="image" src={image} />
+                            <img alt={`index ${index}`} src={image} />
                         </section>
                     )
                 })
