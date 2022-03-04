@@ -7,20 +7,29 @@ const Project = () => {
     let { id } = useParams()
     console.log(projects[id]["name"])
     return(
-        <div>
-            <h1>{ projects[id]["name"] }</h1>
+        <div className="container">
+            <section className="hero is-primary">
+                <div className="hero-body">
+                    <p className="title">
+                    { projects[id]["name"] }
+                    </p>
+                    <p className="subtitle">
+                    Hero subtitle
+                    </p>
+                </div>
+            </section>
+
             {
                 projects[id]["sections"].map((section, index) => {
                     return(
-                        <section key={index}>
-                            <h1>{section.header}</h1>
+                        <section className="section text" key={index}>
+                            <h1 className="has-text-weight-bold">{section.header}</h1>
                             <p>{section.text}</p>
                         </section>
                     )
                 })
             }
-            <p>{ projects[id]["name"] } description here</p>
-            <p><Link to="/portfolio">Back</Link></p>
+            <p className="section"><Link to="/portfolio">Back</Link></p>
         </div>
     )
 }

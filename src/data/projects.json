@@ -2,8 +2,16 @@
     "1": {
         "name": "Photography Utility",
         "sections": [{
-            "header": "Section Header",
-            "text": "section text here",
+            "header": "Problem",
+            "text": "My photographer friend was doing a product photoshoot. The photos were going to be used on a website but he had no idea how they would look. As he was shooting tethered to the computer the idea came to mind to take the photos as they come in and drop them into a web template, allowing him to see how the photos would look online in real-time.",
+            "images": [{
+                "caption": "image caption",
+                "url": "image url"
+            }]
+        },
+        {
+            "header": "Solution",
+            "text": "I didn't know much about working with Node and file systems so I researched how to watch a file folder for updates. With the knowledge in hand I set out to build a simply utility that would watch a folder and copy any added files to a new directory. This new directory was the “web” directory. The website was hosted from this directory. In addition to the images was a web template setup to read in the images. The template had both list and details pages.\n\nOnce complete, I reached out to my friend to have him test everything out. I took his feedback to fine tune the utility documentation as well as the web template. He integrated the utility into his workflow and was able to fine tune photographs based on what he saw on the web demo",
             "images": [{
                 "caption": "image caption",
                 "url": "image url"
@@ -13,7 +21,15 @@
     "2": {
         "name": "Cloud Brokerage",
         "sections": [{
-            "header": "Section Header",
+            "header": "Problem",
+            "text": "section text here",
+            "images": [{
+                "caption": "image caption",
+                "url": "image url"
+            }]
+        },
+        {
+            "header": "Solution",
             "text": "section text here",
             "images": [{
                 "caption": "image caption",
@@ -24,7 +40,15 @@
     "3": {
         "name": "SVG Animation",
         "sections": [{
-            "header": "Section Header",
+            "header": "Problem",
+            "text": "section text here",
+            "images": [{
+                "caption": "image caption",
+                "url": "image url"
+            }]
+        },
+        {
+            "header": "Solution",
             "text": "section text here",
             "images": [{
                 "caption": "image caption",
@@ -35,7 +59,15 @@
     "4": {
         "name": "Data Pipeline",
         "sections": [{
-            "header": "Section Header",
+            "header": "Problem",
+            "text": "section text here",
+            "images": [{
+                "caption": "image caption",
+                "url": "image url"
+            }]
+        },
+        {
+            "header": "Solution",
             "text": "section text here",
             "images": [{
                 "caption": "image caption",
@@ -46,7 +78,15 @@
     "5": {
         "name": "User Profile Image",
         "sections": [{
-            "header": "Section Header",
+            "header": "Problem",
+            "text": "section text here",
+            "images": [{
+                "caption": "image caption",
+                "url": "image url"
+            }]
+        },
+        {
+            "header": "Solution",
             "text": "section text here",
             "images": [{
                 "caption": "image caption",
@@ -57,7 +97,15 @@
     "6": {
         "name": "Watson Assistant",
         "sections": [{
-            "header": "Section Header",
+            "header": "Problem",
+            "text": "section text here",
+            "images": [{
+                "caption": "image caption",
+                "url": "image url"
+            }]
+        },
+        {
+            "header": "Solution",
             "text": "section text here",
             "images": [{
                 "caption": "image caption",
@@ -68,7 +116,15 @@
     "7": {
         "name": "Auto AI Utility",
         "sections": [{
-            "header": "Section Header",
+            "header": "Problem",
+            "text": "section text here",
+            "images": [{
+                "caption": "image caption",
+                "url": "image url"
+            }]
+        },
+        {
+            "header": "Solution",
             "text": "section text here",
             "images": [{
                 "caption": "image caption",
