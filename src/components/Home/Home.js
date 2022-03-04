@@ -1,7 +1,7 @@
 import React from "react";
 import projects from 'data/projects.json';
 import content from 'data/content.json';  
-import { Link, useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 const Home = () => {
     const navigate = useNavigate()
