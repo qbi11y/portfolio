@@ -21,12 +21,12 @@ const Project = () => {
 
             {
                 projects[id]["sections"].map((section, index) => {
-                    const image = section.images[0].url
+                    
                     return(
                         <section className="section text" key={index}>
                             <h1 className="has-text-weight-bold">{section.header}</h1>
                             <p>{section.text}</p>
-                            <img alt={`index ${index}`} src={image} />
+                            
                         </section>
                     )
                 })
