@@ -45,13 +45,40 @@
         "name": "Cloud Brokerage",
         "sections": [{
             "header": "Problem",
-            "text": "section text here",
+            "text": "This product allowed a organization to track and understand cloud resources usage. As design lead I started the effort with a design thinking workshop. The workshop allowed all stakeholders to contribute to the process.We were able to align on expectations and user personas. I lead a team of 4 designers to bring the product to life. Although we had a limited pool of users available for testing, I was able to conduct test with people familiar with the space. Their feedback was used to enhance the user experience. I wanted to ensure we had a user experience that allowed a user to promptly see the information they needed to see without looking deep for it. Due to the nature of cloud resources it is easy to generate a bill that is larger than expected and not understand how it happened. Once implemented customers were able to save tens and hundreds of thousands of dollars based on their size.",
             "images": []
+        },
+        {
+            "header": "Process",
+            "text": "section text here",
+            "images": [{
+                "caption": "image caption",
+                "url": "/images/cloud-brokerage/process_01.png"
+            },
+            {
+                "caption": "image caption",
+                "url": "/images/cloud-brokerage/process_02.png"
+            },
+            {
+                "caption": "image caption",
+                "url": "/images/cloud-brokerage/process_03.png"
+            }]
         },
         {
             "header": "Solution",
             "text": "section text here",
-            "images": []
+            "images": [{
+                "caption": "image caption",
+                "url": "/images/cloud-brokerage/product_01.png"
+            },
+            {
+                "caption": "image caption",
+                "url": "/images/cloud-brokerage/product_02.png"
+            },
+            {
+                "caption": "image caption",
+                "url": "/images/cloud-brokerage/product_03.png"
+            }]
         }]
     },
     "5": {
