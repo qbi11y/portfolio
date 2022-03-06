@@ -64,7 +64,14 @@
         {
             "header": "Solution",
             "text": "section text here",
-            "images": []
+            "images": [{
+                "caption": "image caption",
+                "url": "/images/animated-svg/01.png"
+            },
+            {
+                "caption": "image caption",
+                "url": "/images/animated-svg/02.png"
+            }]
         }]
     },
     "6": {
