@@ -16,32 +16,6 @@
         }]
     },
     "2": {
-        "name": "Cloud Brokerage",
-        "sections": [{
-            "header": "Problem",
-            "text": "section text here",
-            "images": []
-        },
-        {
-            "header": "Solution",
-            "text": "section text here",
-            "images": []
-        }]
-    },
-    "3": {
-        "name": "SVG Animation",
-        "sections": [{
-            "header": "Problem",
-            "text": "section text here",
-            "images": []
-        },
-        {
-            "header": "Solution",
-            "text": "section text here",
-            "images": []
-        }]
-    },
-    "4": {
         "name": "Data Pipeline",
         "sections": [{
             "header": "Problem",
@@ -54,7 +28,46 @@
             "images": []
         }]
     },
+    "3": {
+        "name": "Auto AI Utility",
+        "sections": [{
+            "header": "Problem",
+            "text": "section text here",
+            "images": []
+        },
+        {
+            "header": "Solution",
+            "text": "section text here",
+            "images": []
+        }]
+    },
+    "4": {
+        "name": "Cloud Brokerage",
+        "sections": [{
+            "header": "Problem",
+            "text": "section text here",
+            "images": []
+        },
+        {
+            "header": "Solution",
+            "text": "section text here",
+            "images": []
+        }]
+    },
     "5": {
+        "name": "SVG Animation",
+        "sections": [{
+            "header": "Problem",
+            "text": "Merging multiple pattern sites into one, there was a desire to highlight the number of patterns being used across the organization. I was charged with implementing the animated SVG. Not knowing much about animated SVGs I collaborated with another team member who had a key piece of knowledge. Once I had that key piece of knowledge I was able to implement the animated SVG. Once implemented I began to figure out ways that would optimize the experience. I worked with the designer to understand how the exports were working and how we could exploit that to get our desired results. The animation has now been optimized",
+            "images": []
+        },
+        {
+            "header": "Solution",
+            "text": "section text here",
+            "images": []
+        }]
+    },
+    "6": {
         "name": "User Profile Image",
         "sections": [{
             "header": "Problem",
@@ -67,21 +80,8 @@
             "images": []
         }]
     },
-    "6": {
-        "name": "Watson Assistant",
-        "sections": [{
-            "header": "Problem",
-            "text": "section text here",
-            "images": []
-        },
-        {
-            "header": "Solution",
-            "text": "section text here",
-            "images": []
-        }]
-    },
     "7": {
-        "name": "Auto AI Utility",
+        "name": "Watson Assistant",
         "sections": [{
             "header": "Problem",
             "text": "section text here",
