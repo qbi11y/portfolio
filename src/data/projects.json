@@ -17,14 +17,15 @@
     },
     "2": {
         "name": "Data Pipeline",
+        "sub": "Machine learning and sports",
         "sections": [{
-            "header": "Problem",
-            "text": "section text here",
+            "header": "Opportunity",
+            "text": "As an avid sports fan, I wanted to take my knowledge of machine learning (ML) models and love of sports to build a data pipeline that would predict the over or under selection for the second half. During the football season I manually captured betting data and stats and fed that data to my models. I got decent results so I decided to build out the pipeline to support basketball. Due to the vast number of basketball games my manual approach was not going to work. An automated pipeline was needed in order for it to be effective.",
             "images": []
         },
         {
             "header": "Solution",
-            "text": "section text here",
+            "text": "I was given access to a live sports betting API. I wrote a Python application that would update the betting lines up until tip off. The application would check the progress of games and once a game was in halftime the application would get the updated stats and betting lines. The updated stats and betting lines were used to determine if an over or under bet should be made for the second half. The script would be started before the tip of the first game of the day and would run until the last game finished. A Google Sheet was updated with the results.",
             "images": []
         }]
     },

@@ -14,7 +14,7 @@ const Project = () => {
                     { projects[id]["name"] }
                     </p>
                     <p className="subtitle">
-                    Hero subtitle
+                    { projects[id]["sub"] }
                     </p>
                 </div>
             </section>
