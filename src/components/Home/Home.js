@@ -31,8 +31,12 @@ const Home = () => {
                 
                 <ul>
                     <li>Resume</li>
-                    <li>Contact</li>
+                    <li>
+                        <p><a href="mailto:thompsonjamesquillan@gmail.com">thompsonjamesquillan@gmail.com</a></p>
+                        <p>Austin, TX</p>
+                    </li>
                     <li>Built with...</li>
+                    <li>React</li>
                 </ul>
             </section>        
         </div>

@@ -27,18 +27,24 @@
             "header": "Solution",
             "text": "I was given access to a live sports betting API. I wrote a Python application that would update the betting lines up until tip off. The application would check the progress of games and once a game was in halftime the application would get the updated stats and betting lines. The updated stats and betting lines were used to determine if an over or under bet should be made for the second half. The script would be started before the tip of the first game of the day and would run until the last game finished. A Google Sheet was updated with the results.",
             "images": []
+        },
+        {
+            "header": "Outcome",
+            "text": "The output of the models were used in conjunction with knowledge of game to make profitable bets.",
+            "images": []
         }]
     },
     "3": {
         "name": "Auto AI Utility",
+        "sub": "Simplifying AI",
         "sections": [{
             "header": "Problem",
-            "text": "section text here",
+            "text": "While there was a call to add more AI to IBM products there was very little AI in prototypes. The AI/ML learning curve is steep. I realized a process was needed to allow a UXE to quickly include a ML model into a prototype without extensive knowledge of model creation.",
             "images": []
         },
         {
             "header": "Solution",
-            "text": "section text here",
+            "text": "I developed a tool that would all a UXE to submit structured data and receive a predictive model in return. The UXE could then make API calls to the model to have actual predictions included in their prototypes instead of dummy data.",
             "images": []
         }]
     },
@@ -51,7 +57,7 @@
         },
         {
             "header": "Process",
-            "text": "section text here",
+            "text": "To kickoff the project, I facilitated a design thinking workshop to align stakeholders. This workshop allowed everyone (engineering, executives, product management, etc.) to express concerns and desires. The workshop also allowed us to agree on key pain points to address.\n\n After the completion of the workshop, I lead the effort to create the information architecture and lead a team of visual designers to design the UI for the product.",
             "images": [{
                 "caption": "image caption",
                 "url": "/images/cloud-brokerage/process_01.png"
@@ -67,7 +73,7 @@
         },
         {
             "header": "Solution",
-            "text": "section text here",
+            "text": "The product allowed management to quickly get insight into the month's cloud spend. Should anomalies be identified, devOps would easily be able to identify problem resources and rectify the issue. The product allowed companies to capture money",
             "images": [{
                 "caption": "image caption",
                 "url": "/images/cloud-brokerage/product_01.png"
@@ -86,12 +92,12 @@
         "name": "SVG Animation",
         "sections": [{
             "header": "Problem",
-            "text": "Merging multiple pattern sites into one, there was a desire to highlight the number of patterns being used across the organization. I was charged with implementing the animated SVG. Not knowing much about animated SVGs I collaborated with another team member who had a key piece of knowledge. Once I had that key piece of knowledge I was able to implement the animated SVG. Once implemented I began to figure out ways that would optimize the experience. I worked with the designer to understand how the exports were working and how we could exploit that to get our desired results. The animation has now been optimized",
+            "text": "Merging multiple pattern sites into one, there was a desire to highlight the number of patterns being used across the organization. Instead of using a flat chart, there was a desire to use an animated SVG.",
             "images": []
         },
         {
             "header": "Solution",
-            "text": "section text here",
+            "text": "I was charged with implementing the animated SVG. Not knowing much about animated SVGs I collaborated with another team member who had a key piece of knowledge. Once I had that key piece of knowledge I was able to implement the animated SVG. Once implemented I began to figure out ways that would optimize the experience. I worked with the designer to understand how the exports were working and how we could exploit that to get our desired results. The animation has now been optimized",
             "images": [{
                 "caption": "image caption",
                 "url": "/images/animated-svg/01.png"
@@ -105,13 +111,8 @@
     "6": {
         "name": "User Profile Image",
         "sections": [{
-            "header": "Problem",
-            "text": "section text here",
-            "images": []
-        },
-        {
-            "header": "Solution",
-            "text": "section text here",
+            "header": "Task",
+            "text": "Develop the user profile image resuable pattern. The component was added to our library of patterns.",
             "images": []
         }]
     },

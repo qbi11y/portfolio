@@ -27,7 +27,10 @@ const Project = () => {
                                 <p className="mb-6">{section.text}</p>
                                 {
                                     section.images.length !== 0 && Object.keys(section.images).map((image, index) => (
-                                        <img alt={index} key={index} src={process.env.PUBLIC_URL + section.images[image]['url']} />
+                                        <div>
+                                            <img alt={index} key={index} src={process.env.PUBLIC_URL + section.images[image]['url']} />
+                                            <section>{ section.images[image]['caption']}</section>
+                                        </div>
                                         )
                                     )
                                 }
