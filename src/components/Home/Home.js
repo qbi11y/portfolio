@@ -1,6 +1,6 @@
 import React from "react";
-import projects from 'data/projects.json';
-import content from 'data/content.json';  
+import projects from '../../data/projects.json';
+import content from '../../data/content.json';  
 import { useNavigate } from "react-router-dom";
 
 const Home = () => {

@@ -1,4 +1,4 @@
-
+import React from 'react';
 import './App.scss';
 import 'bulma/css/bulma.min.css';
 import { Home, Project } from './components';

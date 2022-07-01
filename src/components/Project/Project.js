@@ -1,7 +1,7 @@
 import React from "react"
 import { useParams } from "react-router-dom"
 import { Link } from "react-router-dom";
-import projects from 'data/projects.json'; 
+import * as projects from '../../data/projects.json'; 
 
 const Project = () => {
     let { id } = useParams()
