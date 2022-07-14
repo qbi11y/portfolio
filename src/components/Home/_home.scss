@@ -1,8 +1,10 @@
+.header {
+    margin-bottom:1em;
+}
 .project {
-    margin-bottom: 1em;
-    padding: 2em 1em;
-    box-shadow: 2px 8px 10px rgb(235, 235, 235);
-    border-radius: 12px;
+    padding: 1em 1em;
+    border-top: 3px dotted rgb(235, 235, 235);
+    font-size: 1.5em;
 }
 
 .project:hover {

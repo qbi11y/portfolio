@@ -19,6 +19,7 @@ const Project = () => {
                 </div>
             </section>
             <div className="section--container">
+                <p className="section"><Link to="/portfolio">Back</Link></p>
                 {
                     projects[id]["sections"].map((section, index) => {                    
                         return(

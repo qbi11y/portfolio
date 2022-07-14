@@ -45,7 +45,14 @@
         {
             "header": "Solution",
             "text": "I developed a tool that would all a UXE to submit structured data and receive a predictive model in return. The UXE could then make API calls to the model to have actual predictions included in their prototypes instead of dummy data.",
-            "images": []
+            "images": [{
+                "caption": "image caption",
+                "url": "/images/ai-utility/01.png"
+            },
+            {
+                "caption": "image caption",
+                "url": "/images/ai-utility/02.png"
+            }]
         }]
     },
     "4": {
@@ -109,24 +116,43 @@
         }]
     },
     "6": {
-        "name": "User Profile Image",
-        "sections": [{
-            "header": "Task",
-            "text": "Develop the user profile image resuable pattern. The component was added to our library of patterns.",
-            "images": []
-        }]
-    },
-    "7": {
         "name": "Watson Assistant",
         "sections": [{
             "header": "Problem",
-            "text": "section text here",
+            "text": "At the time, Watson Assistant 'out of the box' had no user interface. A customer would have to deploy resources to apply a user interface.",
             "images": []
         },
         {
             "header": "Solution",
-            "text": "section text here",
-            "images": []
+            "text": "A generic user interface was applied to Watson Assistant, allowing a customer to focus on training the models and not the user interface. I developed a prototype to demonstrate the new chat window interface.",
+            "images": [{
+                "caption": "image caption",
+                "url": "/images/watson-assistant/01.png"
+            },
+            {
+                "caption": "image caption",
+                "url": "/images/watson-assistant/02.png"
+            },
+            {
+                "caption": "image caption",
+                "url": "/images/watson-assistant/03.png"
+            },
+            {
+                "caption": "image caption",
+                "url": "/images/watson-assistant/04.png"
+            },
+            {
+                "caption": "image caption",
+                "url": "/images/watson-assistant/05.png"
+            },
+            {
+                "caption": "image caption",
+                "url": "/images/watson-assistant/06.png"
+            },
+            {
+                "caption": "image caption",
+                "url": "/images/watson-assistant/07.png"
+            }]
         }]
     }
 }

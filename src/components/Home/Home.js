@@ -14,7 +14,7 @@ const Home = () => {
         <div className="container">
             <section className="section">
                 <h5>{content.personal.tag}</h5>
-                <h1 className="is-size-1 is-size-2-mobile has-text-weight-medium">{content.personal.title}</h1>
+                <h1 className="is-size-1 is-size-3-mobile has-text-weight-medium header">{content.personal.title}</h1>
                 <p className="is-hidden-desktop">{content.personal.shortStatement}</p>
                 <p className="is-hidden-touch">{content.personal.longStatement}</p>
             </section>
@@ -29,6 +29,9 @@ const Home = () => {
                     }
                 </ul>
                 
+                <footer className="footer">
+
+                
                 <ul>
                     <li>Resume</li>
                     <li>
@@ -38,6 +41,7 @@ const Home = () => {
                     <li>Built with...</li>
                     <li>React</li>
                 </ul>
+                </footer>
             </section>        
         </div>
     )}
