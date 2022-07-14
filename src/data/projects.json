@@ -2,6 +2,10 @@
     "1": {
         "name": "Photography Utility",
         "sections": [{
+            "header": "Tools & Roles",
+            "text": "Tools: NodeJS, ReactJS \nRole: UX Design, Front and Backend Development",
+            "images": []
+        },{
             "header": "Problem",
             "text": "My photographer friend was doing a product photoshoot. The photos were going to be used on a website but he had no idea how they would look. As he was shooting tethered to the computer the idea came to mind to take the photos as they come in and drop them into a web template, allowing him to see how the photos would look online in real-time.",
             "images": []
@@ -19,6 +23,10 @@
         "name": "Data Pipeline",
         "sub": "Machine learning and sports",
         "sections": [{
+            "header": "Tools & Roles",
+            "text": "Tools: Python, GoogleSheets,\nRole: Backend Development, Data Analyst",
+            "images": []
+        },{
             "header": "Opportunity",
             "text": "As an avid sports fan, I wanted to take my knowledge of machine learning (ML) models and love of sports to build a data pipeline that would predict the over or under selection for the second half. During the football season I manually captured betting data and stats and fed that data to my models. I got decent results so I decided to build out the pipeline to support basketball. Due to the vast number of basketball games my manual approach was not going to work. An automated pipeline was needed in order for it to be effective.",
             "images": []
@@ -57,6 +65,10 @@
         "name": "Auto AI Utility",
         "sub": "Simplifying AI",
         "sections": [{
+            "header": "Tools & Roles",
+            "text": "Tools: Python, ReactJS, Carbon \nRole: UX Design, Front and Backend Development",
+            "images": []
+        },{
             "header": "Problem",
             "text": "While there was a call to add more AI to IBM products there was very little AI in prototypes. The AI/ML learning curve is steep. I realized a process was needed to allow a UXE to quickly include a ML model into a prototype without extensive knowledge of model creation.",
             "images": []
@@ -77,6 +89,10 @@
     "4": {
         "name": "Cloud Brokerage Platform",
         "sections": [{
+            "header": "Tools & Roles",
+            "text": "Role: UX Design, Information Architect, Design/Project Manager",
+            "images": []
+        },{
             "header": "Problem",
             "text": "This product allowed a organization to track and understand cloud resources usage. As design lead I started the effort with a design thinking workshop. The workshop allowed all stakeholders to contribute to the process.We were able to align on expectations and user personas. I lead a team of 4 designers to bring the product to life. Although we had a limited pool of users available for testing, I was able to conduct test with people familiar with the space. Their feedback was used to enhance the user experience. I wanted to ensure we had a user experience that allowed a user to promptly see the information they needed to see without looking deep for it. Due to the nature of cloud resources it is easy to generate a bill that is larger than expected and not understand how it happened. Once implemented customers were able to save tens and hundreds of thousands of dollars based on their size.",
             "images": []
@@ -117,6 +133,10 @@
     "5": {
         "name": "SVG Animation",
         "sections": [{
+            "header": "Tools & Roles",
+            "text": "Tools: ReactJS \nRole: Frontend Development",
+            "images": []
+        },{
             "header": "Problem",
             "text": "Merging multiple pattern sites into one, there was a desire to highlight the number of patterns being used across the organization. Instead of using a flat chart, there was a desire to use an animated SVG.",
             "images": []
@@ -137,6 +157,10 @@
     "6": {
         "name": "Watson Assistant",
         "sections": [{
+            "header": "Tools & Roles",
+            "text": "Tools: VueJS, \nRole: Frontend Development",
+            "images": []
+        },{
             "header": "Problem",
             "text": "At the time, Watson Assistant 'out of the box' had no user interface. A customer would have to deploy resources to apply a user interface.",
             "images": []

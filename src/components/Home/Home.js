@@ -40,6 +40,7 @@ const Home = () => {
                     </li>
                     <li>Built with...</li>
                     <li>React</li>
+                    <li>GitHub Actions (CI/CD)</li>
                 </ul>
                 </footer>
             </section>        

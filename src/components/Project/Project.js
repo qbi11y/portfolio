@@ -25,7 +25,7 @@ const Project = () => {
                         return(
                             <section className="section text" key={index}>
                                 <h1 className="has-text-weight-bold">{section.header}</h1>
-                                <p className="mb-6">{section.text}</p>
+                                <p className="mb-6 text">{section.text}</p>
                                 {
                                     section.images.length !== 0 && Object.keys(section.images).map((image, index) => (
                                         <div>
