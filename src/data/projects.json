@@ -26,7 +26,26 @@
         {
             "header": "Solution",
             "text": "I was given access to a live sports betting API. I wrote a Python application that would update the betting lines up until tip off. The application would check the progress of games and once a game was in halftime the application would get the updated stats and betting lines. The updated stats and betting lines were used to determine if an over or under bet should be made for the second half. The script would be started before the tip of the first game of the day and would run until the last game finished. A Google Sheet was updated with the results.",
-            "images": []
+            "images": [{
+                "caption": "image caption",
+                "url": "/images/data-pipeline/01.png"
+            },
+            {
+                "caption": "image caption",
+                "url": "/images/data-pipeline/02.png"
+            },
+            {
+                "caption": "image caption",
+                "url": "/images/data-pipeline/03.png"
+            },
+            {
+                "caption": "image caption",
+                "url": "/images/data-pipeline/04.png"
+            },
+            {
+                "caption": "image caption",
+                "url": "/images/data-pipeline/05.png"
+            }]
         },
         {
             "header": "Outcome",
