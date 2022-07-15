@@ -3,10 +3,19 @@
     
 }
 
-.section--container {
-    border-radius: 20px;
+.container--section {
+    padding: 1em 1.5em;
+}
+
+.container--section:first-child {
+    margin: .5em 0;
+}
+
+.lh-mobile {
+    line-height: 1.75;
 }
 
 p {
     white-space: pre-line;
+    color: rgb(125, 125, 125);
 }

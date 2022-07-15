@@ -19,22 +19,24 @@ const Project = () => {
                 </div>
             </section>
             <div className="section--container">
-                <p className="section"><Link to="/portfolio">Back</Link></p>
+                <p className="container--section"><Link to="/portfolio">Back</Link></p>
                 {
                     projects[id]["sections"].map((section, index) => {                    
                         return(
-                            <section className="section text" key={index}>
-                                <h1 className="has-text-weight-bold">{section.header}</h1>
-                                <p className="mb-6 text">{section.text}</p>
+                            <section className="container--section" key={index}>
+                                <h1 className="has-text-weight-medium is-size-5">{section.header}</h1>
+                                <p className="mb-1 lh-mobile">{section.text}</p>
+                                <div className="columns is-desktop is-half-tablet">
                                 {
                                     section.images.length !== 0 && Object.keys(section.images).map((image, index) => (
-                                        <div>
+                                        <div className="section column">
                                             <img alt={index} key={index} src={process.env.PUBLIC_URL + section.images[image]['url']} />
                                             <section>{ section.images[image]['caption']}</section>
                                         </div>
                                         )
                                     )
                                 }
+                                </div>
                             </section>
                         )
                     })
