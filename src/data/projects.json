@@ -1,21 +1,45 @@
 {
     "1": {
-        "name": "Photography Utility",
+        "name": "Cloud Brokerage Platform",
         "sections": [{
             "header": "Tools & Roles",
-            "text": "Tools: NodeJS, ReactJS \nRole: UX Design, Front and Backend Development",
+            "text": "Role: UX Design, Information Architect, Design/Project Manager",
             "images": []
         },{
             "header": "Problem",
-            "text": "My photographer friend was doing a product photoshoot. The photos were going to be used on a website but he had no idea how they would look. As he was shooting tethered to the computer the idea came to mind to take the photos as they come in and drop them into a web template, allowing him to see how the photos would look online in real-time.",
+            "text": "This product allowed a organization to track and understand cloud resources usage. As design lead I started the effort with a design thinking workshop. The workshop allowed all stakeholders to contribute to the process.We were able to align on expectations and user personas. I lead a team of 4 designers to bring the product to life. Although we had a limited pool of users available for testing, I was able to conduct test with people familiar with the space. Their feedback was used to enhance the user experience. I wanted to ensure we had a user experience that allowed a user to promptly see the information they needed to see without looking deep for it. Due to the nature of cloud resources it is easy to generate a bill that is larger than expected and not understand how it happened. Once implemented customers were able to save tens and hundreds of thousands of dollars based on their size.",
             "images": []
         },
         {
-            "header": "Solution",
-            "text": "I didn't know much about working with Node and file systems so I researched how to watch a file folder for updates. With the knowledge in hand I set out to build a simply utility that would watch a folder and copy any added files to a new directory. This new directory was the “web” directory. The website was hosted from this directory. In addition to the images was a web template setup to read in the images. The template had both list and details pages.\n\nOnce complete, I reached out to my friend to have him test everything out. I took his feedback to fine tune the utility documentation as well as the web template. He integrated the utility into his workflow and was able to fine tune photographs based on what he saw on the web demo",
+            "header": "Process",
+            "text": "To kickoff the project, I facilitated a design thinking workshop to align stakeholders. This workshop allowed everyone (engineering, executives, product management, etc.) to express concerns and desires. The workshop also allowed us to agree on key pain points to address.\n\n After the completion of the workshop, I lead the effort to create the information architecture and lead a team of visual designers to design the UI for the product.",
             "images": [{
                 "caption": "image caption",
-                "url": "/images/photography-utility/hero.png"
+                "url": "/images/cloud-brokerage/process_01.png"
+            },
+            {
+                "caption": "image caption",
+                "url": "/images/cloud-brokerage/process_02.png"
+            },
+            {
+                "caption": "image caption",
+                "url": "/images/cloud-brokerage/process_03.png"
+            }]
+        },
+        {
+            "header": "Solution",
+            "text": "The product allowed management to quickly get insight into the month's cloud spend. Should anomalies be identified, devOps would easily be able to identify problem resources and rectify the issue. The product allowed companies to capture money",
+            "images": [{
+                "caption": "image caption",
+                "url": "/images/cloud-brokerage/product_01.png"
+            },
+            {
+                "caption": "image caption",
+                "url": "/images/cloud-brokerage/product_02.png"
+            },
+            {
+                "caption": "image caption",
+                "url": "/images/cloud-brokerage/product_03.png"
             }]
         }]
     },
@@ -87,46 +111,22 @@
         }]
     },
     "4": {
-        "name": "Cloud Brokerage Platform",
+        "name": "Photography Utility",
         "sections": [{
             "header": "Tools & Roles",
-            "text": "Role: UX Design, Information Architect, Design/Project Manager",
+            "text": "Tools: NodeJS, ReactJS \nRole: UX Design, Front and Backend Development",
             "images": []
         },{
             "header": "Problem",
-            "text": "This product allowed a organization to track and understand cloud resources usage. As design lead I started the effort with a design thinking workshop. The workshop allowed all stakeholders to contribute to the process.We were able to align on expectations and user personas. I lead a team of 4 designers to bring the product to life. Although we had a limited pool of users available for testing, I was able to conduct test with people familiar with the space. Their feedback was used to enhance the user experience. I wanted to ensure we had a user experience that allowed a user to promptly see the information they needed to see without looking deep for it. Due to the nature of cloud resources it is easy to generate a bill that is larger than expected and not understand how it happened. Once implemented customers were able to save tens and hundreds of thousands of dollars based on their size.",
+            "text": "My photographer friend was doing a product photoshoot. The photos were going to be used on a website but he had no idea how they would look. As he was shooting tethered to the computer the idea came to mind to take the photos as they come in and drop them into a web template, allowing him to see how the photos would look online in real-time.",
             "images": []
         },
         {
-            "header": "Process",
-            "text": "To kickoff the project, I facilitated a design thinking workshop to align stakeholders. This workshop allowed everyone (engineering, executives, product management, etc.) to express concerns and desires. The workshop also allowed us to agree on key pain points to address.\n\n After the completion of the workshop, I lead the effort to create the information architecture and lead a team of visual designers to design the UI for the product.",
-            "images": [{
-                "caption": "image caption",
-                "url": "/images/cloud-brokerage/process_01.png"
-            },
-            {
-                "caption": "image caption",
-                "url": "/images/cloud-brokerage/process_02.png"
-            },
-            {
-                "caption": "image caption",
-                "url": "/images/cloud-brokerage/process_03.png"
-            }]
-        },
-        {
             "header": "Solution",
-            "text": "The product allowed management to quickly get insight into the month's cloud spend. Should anomalies be identified, devOps would easily be able to identify problem resources and rectify the issue. The product allowed companies to capture money",
+            "text": "I didn't know much about working with Node and file systems so I researched how to watch a file folder for updates. With the knowledge in hand I set out to build a simply utility that would watch a folder and copy any added files to a new directory. This new directory was the “web” directory. The website was hosted from this directory. In addition to the images was a web template setup to read in the images. The template had both list and details pages.\n\nOnce complete, I reached out to my friend to have him test everything out. I took his feedback to fine tune the utility documentation as well as the web template. He integrated the utility into his workflow and was able to fine tune photographs based on what he saw on the web demo",
             "images": [{
                 "caption": "image caption",
-                "url": "/images/cloud-brokerage/product_01.png"
-            },
-            {
-                "caption": "image caption",
-                "url": "/images/cloud-brokerage/product_02.png"
-            },
-            {
-                "caption": "image caption",
-                "url": "/images/cloud-brokerage/product_03.png"
+                "url": "/images/photography-utility/hero.png"
             }]
         }]
     },
