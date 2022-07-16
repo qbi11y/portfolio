@@ -43,6 +43,7 @@ const Home = () => {
                         <p>Austin, TX</p>
                     </li>
                     <li>Built with...</li>
+                    <li>AWS s3</li>
                     <li>React</li>
                     <li>GitHub Actions (CI/CD)</li>
                 </ul>

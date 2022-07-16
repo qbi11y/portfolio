@@ -78,9 +78,7 @@
             "videos": [{
                 "caption": "video caption",
                 "url": "https://thompsonjamesquillan-portfolio.s3.us-east-2.amazonaws.com/workflow.mp4"
-            }
-
-            ]
+            }]
         }]
     },
     "3": {
@@ -171,6 +169,10 @@
             {
                 "caption": "image caption",
                 "url": "/images/animated-svg/02.png"
+            }],
+            "videos": [{
+                "caption": "video caption",
+                "url": "https://thompsonjamesquillan-portfolio.s3.us-east-2.amazonaws.com/svg.mp4"
             }]
         }]
     },
@@ -215,6 +217,10 @@
             {
                 "caption": "image caption",
                 "url": "/images/watson-assistant/07.png"
+            }],
+            "videos": [{
+                "caption": "video caption",
+                "url": "https://thompsonjamesquillan-portfolio.s3.us-east-2.amazonaws.com/widget.mp4"
             }]
         }]
     }
