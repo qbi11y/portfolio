@@ -2,18 +2,36 @@
     "1": {
         "name": "Cloud Brokerage Platform",
         "sections": [{
-            "header": "Tools & Roles",
-            "text": "Role: UX Design, Information Architect, Design/Project Manager",
-            "images": []
-        },{
-            "header": "Problem",
-            "text": "This product allowed a organization to track and understand cloud resources usage. As design lead I started the effort with a design thinking workshop. The workshop allowed all stakeholders to contribute to the process.We were able to align on expectations and user personas. I lead a team of 4 designers to bring the product to life. Although we had a limited pool of users available for testing, I was able to conduct test with people familiar with the space. Their feedback was used to enhance the user experience. I wanted to ensure we had a user experience that allowed a user to promptly see the information they needed to see without looking deep for it. Due to the nature of cloud resources it is easy to generate a bill that is larger than expected and not understand how it happened. Once implemented customers were able to save tens and hundreds of thousands of dollars based on their size.",
+            "header": "Who",
+            "text": "Executives, dev managers, devOps professionals",
             "images": []
         },
         {
-            "header": "Process",
-            "text": "To kickoff the project, I facilitated a design thinking workshop to align stakeholders. This workshop allowed everyone (engineering, executives, product management, etc.) to express concerns and desires. The workshop also allowed us to agree on key pain points to address.\n\n After the completion of the workshop, I lead the effort to create the information architecture and lead a team of visual designers to design the UI for the product.",
-            "images": [{
+            "header": "Why",
+            "text": "With businesses moving to the cloud cost overruns are a becoming more common. Executives and managers need better insight into the cloud spend before large surprise bills. DevOps team members need to be able to quickly tend to resources that are creating issues from a cost perspective.",
+            "images": []
+        },
+        {
+            "header": "What",
+            "text": "The team set out to deliver a platform that would allow organizations to determine which cloud provider would be serve their purpose as well as helping them understand the potential costs at any time with the help of data analytics.",
+            "images": []
+        },
+        {
+            "header": "How",
+            "text": "There was preliminary research that suggested there was an opportunity for our platform to be useful to a large audience. To kickoff the project, I facilitated a design thinking workshop to align stakeholders. This workshop allowed everyone (engineering, executives, product management, etc.) to express concerns and desires. The workshop also allowed us to agree on key pain points to address.\n\n After the completion of the workshop, I lead the effort to create the information architecture and lead a team of visual designers to design the UI for the product. The design began to take form after a couple of sketching sessions that allowed us to address issues without being focused on the aesthetics. Once we felt issues were addressed appropriately I direct the team to start applying visual. With my direction, the visual design team iterated over visual treatments until we all aligned.",
+            "images": [
+                {
+                    "caption": "image caption",
+                    "url": "/images/cloud-brokerage/workshop_01.png"
+                },
+                {
+                    "caption": "image caption",
+                    "url": "/images/cloud-brokerage/workshop_02.png"
+                },
+                {
+                    "caption": "image caption",
+                    "url": "/images/cloud-brokerage/workshop_03.png"
+                },{
                 "caption": "image caption",
                 "url": "/images/cloud-brokerage/process_01.png"
             },
@@ -24,12 +42,19 @@
             {
                 "caption": "image caption",
                 "url": "/images/cloud-brokerage/process_03.png"
-            }]
-        },
-        {
-            "header": "Solution",
-            "text": "The product allowed management to quickly get insight into the month's cloud spend. Should anomalies be identified, devOps would easily be able to identify problem resources and rectify the issue. The product allowed companies to capture money",
-            "images": [{
+            },
+            {
+                "caption": "image caption",
+                "url": "/images/cloud-brokerage/sketch_01.png"
+            },
+            {
+                "caption": "image caption",
+                "url": "/images/cloud-brokerage/sketch_02.png"
+            },
+            {
+                "caption": "image caption",
+                "url": "/images/cloud-brokerage/sketch_03.png"
+            },{
                 "caption": "image caption",
                 "url": "/images/cloud-brokerage/product_01.png"
             },
@@ -41,6 +66,16 @@
                 "caption": "image caption",
                 "url": "/images/cloud-brokerage/product_03.png"
             }]
+        },
+        {
+            "header": "Takeaways",
+            "text": "The product allowed management to quickly get insight into the month's cloud spend. Should anomalies be identified, devOps would easily be able to identify problem resources and rectify the issue. The product allowed companies to capture money",
+            "images": []
+        },
+        {
+            "header": "Tools & Roles",
+            "text": "Role: UX Design, Information Architect, Design/Project Manager",
+            "images": []
         }]
     },
     "2": {
