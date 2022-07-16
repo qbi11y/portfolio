@@ -77,7 +77,7 @@
             }],
             "videos": [{
                 "caption": "video caption",
-                "url": "/images/photography-utility/workflow.mp4"
+                "url": "https://thompsonjamesquillan-portfolio.s3.us-east-2.amazonaws.com/workflow.mp4"
             }
 
             ]

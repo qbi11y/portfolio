@@ -40,7 +40,7 @@ const Project = () => {
                                     section.videos && section.videos.length !== 0 && Object.keys(section.videos).map((video, index) => (
                                         <div className="section column" key={index}>
                                             <video controls>
-                                                <source src={process.env.PUBLIC_URL + section.videos[video]['url']} type="video/mp4" />
+                                                <source src={section.videos[video]['url']} type="video/mp4" />
                                             </video>
                                             <section>{ section.videos[video]['caption']}</section>
                                         </div>
