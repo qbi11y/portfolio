@@ -44,6 +44,71 @@
         }]
     },
     "2": {
+        "name": "Photography Utility",
+        "sections": [{
+            "header": "Tools & Roles",
+            "text": "Tools: NodeJS, ReactJS \nRole: UX Design, Front and Backend Development",
+            "images": []
+        },{
+            "header": "Problem",
+            "text": "My photographer friend was doing a product photoshoot. The photos were going to be used on a website but he had no idea how they would look. As he was shooting tethered to the computer the idea came to mind to take the photos as they come in and drop them into a web template, allowing him to see how the photos would look online in real-time.",
+            "images": [{
+                "caption": "image caption",
+                "url": "/images/photography-utility/studio01.png"
+            },
+            {
+                "caption": "image caption",
+                "url": "/images/photography-utility/studio02.png"
+            }]
+        },
+        {
+            "header": "Solution",
+            "text": "I didn't know much about working with Node and file systems so I researched how to watch a file folder for updates. With the knowledge in hand I set out to build a simply utility that would watch a folder and copy any added files to a new directory. This new directory was the “web” directory. The website was hosted from this directory. In addition to the images was a web template setup to read in the images. The template had both list and details pages.\n\nOnce complete, I reached out to my friend to have him test everything out. I took his feedback to fine tune the utility documentation as well as the web template. He integrated the utility into his workflow and was able to fine tune photographs based on what he saw on the web demo",
+            "images": [{
+                "caption": "image caption",
+                "url": "/images/photography-utility/inuse01.png"
+            },
+            {
+                "caption": "image caption",
+                "url": "/images/photography-utility/inuse02.png"
+            },{
+                "caption": "image caption",
+                "url": "/images/photography-utility/hero.png"
+            }],
+            "videos": [{
+                "caption": "video caption",
+                "url": "/images/photography-utility/workflow.mp4"
+            }
+
+            ]
+        }]
+    },
+    "3": {
+        "name": "Auto AI Utility",
+        "sub": "Simplifying AI",
+        "sections": [{
+            "header": "Tools & Roles",
+            "text": "Tools: Python, ReactJS, Carbon \nRole: UX Design, Front and Backend Development",
+            "images": []
+        },{
+            "header": "Problem",
+            "text": "While there was a call to add more AI to IBM products there was very little AI in prototypes. The AI/ML learning curve is steep. I realized a process was needed to allow a UXE to quickly include a ML model into a prototype without extensive knowledge of model creation.",
+            "images": []
+        },
+        {
+            "header": "Solution",
+            "text": "I developed a tool that would all a UXE to submit structured data and receive a predictive model in return. The UXE could then make API calls to the model to have actual predictions included in their prototypes instead of dummy data.",
+            "images": [{
+                "caption": "image caption",
+                "url": "/images/ai-utility/01.png"
+            },
+            {
+                "caption": "image caption",
+                "url": "/images/ai-utility/02.png"
+            }]
+        }]
+    },
+    "4": {
         "name": "Data Pipeline",
         "sub": "Machine learning and sports",
         "sections": [{
@@ -83,51 +148,6 @@
             "header": "Outcome",
             "text": "The output of the models were used in conjunction with knowledge of game to make profitable bets.",
             "images": []
-        }]
-    },
-    "3": {
-        "name": "Auto AI Utility",
-        "sub": "Simplifying AI",
-        "sections": [{
-            "header": "Tools & Roles",
-            "text": "Tools: Python, ReactJS, Carbon \nRole: UX Design, Front and Backend Development",
-            "images": []
-        },{
-            "header": "Problem",
-            "text": "While there was a call to add more AI to IBM products there was very little AI in prototypes. The AI/ML learning curve is steep. I realized a process was needed to allow a UXE to quickly include a ML model into a prototype without extensive knowledge of model creation.",
-            "images": []
-        },
-        {
-            "header": "Solution",
-            "text": "I developed a tool that would all a UXE to submit structured data and receive a predictive model in return. The UXE could then make API calls to the model to have actual predictions included in their prototypes instead of dummy data.",
-            "images": [{
-                "caption": "image caption",
-                "url": "/images/ai-utility/01.png"
-            },
-            {
-                "caption": "image caption",
-                "url": "/images/ai-utility/02.png"
-            }]
-        }]
-    },
-    "4": {
-        "name": "Photography Utility",
-        "sections": [{
-            "header": "Tools & Roles",
-            "text": "Tools: NodeJS, ReactJS \nRole: UX Design, Front and Backend Development",
-            "images": []
-        },{
-            "header": "Problem",
-            "text": "My photographer friend was doing a product photoshoot. The photos were going to be used on a website but he had no idea how they would look. As he was shooting tethered to the computer the idea came to mind to take the photos as they come in and drop them into a web template, allowing him to see how the photos would look online in real-time.",
-            "images": []
-        },
-        {
-            "header": "Solution",
-            "text": "I didn't know much about working with Node and file systems so I researched how to watch a file folder for updates. With the knowledge in hand I set out to build a simply utility that would watch a folder and copy any added files to a new directory. This new directory was the “web” directory. The website was hosted from this directory. In addition to the images was a web template setup to read in the images. The template had both list and details pages.\n\nOnce complete, I reached out to my friend to have him test everything out. I took his feedback to fine tune the utility documentation as well as the web template. He integrated the utility into his workflow and was able to fine tune photographs based on what he saw on the web demo",
-            "images": [{
-                "caption": "image caption",
-                "url": "/images/photography-utility/hero.png"
-            }]
         }]
     },
     "5": {
