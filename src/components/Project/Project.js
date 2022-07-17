@@ -25,9 +25,36 @@ const Project = () => {
                         return(
                             <section className="container--section" key={index}>
                                 <h1 className="has-text-weight-medium is-size-5">{section.header}</h1>
-                                <p className="mb-1 lh-mobile">{section.text}</p>
-                                <div className="columns is-desktop is-half-tablet">
                                 {
+                                    section.text.length !== 0 && Object.keys(section.text).map((p, index) => {
+                                        console.log('text', section.text[p].p)
+                                        return (
+                                        <div>
+                                            <p className="mb-1 lh-mobile">{section.text[p].p}</p>
+                                            {
+                                                section.text[p].images && Object.keys(section.text[p].images).map((image, index) => (
+                                                    <div className="section column">
+                                                        <img alt={index} key={index} src={process.env.PUBLIC_URL + section.text[p].images[image]['url']} />
+                                                        <section>{ section.text[p].images[image]['caption']}</section>
+                                                    </div>
+                                                ))
+                                            }
+                                            {
+                                                section.text[p].videos && Object.keys(section.text[p].videos).map((video, index) => (
+                                                    <div className="section column" key={index}>
+                                                        <video controls>
+                                                            <source src={section.text[p].videos[video]['url']} type="video/mp4" />
+                                                        </video>
+                                                        <section>{ section.text[p].videos[video]['caption']}</section>
+                                                    </div>
+                                                ))
+                                            }
+                                        </div>)
+                                    })
+                                }
+                                
+                                <div className="columns is-desktop is-half-tablet">
+                                {/* {
                                     section.images.length !== 0 && Object.keys(section.images).map((image, index) => (
                                         <div className="section column">
                                             <img alt={index} key={index} src={process.env.PUBLIC_URL + section.images[image]['url']} />
@@ -46,7 +73,7 @@ const Project = () => {
                                         </div>
                                         )
                                     )
-                                }
+                                } */}
                                 </div>
                             </section>
                         )

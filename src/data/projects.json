@@ -1,132 +1,244 @@
 {
     "1": {
         "name": "Cloud Brokerage Platform",
-        "sections": [{
-            "header": "Who",
-            "text": "Executives, dev managers, devOps professionals",
-            "images": []
-        },
+        "sections": [
         {
-            "header": "Why",
-            "text": "With businesses moving to the cloud cost overruns are a becoming more common. Executives and managers need better insight into the cloud spend before large surprise bills. DevOps team members need to be able to quickly tend to resources that are creating issues from a cost perspective.",
-            "images": []
-        },
-        {
-            "header": "What",
-            "text": "The team set out to deliver a platform that would allow organizations to determine which cloud provider would be serve their purpose as well as helping them understand the potential costs at any time with the help of data analytics.",
-            "images": []
-        },
-        {
-            "header": "How",
-            "text": "There was preliminary research that suggested there was an opportunity for our platform to be useful to a large audience. To kickoff the project, I facilitated a design thinking workshop to align stakeholders. This workshop allowed everyone (engineering, executives, product management, etc.) to express concerns and desires. The workshop also allowed us to agree on key pain points to address.\n\n After the completion of the workshop, I lead the effort to create the information architecture and lead a team of visual designers to design the UI for the product. The design began to take form after a couple of sketching sessions that allowed us to address issues without being focused on the aesthetics. Once we felt issues were addressed appropriately I direct the team to start applying visual. With my direction, the visual design team iterated over visual treatments until we all aligned.",
-            "images": [
-                {
-                    "caption": "image caption",
-                    "url": "/images/cloud-brokerage/workshop_01.png"
-                },
-                {
-                    "caption": "image caption",
-                    "url": "/images/cloud-brokerage/workshop_02.png"
-                },
-                {
-                    "caption": "image caption",
-                    "url": "/images/cloud-brokerage/workshop_03.png"
-                },{
-                "caption": "image caption",
-                "url": "/images/cloud-brokerage/process_01.png"
-            },
-            {
-                "caption": "image caption",
-                "url": "/images/cloud-brokerage/process_02.png"
-            },
-            {
-                "caption": "image caption",
-                "url": "/images/cloud-brokerage/process_03.png"
-            },
-            {
-                "caption": "image caption",
-                "url": "/images/cloud-brokerage/sketch_01.png"
-            },
-            {
-                "caption": "image caption",
-                "url": "/images/cloud-brokerage/sketch_02.png"
-            },
-            {
-                "caption": "image caption",
-                "url": "/images/cloud-brokerage/sketch_03.png"
-            },{
-                "caption": "image caption",
-                "url": "/images/cloud-brokerage/product_01.png"
-            },
-            {
-                "caption": "image caption",
-                "url": "/images/cloud-brokerage/product_02.png"
-            },
-            {
-                "caption": "image caption",
-                "url": "/images/cloud-brokerage/product_03.png"
+            "header": "Stakeholders",
+            "text": [{
+                "p": "Executives, dev managers, devOps professionals"
             }]
         },
         {
+            "header": "Why",
+            "text": [{
+                "p": "With businesses moving to the cloud cost overruns are a becoming more common. Executives and managers need better insight into the cloud spend before large surprise bills. DevOps team members need to be able to quickly tend to resources that are creating issues from a cost perspective."
+            }]
+        },
+        {
+            "header": "What",
+            "text": [{
+                "p": "The team set out to deliver a platform that would allow organizations to determine which cloud provider would be serve their purpose as well as helping them understand the potential costs at any time with the help of data analytics."
+            }]
+        },
+        {
+            "header": "How",
+            "text": [{
+                "p": "There was preliminary research that suggested there was an opportunity for our platform to be useful to a large audience. To kickoff the project, I facilitated a design thinking workshop to align stakeholders. This workshop allowed everyone (engineering, executives, product management, etc.) to express concerns and desires. The workshop also allowed us to agree on key pain points to address.\n\n After the completion of the workshop, I lead the effort to create the information architecture and lead a team of visual designers to design the UI for the product. The design began to take form after a couple of sketching sessions that allowed us to address issues without being focused on the aesthetics. Once we felt issues were addressed appropriately I direct the team to start applying visual. With my direction, the visual design team iterated over visual treatments until we all aligned.",
+                "images": [
+                    {
+                        "caption": "image caption",
+                        "url": "/images/cloud-brokerage/workshop_01.png"
+                    },
+                    {
+                        "caption": "image caption",
+                        "url": "/images/cloud-brokerage/workshop_02.png"
+                    },
+                    {
+                        "caption": "image caption",
+                        "url": "/images/cloud-brokerage/workshop_03.png"
+                    },
+                    {
+                        "caption": "image caption",
+                        "url": "/images/cloud-brokerage/process_01.png"
+                    },
+                    {
+                        "caption": "image caption",
+                        "url": "/images/cloud-brokerage/process_02.png"
+                    },
+                    {
+                        "caption": "image caption",
+                        "url": "/images/cloud-brokerage/process_03.png"
+                    },
+                    {
+                        "caption": "image caption",
+                        "url": "/images/cloud-brokerage/sketch_01.png"
+                    },
+                    {
+                        "caption": "image caption",
+                        "url": "/images/cloud-brokerage/sketch_02.png"
+                    },
+                    {
+                        "caption": "image caption",
+                        "url": "/images/cloud-brokerage/sketch_03.png"
+                    },
+                    {
+                        "caption": "image caption",
+                        "url": "/images/cloud-brokerage/product_01.png"
+                    },
+                    {
+                        "caption": "image caption",
+                        "url": "/images/cloud-brokerage/product_02.png"
+                    },
+                    {
+                        "caption": "image caption",
+                        "url": "/images/cloud-brokerage/product_03.png"
+                    }]}]
+            
+        },
+        {
             "header": "Takeaways",
-            "text": "The product allowed management to quickly get insight into the month's cloud spend. Should anomalies be identified, devOps would easily be able to identify problem resources and rectify the issue. The product allowed companies to capture money",
-            "images": []
+            "text": [{
+                "p": "The product allowed management to quickly get insight into the month's cloud spend. Should anomalies be identified, devOps would easily be able to identify problem resources and rectify the issue. The product allowed companies to capture money"
+            }]
         },
         {
             "header": "Tools & Roles",
-            "text": "Role: UX Design, Information Architect, Design/Project Manager",
-            "images": []
+            "text": [{
+                "p": "Role: UX Design, Information Architect, Design/Project Manager"
+            }]
         }]
     },
     "2": {
-        "name": "Photography Utility",
+        "name": "Data Pipeline",
+        "sub": "Machine learning and sports",
         "sections": [{
-            "header": "Tools & Roles",
-            "text": "Tools: NodeJS, ReactJS \nRole: UX Design, Front and Backend Development",
-            "images": []
+            "header": "Stakeholders",
+            "text": [{
+                "p":"Sports bettors"
+            }]
         },{
-            "header": "Problem",
-            "text": "My photographer friend was doing a product photoshoot. The photos were going to be used on a website but he had no idea how they would look. As he was shooting tethered to the computer the idea came to mind to take the photos as they come in and drop them into a web template, allowing him to see how the photos would look online in real-time.",
-            "images": [{
-                "caption": "image caption",
-                "url": "/images/photography-utility/studio01.png"
+            "header": "Opportunity",
+            "text": [{
+                "p":"As an avid sports fan, I wanted to take my knowledge of predictive analytics and love of sports to build a data pipeline that would predict the total over/under for the second half of basketball and football games.",
+                "images": []
+            }]
+        },
+        {
+            "header": "Process",
+            "text": [{
+                "p": "During the football season I manually captured betting data and game stats in a spreadsheet. I used the data collected to train my models. As the dataset grew, I got what I considered decent results from my models.",
+                "images": [{
+                    "caption": "image caption",
+                    "url": "/images/data-pipeline/notebook.png"
+                },
+                {
+                    "caption": "image caption",
+                    "url": "/images/data-pipeline/spreadsheet.png"
+                }]
             },
             {
-                "caption": "image caption",
-                "url": "/images/photography-utility/studio02.png"
+                "p": "I decided to build out the pipeline to support basketball. Due to the vast number of basketball games my manual approach was not going to work. An automated pipeline was needed in order for it to be effective. As a way to avoid the costly service fees for the needed data, I researched web scraping. With this knowledge in hand I was able to collect the data I needed from various sites and store the data in a spreadsheet. I was now able to automate the capturing of the data and the predictive modeling. I simply had my application look for games that were at the half and run predictions for the 2nd half.",
+                "images" : [{
+                    "caption": "image caption",
+                    "url": "/images/data-pipeline/01.png"
+                },
+                {
+                    "caption": "image caption",
+                    "url": "/images/data-pipeline/02.png"
+                },
+                {
+                    "caption": "image caption",
+                    "url": "/images/data-pipeline/03.png"
+                }],
+                "videos": [{
+                    "caption": "video caption",
+                    "url": "https://thompsonjamesquillan-portfolio.s3.us-east-2.amazonaws.com/pipeline.mp4"
+                }]
             }]
         },
         {
             "header": "Solution",
-            "text": "I didn't know much about working with Node and file systems so I researched how to watch a file folder for updates. With the knowledge in hand I set out to build a simply utility that would watch a folder and copy any added files to a new directory. This new directory was the “web” directory. The website was hosted from this directory. In addition to the images was a web template setup to read in the images. The template had both list and details pages.\n\nOnce complete, I reached out to my friend to have him test everything out. I took his feedback to fine tune the utility documentation as well as the web template. He integrated the utility into his workflow and was able to fine tune photographs based on what he saw on the web demo",
-            "images": [{
-                "caption": "image caption",
-                "url": "/images/photography-utility/inuse01.png"
-            },
-            {
-                "caption": "image caption",
-                "url": "/images/photography-utility/inuse02.png"
-            },{
-                "caption": "image caption",
-                "url": "/images/photography-utility/hero.png"
-            }],
-            "videos": [{
-                "caption": "video caption",
-                "url": "https://thompsonjamesquillan-portfolio.s3.us-east-2.amazonaws.com/workflow.mp4"
+            "text": [{
+                "p": "I was given access to a live sports betting API. I wrote a Python application that would update the betting lines up until tip off. The application would check the progress of games and once a game was in halftime the application would get the updated stats and betting lines. The updated stats and betting lines were used to determine if an over or under bet should be made for the second half. The script would be started before the tip of the first game of the day and would run until the last game finished. A Google Sheet was updated with the results.",
+                "images": [
+                {
+                    "caption": "image caption",
+                    "url": "/images/data-pipeline/04.png"
+                },
+                {
+                    "caption": "image caption",
+                    "url": "/images/data-pipeline/05.png"
+                }]
+            }]
+        },{
+            "header": "Tools & Roles",
+            "text": [{
+                "p": "Tools: Python, GoogleSheets,\nRole: Backend Development, Data Analyst"
             }]
         }]
     },
     "3": {
-        "name": "Auto AI Utility",
-        "sub": "Simplifying AI",
-        "sections": [{
+        "name": "Photography Utility",
+        "sections": [
+        {
+            "header": "Stakeholders",
+            "text": [{
+                "p": "Studio photographers, My photographer friend was doing a product photoshoot. The photos were going to be used on a website but he had no idea how they would look. As he was shooting tethered to the computer the idea came to mind to take the photos as they come in and drop them into a web template, allowing him to see how the photos would look online in real-time."
+            }]
+        },
+        {
+            "header": "Opportunity",
+            "text": [{
+                "p": "I was speaking with a photographer who mentioned he was doing a product shoot for a clothing website. It came to my attention that he would simply be shooting the images without an idea of how the images would look in a web context. I wanted to help him and other product photographers have a better idea of how their images would be presented in their final web format in real-time. The idea being that the photographer need to know nothing about web development, this way they can focus on what they know, photography.",
+                "images": [
+                    {
+                        "caption": "image caption",
+                        "url": "/images/photography-utility/studio_01.png"
+                    },
+                    {
+                        "caption": "image caption",
+                        "url": "/images/photography-utility/studio_02.png"
+                    }
+                ]
+            }]
+        },
+        {
+            "header": "Deliverable",
+            "text": [{
+                "p": "I built a product website that consisted of a product list page and a product details page. Each page had some styling applied and this styling could be adjusted by the photographer or their team to fit their needs.",
+                "images": [
+                    {
+                        "caption": "image caption",
+                        "url": "/images/photography-utility/sketch_01.png"
+                    },
+                    {
+                        "caption": "image caption",
+                        "url": "/images/photography-utility/sketch_02.png"
+                    }
+                ]
+            },
+            {
+                "p": "I had a good understanding of the tethering process. What I didn’t not understand was how to work with filesystems programmatically. After my research into programmatically manipulating filesystems, I set out to build a simply utility that would watch a folder and copy any added photographs to the web directory. Once in the web directory the website would automatically reload displaying the new photo in the web template.",
+                "videos": [{
+                    "caption": "video caption",
+                    "url": "https://thompsonjamesquillan-portfolio.s3.us-east-2.amazonaws.com/workflow.mp4"
+                }]
+            },
+            {
+                "p": "Once complete, I reached out to my friend to have him test everything out. I took his feedback to fine tune the utility documentation as well as the web template. He integrated the utility into his workflow and was able to fine tune photographs based on what he saw on the web demo",
+                "images": [{
+                    "caption":"image caption",
+                    "url": "/images/photography-utility/inuse_01.png"
+                },
+                {
+                    "caption":"image caption",
+                    "url": "/images/photography-utility/inuse_02.png"
+                }]
+            }]
+        },
+        {
+            "header": "Takeaways",
+            "text": [{
+                "p": "Once deployed I noticed that seemingly duplicate images would be presented in the template. It would be nice to allow a photographer to tag images and only those images tagged would show up giving a better idea of how website as a whole would look."}]
+        },
+        {
             "header": "Tools & Roles",
-            "text": "Tools: Python, ReactJS, Carbon \nRole: UX Design, Front and Backend Development",
-            "images": []
+            "text": [{
+                "p": "Tools: NodeJS, ReactJS \nRole: UX Design, Front and Backend Development"}]
+        }]
+    },
+    "4": {
+        "name": "Auto AI Utility",
+        "sections": [{
+            "header": "Stakeholders",
+            "text": [{
+                "p": "Front-end developers"
+            }]
         },{
-            "header": "Problem",
-            "text": "While there was a call to add more AI to IBM products there was very little AI in prototypes. The AI/ML learning curve is steep. I realized a process was needed to allow a UXE to quickly include a ML model into a prototype without extensive knowledge of model creation.",
-            "images": []
+            "header": "Opportunity",
+            "text": [{
+                "p": "While there was a call to add more AI to IBM products there was very little AI in prototypes. The AI/ML learning curve is steep. I realized a process was needed to allow a UXE to quickly include a ML model into a prototype without extensive knowledge of model creation."
+            }]
         },
         {
             "header": "Solution",
@@ -139,47 +251,10 @@
                 "caption": "image caption",
                 "url": "/images/ai-utility/02.png"
             }]
-        }]
-    },
-    "4": {
-        "name": "Data Pipeline",
-        "sub": "Machine learning and sports",
-        "sections": [{
+        },
+        {
             "header": "Tools & Roles",
-            "text": "Tools: Python, GoogleSheets,\nRole: Backend Development, Data Analyst",
-            "images": []
-        },{
-            "header": "Opportunity",
-            "text": "As an avid sports fan, I wanted to take my knowledge of machine learning (ML) models and love of sports to build a data pipeline that would predict the over or under selection for the second half. During the football season I manually captured betting data and stats and fed that data to my models. I got decent results so I decided to build out the pipeline to support basketball. Due to the vast number of basketball games my manual approach was not going to work. An automated pipeline was needed in order for it to be effective.",
-            "images": [{
-                "caption": "image caption",
-                "url": "/images/data-pipeline/01.png"
-            },
-            {
-                "caption": "image caption",
-                "url": "/images/data-pipeline/02.png"
-            },
-            {
-                "caption": "image caption",
-                "url": "/images/data-pipeline/03.png"
-            }]
-        },
-        {
-            "header": "Solution",
-            "text": "I was given access to a live sports betting API. I wrote a Python application that would update the betting lines up until tip off. The application would check the progress of games and once a game was in halftime the application would get the updated stats and betting lines. The updated stats and betting lines were used to determine if an over or under bet should be made for the second half. The script would be started before the tip of the first game of the day and would run until the last game finished. A Google Sheet was updated with the results.",
-            "images": [
-            {
-                "caption": "image caption",
-                "url": "/images/data-pipeline/04.png"
-            },
-            {
-                "caption": "image caption",
-                "url": "/images/data-pipeline/05.png"
-            }]
-        },
-        {
-            "header": "Outcome",
-            "text": "The output of the models were used in conjunction with knowledge of game to make profitable bets.",
+            "text": "Tools: Python, ReactJS, Carbon \nRole: UX Design, Front and Backend Development",
             "images": []
         }]
     },
