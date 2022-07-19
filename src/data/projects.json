@@ -23,56 +23,63 @@
         {
             "header": "How",
             "text": [{
-                "p": "There was preliminary research that suggested there was an opportunity for our platform to be useful to a large audience. To kickoff the project, I facilitated a design thinking workshop to align stakeholders. This workshop allowed everyone (engineering, executives, product management, etc.) to express concerns and desires. The workshop also allowed us to agree on key pain points to address.\n\n After the completion of the workshop, I lead the effort to create the information architecture and lead a team of visual designers to design the UI for the product. The design began to take form after a couple of sketching sessions that allowed us to address issues without being focused on the aesthetics. Once we felt issues were addressed appropriately I direct the team to start applying visual. With my direction, the visual design team iterated over visual treatments until we all aligned.",
+                "p": "There was preliminary research that suggested there was an opportunity for our platform to be useful to a large audience. To kickoff the project, I facilitated a design thinking workshop to align stakeholders. This workshop allowed everyone (engineering, executives, product management, etc.) to express concerns and desires. The workshop also allowed us to agree on key pain points to address.",
                 "images": [
                     {
-                        "caption": "image caption",
+                        "caption": "Design thinking workshop exercise",
                         "url": "/images/cloud-brokerage/workshop_01.png"
                     },
                     {
-                        "caption": "image caption",
+                        "caption": "Design thinking workshop exercise",
                         "url": "/images/cloud-brokerage/workshop_02.png"
                     },
                     {
-                        "caption": "image caption",
+                        "caption": "Design thinking workshop exercise",
                         "url": "/images/cloud-brokerage/workshop_03.png"
-                    },
-                    {
-                        "caption": "image caption",
-                        "url": "/images/cloud-brokerage/process_01.png"
-                    },
-                    {
-                        "caption": "image caption",
-                        "url": "/images/cloud-brokerage/process_02.png"
-                    },
-                    {
-                        "caption": "image caption",
-                        "url": "/images/cloud-brokerage/process_03.png"
-                    },
-                    {
-                        "caption": "image caption",
-                        "url": "/images/cloud-brokerage/sketch_01.png"
-                    },
-                    {
-                        "caption": "image caption",
-                        "url": "/images/cloud-brokerage/sketch_02.png"
-                    },
-                    {
-                        "caption": "image caption",
-                        "url": "/images/cloud-brokerage/sketch_03.png"
-                    },
-                    {
-                        "caption": "image caption",
-                        "url": "/images/cloud-brokerage/product_01.png"
-                    },
-                    {
-                        "caption": "image caption",
-                        "url": "/images/cloud-brokerage/product_02.png"
-                    },
-                    {
-                        "caption": "image caption",
-                        "url": "/images/cloud-brokerage/product_03.png"
-                    }]}]
+                    }
+                    ]},
+            {
+                "p": "After the completion of the workshop, I lead the effort to create the information architecture and lead a team of visual designers to design the UI for the product. The design began to take form after a couple of sketching sessions that allowed us to address issues without being focused on the aesthetics.",
+                "images": [{
+                    "caption": "Product sketching session",
+                    "url": "/images/cloud-brokerage/process_01.png"
+                },
+                {
+                    "caption": "Product sketching session",
+                    "url": "/images/cloud-brokerage/process_02.png"
+                },
+                {
+                    "caption": "Product sketching session",
+                    "url": "/images/cloud-brokerage/process_03.png"
+                }]
+            },
+            {
+                "p": "Once we felt issues were addressed appropriately I direct the team to start applying visual. With my direction, the visual design team iterated over visual treatments until we all aligned.",
+                "images": [{
+                    "caption": "Low fidelity UI sketch",
+                    "url": "/images/cloud-brokerage/sketch_01.png"
+                },
+                {
+                    "caption": "Low fidelity UI sketch",
+                    "url": "/images/cloud-brokerage/sketch_02.png"
+                },
+                {
+                    "caption": "Low fidelity UI sketch",
+                    "url": "/images/cloud-brokerage/sketch_03.png"
+                },
+                {
+                    "caption": "High fidelity UI screen",
+                    "url": "/images/cloud-brokerage/product_01.png"
+                },
+                {
+                    "caption": "High fidelity UI screen",
+                    "url": "/images/cloud-brokerage/product_02.png"
+                },
+                {
+                    "caption": "High fidelity UI screen",
+                    "url": "/images/cloud-brokerage/product_03.png"
+                }]
+            }]
             
         },
         {
@@ -242,14 +249,16 @@
         },
         {
             "header": "Solution",
-            "text": "I developed a tool that would all a UXE to submit structured data and receive a predictive model in return. The UXE could then make API calls to the model to have actual predictions included in their prototypes instead of dummy data.",
-            "images": [{
-                "caption": "image caption",
-                "url": "/images/ai-utility/01.png"
-            },
-            {
-                "caption": "image caption",
-                "url": "/images/ai-utility/02.png"
+            "text": [{
+                "p":"I developed a tool that would all a UXE to submit structured data and receive a predictive model in return. The UXE could then make API calls to the model to have actual predictions included in their prototypes instead of dummy data.",
+                "images": [{
+                    "caption": "image caption",
+                    "url": "/images/ai-utility/01.png"
+                },
+                {
+                    "caption": "image caption",
+                    "url": "/images/ai-utility/02.png"
+                }]
             }]
         },
         {
@@ -262,27 +271,31 @@
         "name": "SVG Animation",
         "sections": [{
             "header": "Tools & Roles",
-            "text": "Tools: ReactJS \nRole: Frontend Development",
-            "images": []
+            "text": [{
+                "p": "Tools: ReactJS \nRole: Frontend Development"
+            }]
         },{
             "header": "Problem",
-            "text": "Merging multiple pattern sites into one, there was a desire to highlight the number of patterns being used across the organization. Instead of using a flat chart, there was a desire to use an animated SVG.",
-            "images": []
+            "text": [{
+                "p": "Merging multiple pattern sites into one, there was a desire to highlight the number of patterns being used across the organization. Instead of using a flat chart, there was a desire to use an animated SVG."
+            }]            
         },
         {
             "header": "Solution",
-            "text": "I was charged with implementing the animated SVG. Not knowing much about animated SVGs I collaborated with another team member who had a key piece of knowledge. Once I had that key piece of knowledge I was able to implement the animated SVG. Once implemented I began to figure out ways that would optimize the experience. I worked with the designer to understand how the exports were working and how we could exploit that to get our desired results. The animation has now been optimized",
-            "images": [{
-                "caption": "image caption",
-                "url": "/images/animated-svg/01.png"
-            },
-            {
-                "caption": "image caption",
-                "url": "/images/animated-svg/02.png"
-            }],
-            "videos": [{
-                "caption": "video caption",
-                "url": "https://thompsonjamesquillan-portfolio.s3.us-east-2.amazonaws.com/svg.mp4"
+            "text": [{
+                "p": "I was charged with implementing the animated SVG. Not knowing much about animated SVGs I collaborated with another team member who had a key piece of knowledge. Once I had that key piece of knowledge I was able to implement the animated SVG. Once implemented I began to figure out ways that would optimize the experience. I worked with the designer to understand how the exports were working and how we could exploit that to get our desired results. The animation has now been optimized",
+                "images": [{
+                    "caption": "image caption",
+                    "url": "/images/animated-svg/01.png"
+                },
+                {
+                    "caption": "image caption",
+                    "url": "/images/animated-svg/02.png"
+                }],
+                "videos": [{
+                    "caption": "video caption",
+                    "url": "https://thompsonjamesquillan-portfolio.s3.us-east-2.amazonaws.com/svg.mp4"
+                }]
             }]
         }]
     },
@@ -290,47 +303,23 @@
         "name": "Watson Assistant",
         "sections": [{
             "header": "Tools & Roles",
-            "text": "Tools: VueJS, \nRole: Frontend Development",
-            "images": []
+            "text": [{
+                "p":"Tools: VueJS, \nRole: Frontend Development"
+            }]
         },{
             "header": "Problem",
-            "text": "At the time, Watson Assistant 'out of the box' had no user interface. A customer would have to deploy resources to apply a user interface.",
-            "images": []
+            "text": [{
+                "p": "At the time, Watson Assistant 'out of the box' had no user interface. A customer would have to deploy resources to apply a user interface."
+            }]
         },
         {
             "header": "Solution",
-            "text": "A generic user interface was applied to Watson Assistant, allowing a customer to focus on training the models and not the user interface. I developed a prototype to demonstrate the new chat window interface.",
-            "images": [{
-                "caption": "image caption",
-                "url": "/images/watson-assistant/01.png"
-            },
-            {
-                "caption": "image caption",
-                "url": "/images/watson-assistant/02.png"
-            },
-            {
-                "caption": "image caption",
-                "url": "/images/watson-assistant/03.png"
-            },
-            {
-                "caption": "image caption",
-                "url": "/images/watson-assistant/04.png"
-            },
-            {
-                "caption": "image caption",
-                "url": "/images/watson-assistant/05.png"
-            },
-            {
-                "caption": "image caption",
-                "url": "/images/watson-assistant/06.png"
-            },
-            {
-                "caption": "image caption",
-                "url": "/images/watson-assistant/07.png"
-            }],
-            "videos": [{
-                "caption": "video caption",
-                "url": "https://thompsonjamesquillan-portfolio.s3.us-east-2.amazonaws.com/widget.mp4"
+            "text": [{
+                "p": "A generic user interface was applied to Watson Assistant, allowing a customer to focus on training the models and not the user interface. I developed a prototype to demonstrate the new chat window interface.",
+                "videos": [{
+                    "caption": "video caption",
+                    "url": "https://thompsonjamesquillan-portfolio.s3.us-east-2.amazonaws.com/widget.mp4"
+                }]
             }]
         }]
     }

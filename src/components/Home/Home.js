@@ -18,10 +18,10 @@ const Home = () => {
                 <p className="is-hidden-desktop">{content.personal.shortStatement}</p>
                 <p className="is-hidden-touch">{content.personal.longStatement}</p>
             </section>
-            <section className="section">
+            {/* <section className="section">
                 <h1 className="is-size-3">{content.process.title}</h1>
                 <p>{content.process.text}</p>
-            </section>
+            </section> */}
             <section className="section">                
                 <ul>
                     {

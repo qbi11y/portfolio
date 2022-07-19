@@ -31,14 +31,16 @@ const Project = () => {
                                         return (
                                         <div>
                                             <p className="mb-1 lh-mobile">{section.text[p].p}</p>
+                                            <div className="columns is-multiline">
                                             {
                                                 section.text[p].images && Object.keys(section.text[p].images).map((image, index) => (
-                                                    <div className="section column">
+                                                    <div className="section column is-one-third">
                                                         <img alt={index} key={index} src={process.env.PUBLIC_URL + section.text[p].images[image]['url']} />
-                                                        <section>{ section.text[p].images[image]['caption']}</section>
+                                                        <section class="is-size-7">{ section.text[p].images[image]['caption']}</section>
                                                     </div>
                                                 ))
                                             }
+                                            </div>
                                             {
                                                 section.text[p].videos && Object.keys(section.text[p].videos).map((video, index) => (
                                                     <div className="section column" key={index}>
