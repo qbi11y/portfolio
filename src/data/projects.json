@@ -309,7 +309,7 @@
             "text": [{
                 "p": "A generic user interface was applied to Watson Assistant, allowing a customer to focus on training the models and not the user interface. I developed a prototype to demonstrate the new chat window interface.",
                 "videos": [{
-                    "caption": "Simulation of user interacting with assistant.",
+                    "caption": "Simulation of user interacting with assistant",
                     "url": "https://thompsonjamesquillan-portfolio.s3.us-east-2.amazonaws.com/widget.mp4"
                 }]
             }]
