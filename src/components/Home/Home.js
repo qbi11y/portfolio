@@ -33,10 +33,8 @@ const Home = () => {
                     }
                 </ul>
                 
-                <footer className="footer">
-
-                
-                <ul>
+                <footer className="footer columns">                
+                <ul className="column">
                     <li>Resume</li>
                     <li>
                         <p><a href="mailto:thompsonjamesquillan@gmail.com">thompsonjamesquillan@gmail.com</a></p>
@@ -47,6 +45,12 @@ const Home = () => {
                     <li>React</li>
                     <li>GitHub Actions (CI/CD)</li>
                 </ul>
+                <div className="column">
+                    part 2
+                </div>
+                <div className="column">
+                    part 3
+                </div>
                 </footer>
             </section>        
         </div>

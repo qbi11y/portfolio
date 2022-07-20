@@ -18,7 +18,7 @@ const Project = () => {
                     </p>
                 </div>
             </section>
-            <div className="section--container">
+            <div className="section--container section-padding-large">
                 <p className="container--section"><Link to="/portfolio">Back</Link></p>
                 {
                     projects[id]["sections"].map((section, index) => {                    
@@ -27,18 +27,35 @@ const Project = () => {
                                 <h1 className="has-text-weight-medium is-size-5">{section.header}</h1>
                                 {
                                     section.text.length !== 0 && Object.keys(section.text).map((p, index) => {
-                                        console.log('text', section.text[p].p)
                                         return (
-                                        <div>
+                                        <div key={index}>
                                             <p className="mb-1 lh-mobile">{section.text[p].p}</p>
-                                            <div className="columns is-multiline">
+                                            <div className="columns is-multiline is-variable">
                                             {
-                                                section.text[p].images && Object.keys(section.text[p].images).map((image, index) => (
-                                                    <div className="section column is-one-third">
-                                                        <img alt={index} key={index} src={process.env.PUBLIC_URL + section.text[p].images[image]['url']} />
-                                                        <section class="is-size-7">{ section.text[p].images[image]['caption']}</section>
+                                                section.text[p].images && Object.keys(section.text[p].images).map((image, index) => {
+                                                    console.log('test', section.text[p].images.length)
+                                                    let columnClass = '';
+
+                                                    switch (section.text[p].images.length) {
+                                                        case 2:
+                                                            columnClass = "is-full-tablet is-half-widescreen";
+                                                            break;
+                                                        case 3:
+                                                            columnClass = "is-full-tablet is-one-third-widescreen";
+                                                            break;
+                                                        case 6:
+                                                            columnClass = "is-full-tablet is-one-third-widescreen";
+                                                            break;
+                                                        default:
+                                                            break;
+
+                                                    }
+                                                    return(
+                                                    <div className={`section column ${columnClass} column--content`} key={index}>
+                                                        <img alt={index} src={process.env.PUBLIC_URL + section.text[p].images[image]['url']} />
+                                                        <section className="is-size-7">{ section.text[p].images[image]['caption']}</section>
                                                     </div>
-                                                ))
+                                                )})
                                             }
                                             </div>
                                             {
