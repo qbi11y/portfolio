@@ -115,30 +115,30 @@
             "text": [{
                 "p": "During the football season I manually captured betting data and game stats in a spreadsheet. I used the data collected to train my models. As the dataset grew, I got what I considered decent results from my models.",
                 "images": [{
-                    "caption": "image caption",
+                    "caption": "Jupyter notebook was used for the initial manual entry.",
                     "url": "/images/data-pipeline/notebook.png"
                 },
                 {
-                    "caption": "image caption",
+                    "caption": "Predictions were placed in spreadsheet to be analyzed.",
                     "url": "/images/data-pipeline/spreadsheet.png"
                 }]
             },
             {
                 "p": "I decided to build out the pipeline to support basketball. Due to the vast number of basketball games my manual approach was not going to work. An automated pipeline was needed in order for it to be effective. As a way to avoid the costly service fees for the needed data, I researched web scraping. With this knowledge in hand I was able to collect the data I needed from various sites and store the data in a spreadsheet. I was now able to automate the capturing of the data and the predictive modeling. I simply had my application look for games that were at the half and run predictions for the 2nd half.",
                 "images" : [{
-                    "caption": "image caption",
-                    "url": "/images/data-pipeline/01.png"
-                },
-                {
-                    "caption": "image caption",
+                    "caption": "Betting lines were scrapped from Draftkings.com",
                     "url": "/images/data-pipeline/02.png"
                 },
                 {
-                    "caption": "image caption",
+                    "caption": "Stats and scores were scrapped from ESPN.com",
+                    "url": "/images/data-pipeline/01.png"
+                },
+                {
+                    "caption": "Stats and scores were scrapped from ESPN.com",
                     "url": "/images/data-pipeline/03.png"
                 }],
                 "videos": [{
-                    "caption": "video caption",
+                    "caption": "Web scrapping and analysis workflow update automated.",
                     "url": "https://thompsonjamesquillan-portfolio.s3.us-east-2.amazonaws.com/pipeline.mp4"
                 }]
             }]
@@ -149,11 +149,11 @@
                 "p": "I was given access to a live sports betting API. I wrote a Python application that would update the betting lines up until tip off. The application would check the progress of games and once a game was in halftime the application would get the updated stats and betting lines. The updated stats and betting lines were used to determine if an over or under bet should be made for the second half. The script would be started before the tip of the first game of the day and would run until the last game finished. A Google Sheet was updated with the results.",
                 "images": [
                 {
-                    "caption": "image caption",
+                    "caption": "Final prediction and result spreadsheet.",
                     "url": "/images/data-pipeline/04.png"
                 },
                 {
-                    "caption": "image caption",
+                    "caption": "Pregame betting predictions",
                     "url": "/images/data-pipeline/05.png"
                 }]
             }]
@@ -179,11 +179,11 @@
                 "p": "I was speaking with a photographer who mentioned he was doing a product shoot for a clothing website. It came to my attention that he would simply be shooting the images without an idea of how the images would look in a web context. I wanted to help him and other product photographers have a better idea of how their images would be presented in their final web format in real-time. The idea being that the photographer need to know nothing about web development, this way they can focus on what they know, photography.",
                 "images": [
                     {
-                        "caption": "image caption",
+                        "caption": "Tethered studio setup.",
                         "url": "/images/photography-utility/studio_01.png"
                     },
                     {
-                        "caption": "image caption",
+                        "caption": "Tethered studio setup.",
                         "url": "/images/photography-utility/studio_02.png"
                     }
                 ]
@@ -195,11 +195,11 @@
                 "p": "I built a product website that consisted of a product list page and a product details page. Each page had some styling applied and this styling could be adjusted by the photographer or their team to fit their needs.",
                 "images": [
                     {
-                        "caption": "image caption",
+                        "caption": "Sketch of product list page.",
                         "url": "/images/photography-utility/sketch_01.png"
                     },
                     {
-                        "caption": "image caption",
+                        "caption": "Sketch of product page.",
                         "url": "/images/photography-utility/sketch_02.png"
                     }
                 ]
@@ -207,18 +207,18 @@
             {
                 "p": "I had a good understanding of the tethering process. What I didn’t not understand was how to work with filesystems programmatically. After my research into programmatically manipulating filesystems, I set out to build a simply utility that would watch a folder and copy any added photographs to the web directory. Once in the web directory the website would automatically reload displaying the new photo in the web template.",
                 "videos": [{
-                    "caption": "video caption",
+                    "caption": "Simulation of photograph entering computer and responsive website updating automatically.",
                     "url": "https://thompsonjamesquillan-portfolio.s3.us-east-2.amazonaws.com/workflow.mp4"
                 }]
             },
             {
                 "p": "Once complete, I reached out to my friend to have him test everything out. I took his feedback to fine tune the utility documentation as well as the web template. He integrated the utility into his workflow and was able to fine tune photographs based on what he saw on the web demo",
                 "images": [{
-                    "caption":"image caption",
+                    "caption":"Screenshot of utility in use.",
                     "url": "/images/photography-utility/inuse_01.png"
                 },
                 {
-                    "caption":"image caption",
+                    "caption":"Screenshot of utility in use.",
                     "url": "/images/photography-utility/inuse_02.png"
                 }]
             }]
@@ -252,11 +252,11 @@
             "text": [{
                 "p":"I developed a tool that would all a UXE to submit structured data and receive a predictive model in return. The UXE could then make API calls to the model to have actual predictions included in their prototypes instead of dummy data.",
                 "images": [{
-                    "caption": "image caption",
+                    "caption": "UI of model creation script.",
                     "url": "/images/ai-utility/01.png"
                 },
                 {
-                    "caption": "image caption",
+                    "caption": "UI of model being used. 'Class' column is prediction column.",
                     "url": "/images/ai-utility/02.png"
                 }]
             }]
@@ -284,16 +284,8 @@
             "header": "Solution",
             "text": [{
                 "p": "I was charged with implementing the animated SVG. Not knowing much about animated SVGs I collaborated with another team member who had a key piece of knowledge. Once I had that key piece of knowledge I was able to implement the animated SVG. Once implemented I began to figure out ways that would optimize the experience. I worked with the designer to understand how the exports were working and how we could exploit that to get our desired results. The animation has now been optimized",
-                "images": [{
-                    "caption": "image caption",
-                    "url": "/images/animated-svg/01.png"
-                },
-                {
-                    "caption": "image caption",
-                    "url": "/images/animated-svg/02.png"
-                }],
                 "videos": [{
-                    "caption": "video caption",
+                    "caption": "Animated SVG running on internal website.",
                     "url": "https://thompsonjamesquillan-portfolio.s3.us-east-2.amazonaws.com/svg.mp4"
                 }]
             }]
@@ -317,7 +309,7 @@
             "text": [{
                 "p": "A generic user interface was applied to Watson Assistant, allowing a customer to focus on training the models and not the user interface. I developed a prototype to demonstrate the new chat window interface.",
                 "videos": [{
-                    "caption": "video caption",
+                    "caption": "Simulation of user interacting with assistant.",
                     "url": "https://thompsonjamesquillan-portfolio.s3.us-east-2.amazonaws.com/widget.mp4"
                 }]
             }]

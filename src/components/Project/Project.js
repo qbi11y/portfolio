@@ -47,7 +47,7 @@ const Project = () => {
                                                         <video controls>
                                                             <source src={section.text[p].videos[video]['url']} type="video/mp4" />
                                                         </video>
-                                                        <section>{ section.text[p].videos[video]['caption']}</section>
+                                                        <section  class="is-size-7">{ section.text[p].videos[video]['caption']}</section>
                                                     </div>
                                                 ))
                                             }
