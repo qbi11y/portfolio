@@ -33,7 +33,7 @@ const Home = () => {
                     }
                 </ul>
             </section>
-            <section className="section">
+            <section className="section is-size-7">
                 <footer className="footer columns">                
                     <ul className="column">
                         <li><a href="https://www.linkedin.com/in/jamesqthompson/">LinkedIn</a></li>
@@ -45,15 +45,18 @@ const Home = () => {
                     </ul>
                     <div className="column">
                         <ul>
-                            <li>Built with...</li>
+                            <li>v0.1</li>
+                            <li className="has-text-weight-medium">Built using:</li>
                             <li>AWS s3</li>
-                            <li>React</li>
+                            <li>Bulma</li>
                             <li>GitHub Actions (CI/CD)</li>
+                            <li>React</li>
+                            
                         </ul>
                     </div>
                     <div className="column">
                         
-                        <p>
+                        <p className="is-italic">
                             I am using this portfolio as a code sandbox to continue to grow my dev skills. If something is broken, I am probaly experimenting!
                         </p>
                     </div>

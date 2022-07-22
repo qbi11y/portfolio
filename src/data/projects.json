@@ -26,30 +26,30 @@
                 "p": "There was preliminary research that suggested there was an opportunity for our platform to be useful to a large audience. To kickoff the project, I facilitated a design thinking workshop to align stakeholders. This workshop allowed everyone (engineering, executives, product management, etc.) to express concerns and desires. The workshop also allowed us to agree on key pain points to address.",
                 "images": [
                     {
-                        "caption": "Design thinking workshop exercise",
+                        "caption": "Exercise in design thinking workshop I facilitated.",
                         "url": "/images/cloud-brokerage/workshop_01.png"
                     },
                     {
-                        "caption": "Design thinking workshop exercise",
+                        "caption": "Exercise in design thinking workshop I facilitated.",
                         "url": "/images/cloud-brokerage/workshop_02.png"
                     },
                     {
-                        "caption": "Design thinking workshop exercise",
+                        "caption": "Exercise in design thinking workshop I facilitated.",
                         "url": "/images/cloud-brokerage/workshop_03.png"
                     }
                     ]},
             {
                 "p": "After the completion of the workshop, I lead the effort to create the information architecture and lead a team of visual designers to design the UI for the product. The design began to take form after a couple of sketching sessions that allowed us to address issues without being focused on the aesthetics.",
                 "images": [{
-                    "caption": "Product sketching session",
+                    "caption": "Image from product sketching session",
                     "url": "/images/cloud-brokerage/process_01.png"
                 },
                 {
-                    "caption": "Product sketching session",
+                    "caption": "Image from product sketching session",
                     "url": "/images/cloud-brokerage/process_02.png"
                 },
                 {
-                    "caption": "Product sketching session",
+                    "caption": "Image from product sketching session",
                     "url": "/images/cloud-brokerage/process_03.png"
                 }]
             },
@@ -309,7 +309,7 @@
             "text": [{
                 "p": "A generic user interface was applied to Watson Assistant, allowing a customer to focus on training the models and not the user interface. I developed a prototype to demonstrate the new chat window interface.",
                 "videos": [{
-                    "caption": "Simulation of user interacting with assistant",
+                    "caption": "Simulation of user interacting with coded prototype of Watson Assistant",
                     "url": "https://thompsonjamesquillan-portfolio.s3.us-east-2.amazonaws.com/widget.mp4"
                 }]
             }]
