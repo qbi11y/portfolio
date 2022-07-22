@@ -1,6 +1,8 @@
 .header {
-    margin-bottom:1em;
+    margin-bottom:2em;
 }
+
+
 .project {
     padding: 1em 1em;
     border-top: 3px dotted rgb(235, 235, 235);
@@ -9,4 +11,20 @@
 
 .project:hover {
     cursor: pointer;
+}
+
+@media screen and (min-device-width: 1200px) {
+    .container--section {
+        padding-bottom:3em;
+    }
+
+    .header {
+        margin-bottom:.5em;
+    }
+
+    .is-size-1-widescreen.header {
+        font-size: 7em!important;
+        font-weight: 900;
+    }
+
 }
