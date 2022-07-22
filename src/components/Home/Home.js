@@ -32,32 +32,33 @@ const Home = () => {
                         )
                     }
                 </ul>
-                
+            </section>
+            <section className="section">
                 <footer className="footer columns">                
-                <ul className="column">
-                    <li><a href="https://www.linkedin.com/in/jamesqthompson/">LinkedIn</a></li>
-                    <li>
-                        <p><a href="mailto:thompsonjamesquillan@gmail.com">thompsonjamesquillan@gmail.com</a></p>
-                        <p>Austin, TX</p>
-                    </li>
-                    
-                </ul>
-                <div className="column">
-                    <ul>
-                        <li>Built with...</li>
-                        <li>AWS s3</li>
-                        <li>React</li>
-                        <li>GitHub Actions (CI/CD)</li>
+                    <ul className="column">
+                        <li><a href="https://www.linkedin.com/in/jamesqthompson/">LinkedIn</a></li>
+                        <li>
+                            <p><a href="mailto:thompsonjamesquillan@gmail.com">thompsonjamesquillan@gmail.com</a></p>
+                            <p>Austin, TX</p>
+                        </li>
+                        
                     </ul>
-                </div>
-                <div className="column">
-                    
-                    <p>
-                        I am using this portfolio as a code sandbox to continue to grow my dev skills. If something is broken, I am probaly experimenting!
-                    </p>
-                </div>
+                    <div className="column">
+                        <ul>
+                            <li>Built with...</li>
+                            <li>AWS s3</li>
+                            <li>React</li>
+                            <li>GitHub Actions (CI/CD)</li>
+                        </ul>
+                    </div>
+                    <div className="column">
+                        
+                        <p>
+                            I am using this portfolio as a code sandbox to continue to grow my dev skills. If something is broken, I am probaly experimenting!
+                        </p>
+                    </div>
                 </footer>
-            </section>        
+            </section>     
         </div>
     )}
 
