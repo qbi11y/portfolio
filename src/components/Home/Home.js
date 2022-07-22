@@ -35,21 +35,26 @@ const Home = () => {
                 
                 <footer className="footer columns">                
                 <ul className="column">
-                    <li>Resume</li>
+                    <li><a href="https://www.linkedin.com/in/jamesqthompson/">LinkedIn</a></li>
                     <li>
                         <p><a href="mailto:thompsonjamesquillan@gmail.com">thompsonjamesquillan@gmail.com</a></p>
                         <p>Austin, TX</p>
                     </li>
-                    <li>Built with...</li>
-                    <li>AWS s3</li>
-                    <li>React</li>
-                    <li>GitHub Actions (CI/CD)</li>
+                    
                 </ul>
                 <div className="column">
-                    part 2
+                    <ul>
+                        <li>Built with...</li>
+                        <li>AWS s3</li>
+                        <li>React</li>
+                        <li>GitHub Actions (CI/CD)</li>
+                    </ul>
                 </div>
                 <div className="column">
-                    part 3
+                    
+                    <p>
+                        I am using this portfolio as a code sandbox to continue to grow my dev skills. If something is broken, I am probaly experimenting!
+                    </p>
                 </div>
                 </footer>
             </section>        
