@@ -18,10 +18,6 @@ const Home = () => {
                 <p className="is-hidden-desktop text">{content.personal.shortStatement}</p>
                 <p className="is-hidden-touch text">{content.personal.longStatement}</p>
             </section>
-            {/* <section className="section">
-                <h1 className="is-size-3">{content.process.title}</h1>
-                <p>{content.process.text}</p>
-            </section> */}
             <section className="section">                
                 <ul>
                     {

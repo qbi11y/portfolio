@@ -76,29 +76,6 @@ const Project = () => {
                                         </div>)
                                     })
                                 }
-                                
-                                <div className="columns is-desktop is-half-tablet">
-                                {/* {
-                                    section.images.length !== 0 && Object.keys(section.images).map((image, index) => (
-                                        <div className="section column">
-                                            <img alt={index} key={index} src={process.env.PUBLIC_URL + section.images[image]['url']} />
-                                            <section>{ section.images[image]['caption']}</section>
-                                        </div>
-                                        )
-                                    )
-                                }
-                                {
-                                    section.videos && section.videos.length !== 0 && Object.keys(section.videos).map((video, index) => (
-                                        <div className="section column" key={index}>
-                                            <video controls>
-                                                <source src={section.videos[video]['url']} type="video/mp4" />
-                                            </video>
-                                            <section>{ section.videos[video]['caption']}</section>
-                                        </div>
-                                        )
-                                    )
-                                } */}
-                                </div>
                             </section>
                         )
                     })
