@@ -1,4 +1,4 @@
-import React from "react"
+import React, { useEffect } from "react"
 import { useParams } from "react-router-dom"
 import { Link } from "react-router-dom";
 import * as projects from '../../data/projects.json'; 
@@ -6,6 +6,11 @@ import * as projects from '../../data/projects.json';
 const Project = () => {
     let { id } = useParams()
     console.log(projects[id]["name"])
+
+    useEffect(() => {
+        window.scrollTo(0, 0)
+      }, [])
+
     return(
         <div>
             <section className="hero is-primary">
