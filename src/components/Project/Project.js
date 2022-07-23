@@ -7,9 +7,9 @@ const Project = () => {
     let { id } = useParams()
     console.log(projects[id]["name"])
     return(
-        <div className="container">
+        <div>
             <section className="hero is-primary">
-                <div className="hero-body">
+                <div className="hero-body container--hero">
                     <p className="title">
                     { projects[id]["name"] }
                     </p>
@@ -18,7 +18,7 @@ const Project = () => {
                     </p>
                 </div>
             </section>
-            <div className="section--container section-padding-large">
+            <div className="container section-padding-large">
                 <p className="container--section"><Link to="/portfolio">Back</Link></p>
                 {
                     projects[id]["sections"].map((section, index) => {                    

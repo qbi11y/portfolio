@@ -124,7 +124,7 @@
                 }]
             },
             {
-                "p": "I decided to build out the pipeline to support basketball. Due to the vast number of basketball games my manual approach was not going to work. An automated pipeline was needed in order for it to be effective. As a way to avoid the costly service fees for the needed data, I researched web scraping. With this knowledge in hand I was able to collect the data I needed from various sites and store the data in a spreadsheet. I was now able to automate the capturing of the data and the predictive modeling. I simply had my application look for games that were at the half and run predictions for the 2nd half.",
+                "p": "I decided to build out the pipeline to support basketball. Due to the vast number of basketball games my manual approach was not going to work. An automated pipeline was needed in order for it to be effective. As a way to avoid the costly service fees for the needed data, I researched web scraping. With this knowledge in hand I was able to collect the data I needed from various sites and store the data in a spreadsheet. I was now able to automate the capturing of the data and predictive modeling. I simply had my application look for games that were at the half and run predictions for the 2nd half.",
                 "images" : [{
                     "caption": "Betting lines were scrapped from Draftkings.com",
                     "url": "/images/data-pipeline/02.png"
