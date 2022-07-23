@@ -205,7 +205,7 @@
                 ]
             },
             {
-                "p": "I had a good understanding of the tethering process. What I didn’t not understand was how to work with filesystems programmatically. After my research into programmatically manipulating filesystems, I set out to build a simply utility that would watch a folder and copy any added photographs to the web directory. Once in the web directory the website would automatically reload displaying the new photo in the web template.",
+                "p": "I had a good understanding of the tethering process. What I didn’t understand was how to work with filesystems programmatically. After my research into programmatically manipulating filesystems, I set out to build a simply utility that would watch a folder and copy any added photographs to the web directory. Once in the web directory the website would automatically reload displaying the new photo in the web template.",
                 "videos": [{
                     "caption": "Simulation of photograph entering computer and responsive website updating automatically.",
                     "url": "https://thompsonjamesquillan-portfolio.s3.us-east-2.amazonaws.com/workflow.mp4"
