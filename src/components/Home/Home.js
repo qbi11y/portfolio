@@ -36,7 +36,7 @@ const Home = () => {
             <section className="section is-size-7">
                 <footer className="footer columns">                
                     <ul className="column">
-                        <li><a href="https://www.linkedin.com/in/jamesqthompson/" target="_blank">LinkedIn</a></li>
+                        <li><a href="https://www.linkedin.com/in/jamesqthompson/" target="_blank" rel="noopener">LinkedIn</a></li>
                         <li>
                             <p><a href="mailto:thompsonjamesquillan@gmail.com">thompsonjamesquillan@gmail.com</a></p>
                             <p>Austin, TX</p>
