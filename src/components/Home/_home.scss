@@ -1,7 +1,13 @@
 .header {
-    margin-bottom:2em;
+    margin-bottom:1em;
+    font-weight: 800;
+    line-height: 1.25;
 }
 
+.text {
+    white-space: pre-line;
+    color: $grey;
+}
 
 .project {
     padding: 1em 1em;
@@ -11,6 +17,29 @@
 
 .project:hover {
     cursor: pointer;
+}
+
+.header-tag {
+    color: $grey-light;
+}
+
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: portrait) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+    .container--section {
+        padding-bottom:3em;
+    }
+
+    .header {
+        margin-bottom:.5em;
+    }
+
+    .is-size-1-widescreen.header {
+        font-size: 6em!important;
+        font-weight: 100;
+    }
 }
 
 @media screen and (min-device-width: 1200px) {
@@ -23,8 +52,9 @@
     }
 
     .is-size-1-widescreen.header {
-        font-size: 7em!important;
-        font-weight: 900;
+        font-size: 8em!important;
+        line-height: 1.25;
+        font-weight: 100;
     }
 
 }

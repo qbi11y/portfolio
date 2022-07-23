@@ -13,10 +13,10 @@ const Home = () => {
     return(
         <div className="container">
             <section className="section">
-                <h5>{content.personal.tag}</h5>
-                <h1 className="is-size-1-widescreen is-size-3-mobile has-text-weight-medium header">{content.personal.title}</h1>
-                <p className="is-hidden-desktop">{content.personal.shortStatement}</p>
-                <p className="is-hidden-touch">{content.personal.longStatement}</p>
+                <h5 className="header-tag">{content.personal.tag}</h5>
+                <h1 className="is-size-1-widescreen is-size-1-mobile header">{content.personal.title}</h1>
+                <p className="is-hidden-desktop text">{content.personal.shortStatement}</p>
+                <p className="is-hidden-touch text">{content.personal.longStatement}</p>
             </section>
             {/* <section className="section">
                 <h1 className="is-size-3">{content.process.title}</h1>
@@ -36,7 +36,7 @@ const Home = () => {
             <section className="section is-size-7">
                 <footer className="footer columns">                
                     <ul className="column">
-                        <li><a href="https://www.linkedin.com/in/jamesqthompson/">LinkedIn</a></li>
+                        <li><a href="https://www.linkedin.com/in/jamesqthompson/" target="_blank">LinkedIn</a></li>
                         <li>
                             <p><a href="mailto:thompsonjamesquillan@gmail.com">thompsonjamesquillan@gmail.com</a></p>
                             <p>Austin, TX</p>
