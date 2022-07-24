@@ -169,13 +169,13 @@
         {
             "header": "Stakeholders",
             "text": [{
-                "p": "Studio photographers, My photographer friend was doing a product photoshoot. The photos were going to be used on a website but he had no idea how they would look. As he was shooting tethered to the computer the idea came to mind to take the photos as they come in and drop them into a web template, allowing him to see how the photos would look online in real-time."
+                "p": "Studio photographers"
             }]
         },
         {
             "header": "Opportunity",
             "text": [{
-                "p": "I was speaking with a photographer who mentioned he was doing a product shoot for a clothing website. It came to my attention that he would simply be shooting the images without an idea of how the images would look in a web context. I wanted to help him and other product photographers have a better idea of how their images would be presented in their final web format in real-time. The idea being that the photographer need to know nothing about web development, this way they can focus on what they know, photography.",
+                "p": "I was speaking with a photographer who mentioned he was doing a product shoot for a clothing website. It came to my attention that he would simply be shooting the images without an idea of how the images would look in a web context. I wanted to help him and other product photographers have a better idea of how their images would be presented in their final web format in real-time. The idea being that the photographer need to know nothing about web development, this way they can focus on what they know, photography. As he was shooting tethered to the computer the idea came to mind to take the photos as they come in and drop them into a web template, allowing him to see how the photos would look online in real-time.",
                 "images": [
                     {
                         "caption": "Tethered studio setup.",
@@ -269,11 +269,6 @@
     "5": {
         "name": "SVG Animation",
         "sections": [{
-            "header": "Tools & Roles",
-            "text": [{
-                "p": "Tools: ReactJS \nRole: Frontend Development"
-            }]
-        },{
             "header": "Problem",
             "text": [{
                 "p": "Merging multiple pattern sites into one, there was a desire to highlight the number of patterns being used across the organization. Instead of using a flat chart, there was a desire to use an animated SVG."
@@ -288,16 +283,17 @@
                     "url": "https://thompsonjamesquillan-portfolio.s3.us-east-2.amazonaws.com/svg.mp4"
                 }]
             }]
+        },
+        {
+            "header": "Tools & Roles",
+            "text": [{
+                "p": "Tools: ReactJS \nRole: Frontend Development"
+            }]
         }]
     },
     "6": {
         "name": "Watson Assistant",
         "sections": [{
-            "header": "Tools & Roles",
-            "text": [{
-                "p":"Tools: VueJS, \nRole: Frontend Development"
-            }]
-        },{
             "header": "Problem",
             "text": [{
                 "p": "At the time, Watson Assistant 'out of the box' had no user interface. A customer would have to deploy resources to apply a user interface."
@@ -311,6 +307,12 @@
                     "caption": "Simulation of user interacting with coded prototype of Watson Assistant",
                     "url": "https://thompsonjamesquillan-portfolio.s3.us-east-2.amazonaws.com/widget.mp4"
                 }]
+            }]
+        },
+        {
+            "header": "Tools & Roles",
+            "text": [{
+                "p":"Tools: VueJS, \nRole: Frontend Development"
             }]
         }]
     }
