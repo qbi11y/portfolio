@@ -26,7 +26,9 @@ const Project = () => {
             <div className="container section-padding-large">
                 <p className="container--section">
                     <Link to="/portfolio">
-                        <span class="material-symbols-outlined">arrow_circle_left</span>
+                        <div className="icon--link">
+                            <span class="material-symbols-outlined" aria-label="left arrow back">arrow_circle_left</span> Project list
+                        </div>                        
                     </Link>
                 </p>
                 {
@@ -86,7 +88,9 @@ const Project = () => {
                 }
                 <p className="section">
                     <Link to="/portfolio">
-                        <span class="material-symbols-outlined">arrow_circle_left</span>
+                        <div className="icon--link">
+                            <span class="material-symbols-outlined" aria-label="left arrow back">arrow_circle_left</span> Project list
+                        </div>                        
                     </Link>
                 </p>
             </div>
