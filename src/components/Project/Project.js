@@ -24,7 +24,11 @@ const Project = () => {
                 </div>
             </section>
             <div className="container section-padding-large">
-                <p className="container--section"><Link to="/portfolio">Back</Link></p>
+                <p className="container--section">
+                    <Link to="/portfolio">
+                        <span class="material-symbols-outlined">arrow_circle_left</span>
+                    </Link>
+                </p>
                 {
                     projects[id]["sections"].map((section, index) => {                    
                         return(
@@ -80,7 +84,11 @@ const Project = () => {
                         )
                     })
                 }
-                <p className="section"><Link to="/portfolio">Back</Link></p>
+                <p className="section">
+                    <Link to="/portfolio">
+                        <span class="material-symbols-outlined">arrow_circle_left</span>
+                    </Link>
+                </p>
             </div>
         </div>
     )
