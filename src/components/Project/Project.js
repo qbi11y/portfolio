@@ -14,7 +14,7 @@ const Project = () => {
     return(
         <div>
             <section className="hero is-info">
-                <div className="hero-body container--hero">
+                <div className="hero-body container">
                     <p className="title">
                     { projects[id]["name"] }
                     </p>
