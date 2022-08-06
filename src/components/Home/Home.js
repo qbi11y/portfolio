@@ -1,9 +1,10 @@
-import React,  { useEffect } from "react";
+import React,  { useEffect, useState } from "react";
 import projects from '../../data/projects.json';
 import content from '../../data/content.json';  
 import { useNavigate } from "react-router-dom";
 
 const Home = () => {
+    const [ isShort, setIsShort ] = useState(true)
     const navigate = useNavigate()
 
     const viewProject = (e) => {
@@ -12,15 +13,18 @@ const Home = () => {
 
     useEffect(() => {
         window.scrollTo(0, 0)
-      }, [])
+      }, [isShort])
 
     return(
+        
         <div className="container">
             <section className="section">
                 <h5 className="header-tag">{content.personal.tag}</h5>
                 <h1 className="is-size-1-widescreen is-size-1-mobile header">{content.personal.title}</h1>
-                <p className="is-hidden-desktop text">{content.personal.shortStatement}</p>
-                <p className="is-hidden-touch text">{content.personal.longStatement}</p>
+                <div className="is-hidden-desktop text">{isShort ? content.personal.shortStatement : content.personal.longStatement}
+                    <div onClick={() => setIsShort(!isShort)}>{isShort ? "Show more" : "Show less"}</div>
+                </div>
+                <div className="is-hidden-touch text">{content.personal.longStatement}</div>
             </section>
             <section className="section">                
                 <ul>
@@ -58,7 +62,7 @@ const Home = () => {
                     <div className="column">
                         
                         <p className="is-italic">
-                            I am using this portfolio as a code sandbox to continue to grow my dev skills. If something is broken, I am probaly experimenting!
+                            I am using this portfolio as a code sandbox to continue to grow my dev skills. If something is broken, I am probably experimenting!
                         </p>
                     </div>
                 </footer>

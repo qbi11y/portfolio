@@ -2,28 +2,34 @@
     "1": {
         "name": "Cloud Brokerage Platform",
         "sections": [
+            {
+                "header": "Tools & Roles",
+                "text": [{
+                    "p": "Role: UX Design, Information Architect, Design/Project Manager"
+                }]
+            },
         {
             "header": "Stakeholders",
             "text": [{
-                "p": "Executives, dev managers, devOps professionals"
+                "p": "Executives, Dev Managers, DevOps Professionals"
             }]
         },
         {
             "header": "Why",
             "text": [{
-                "p": "With businesses moving to the cloud cost overruns are a becoming more common. Executives and managers need better insight into the cloud spend before large surprise bills. DevOps team members need to be able to quickly tend to resources that are creating issues from a cost perspective."
+                "p": "With businesses moving to the cloud, cost overruns are becoming more common. Executives and managers need better insight into cloud spending before large surprise bills. DevOps team members need to be able to quickly attend to resources that are creating issues from a cost perspective."
             }]
         },
         {
             "header": "What",
             "text": [{
-                "p": "The team set out to deliver a platform that would allow organizations to determine which cloud provider would be serve their purpose as well as helping them understand the potential costs at any time with the help of data analytics."
+                "p": "The team sets out to deliver a platform that would allow organizations to determine which cloud provider would best serve their purpose as well as help them understand the potential costs at any time with the help of data analytics."
             }]
         },
         {
             "header": "How",
             "text": [{
-                "p": "There was preliminary research that suggested there was an opportunity for our platform to be useful to a large audience. To kickoff the project, I facilitated a design thinking workshop to align stakeholders. This workshop allowed everyone (engineering, executives, product management, etc.) to express concerns and desires. The workshop also allowed us to agree on key pain points to address.",
+                "p": "There was preliminary research that suggested there was an opportunity for our platform to be useful to a large audience. To kick off the project, I facilitated a design thinking workshop to align stakeholders. This workshop allowed everyone (Engineering, executives, Product Management, etc.) to express concerns and desires. The workshop also allowed us to agree on key pain points to address.",
                 "images": [
                     {
                         "caption": "Exercise in design thinking workshop I facilitated.",
@@ -39,22 +45,22 @@
                     }
                     ]},
             {
-                "p": "After the completion of the workshop, I lead the effort to create the information architecture and lead a team of visual designers to design the UI for the product. The design began to take form after a couple of sketching sessions that allowed us to address issues without being focused on the aesthetics.",
+                "p": "After the completion of the workshop, I lead the effort to create the information architecture and lead a team of visual designers to design the UI for the product. The design began to take form after a couple of sketching sessions that allowed us to address issues without being focused on aesthetics.",
                 "images": [{
-                    "caption": "Image from product sketching session",
+                    "caption": "Image from the product sketching session",
                     "url": "/images/cloud-brokerage/process_01.png"
                 },
                 {
-                    "caption": "Image from product sketching session",
+                    "caption": "Image from the product sketching session",
                     "url": "/images/cloud-brokerage/process_02.png"
                 },
                 {
-                    "caption": "Image from product sketching session",
+                    "caption": "Image from the product sketching session",
                     "url": "/images/cloud-brokerage/process_03.png"
                 }]
             },
             {
-                "p": "Once we felt issues were addressed appropriately I direct the team to start applying visual. With my direction, the visual design team iterated over visual treatments until we all aligned.",
+                "p": "Once we felt issues were addressed appropriately, I directed the team to start applying visual treatments. The visual design team iterated over visual treatments with my direction until we all aligned.",
                 "images": [{
                     "caption": "Low fidelity UI sketch",
                     "url": "/images/cloud-brokerage/sketch_01.png"
@@ -85,19 +91,19 @@
         {
             "header": "Takeaways",
             "text": [{
-                "p": "The product allowed management to quickly get insight into the month's cloud spend. Should anomalies be identified, devOps would easily be able to identify problem resources and rectify the issue. The product allowed companies to capture money"
-            }]
-        },
-        {
-            "header": "Tools & Roles",
-            "text": [{
-                "p": "Role: UX Design, Information Architect, Design/Project Manager"
+                "p": "The product allowed management to quickly get insight into the month's cloud spending. Should anomalies be identified, DevOps can easily identify problems and using appropriate resources rectify any issues. The product allowed companies to capture money."
             }]
         }]
     },
     "2": {
         "name": "Data Pipeline",
-        "sections": [{
+        "sections": [
+            {
+                "header": "Tools & Roles",
+                "text": [{
+                    "p": "Tools: Python, GoogleSheets,\nRole: Backend Development, Data Analyst"
+                }]
+            },{
             "header": "Stakeholders",
             "text": [{
                 "p":"Sports bettors"
@@ -112,18 +118,18 @@
         {
             "header": "Process",
             "text": [{
-                "p": "During the football season I manually captured betting data and game stats in a spreadsheet. I used the data collected to train my models. As the dataset grew, I got what I considered decent results from my models.",
+                "p": "During the football season, I manually captured betting data and game stats in a spreadsheet. I used the data collected to train my models. As the dataset grew, I got what I considered decent results from my models.",
                 "images": [{
                     "caption": "Jupyter notebook was used for the initial manual entry.",
                     "url": "/images/data-pipeline/notebook.png"
                 },
                 {
-                    "caption": "Predictions were placed in spreadsheet to be analyzed.",
+                    "caption": "Predictions were placed in a spreadsheet to be analyzed.",
                     "url": "/images/data-pipeline/spreadsheet.png"
                 }]
             },
             {
-                "p": "I decided to build out the pipeline to support basketball. Due to the vast number of basketball games my manual approach was not going to work. An automated pipeline was needed in order for it to be effective. As a way to avoid the costly service fees for the needed data, I researched web scraping. With this knowledge in hand I was able to collect the data I needed from various sites and store the data in a spreadsheet. I was now able to automate the capturing of the data and predictive modeling. I simply had my application look for games that were at the half and run predictions for the 2nd half.",
+                "p": "I decided to build out the pipeline to support basketball. Due to the vast number of basketball games, my manual approach was not going to work. An automated pipeline was needed for it to be effective. As a way to avoid the costly service fees for the needed data, I researched web scraping. With this knowledge in hand, I was able to collect the data I needed from various sites and store the data in a spreadsheet. I was now able to automate the capturing of the data and predictive modeling. I simply had my application look for games that were at the half and run predictions for the 2nd half.",
                 "images" : [{
                     "caption": "Betting lines were scrapped from Draftkings.com",
                     "url": "/images/data-pipeline/02.png"
@@ -145,28 +151,27 @@
         {
             "header": "Solution",
             "text": [{
-                "p": "I was given access to a live sports betting API. I wrote a Python application that would update the betting lines up until tip off. The application would check the progress of games and once a game was in halftime the application would get the updated stats and betting lines. The updated stats and betting lines were used to determine if an over or under bet should be made for the second half. The script would be started before the tip of the first game of the day and would run until the last game finished. A Google Sheet was updated with the results.",
+                "p": "I was given access to a live sports betting API. I wrote a Python application that would update the betting lines up until tip-off. The application would check the progress of games and once a game was in halftime the application would get the updated stats and betting lines. The updated stats and betting lines were used to determine if an over or under-bet should be made for the second half. The script would be started before the tip of the first game of the day and would run until the last game finished. A Google Sheet was updated with the results.",
                 "images": [
                 {
                     "caption": "Final prediction and result spreadsheet.",
                     "url": "/images/data-pipeline/04.png"
                 },
                 {
-                    "caption": "Pregame betting predictions",
+                    "caption": "Pregame betting predictions.",
                     "url": "/images/data-pipeline/05.png"
                 }]
-            }]
-        },{
-            "header": "Tools & Roles",
-            "text": [{
-                "p": "Tools: Python, GoogleSheets,\nRole: Backend Development, Data Analyst"
             }]
         }]
     },
     "3": {
         "name": "Photography Utility",
         "sections": [
-        {
+            {
+                "header": "Tools & Roles",
+                "text": [{
+                    "p": "Tools: NodeJS, ReactJS \nRole: UX Design, Front and Backend Development"}]
+            },{
             "header": "Stakeholders",
             "text": [{
                 "p": "Studio photographers"
@@ -175,7 +180,7 @@
         {
             "header": "Opportunity",
             "text": [{
-                "p": "I was speaking with a photographer who mentioned he was doing a product shoot for a clothing website. It came to my attention that he would simply be shooting the images without an idea of how the images would look in a web context. I wanted to help him and other product photographers have a better idea of how their images would be presented in their final web format in real-time. The idea being that the photographer need to know nothing about web development, this way they can focus on what they know, photography. As he was shooting tethered to the computer the idea came to mind to take the photos as they come in and drop them into a web template, allowing him to see how the photos would look online in real-time.",
+                "p": "I was speaking with a photographer who mentioned he was doing a product shoot for a clothing website. It came to my attention that he would simply be shooting the images without any idea of how the images would look in a web context. I wanted to help him and other product photographers have a better understanding of how their images would be presented in their final web format in real-time. The idea is that the photographer needs to know nothing about web development, this way they can focus on what they know, photography. As he was shooting tethered to the computer, the idea came to mind to take the photos as they come in and drop them into a web template, allowing him to see how the photos would look online in real-time.",
                 "images": [
                     {
                         "caption": "Tethered studio setup.",
@@ -194,24 +199,24 @@
                 "p": "I built a product website that consisted of a product list page and a product details page. Each page had some styling applied and this styling could be adjusted by the photographer or their team to fit their needs.",
                 "images": [
                     {
-                        "caption": "Sketch of product list page.",
+                        "caption": "Sketch of the product list page.",
                         "url": "/images/photography-utility/sketch_01.png"
                     },
                     {
-                        "caption": "Sketch of product page.",
+                        "caption": "Sketch of the product page.",
                         "url": "/images/photography-utility/sketch_02.png"
                     }
                 ]
             },
             {
-                "p": "I had a good understanding of the tethering process. What I didn’t understand was how to work with filesystems programmatically. After my research into programmatically manipulating filesystems, I set out to build a simply utility that would watch a folder and copy any added photographs to the web directory. Once in the web directory the website would automatically reload displaying the new photo in the web template.",
+                "p": "I had a good understanding of the tethering process. What I didn’t understand was how to work with filesystems programmatically. After my research into programmatically manipulating filesystems, I set out to build a simple utility that would watch a folder and copy any added photographs to the web directory. Once in the web directory, the website would automatically reload, displaying the new photo in the web template.",
                 "videos": [{
-                    "caption": "Simulation of photograph entering computer and responsive website updating automatically.",
+                    "caption": "Simulation of photograph entering the computer and responsive website updating automatically.",
                     "url": "https://thompsonjamesquillan-portfolio.s3.us-east-2.amazonaws.com/workflow.mp4"
                 }]
             },
             {
-                "p": "Once complete, I reached out to my friend to have him test everything out. I took his feedback to fine tune the utility documentation as well as the web template. He integrated the utility into his workflow and was able to fine tune photographs based on what he saw on the web demo",
+                "p": "Once complete, I reached out to my friend to have him test everything out. I took his feedback to fine-tune the utility documentation as well as the web template. He integrated the utility into his workflow and was able to fine-tune photographs based on what he saw on the web demo.",
                 "images": [{
                     "caption":"Screenshot of utility in use.",
                     "url": "/images/photography-utility/inuse_01.png"
@@ -225,17 +230,16 @@
         {
             "header": "Takeaways",
             "text": [{
-                "p": "Once deployed I noticed that seemingly duplicate images would be presented in the template. It would be nice to allow a photographer to tag images and only those images tagged would show up giving a better idea of how website as a whole would look."}]
-        },
-        {
-            "header": "Tools & Roles",
-            "text": [{
-                "p": "Tools: NodeJS, ReactJS \nRole: UX Design, Front and Backend Development"}]
+                "p": "Once deployed I noticed that seemingly duplicate images would be presented in the template. It would be nice to allow a photographer to tag images and only those images tagged would show up giving a better idea of how the website as a whole would look."}]
         }]
     },
     "4": {
         "name": "Auto AI Utility",
         "sections": [{
+            "header": "Tools & Roles",
+            "text": "Tools: Python, ReactJS, Carbon \nRole: UX Design, Front and Backend Development",
+            "images": []
+        },{
             "header": "Stakeholders",
             "text": [{
                 "p": "Front-end developers"
@@ -243,32 +247,33 @@
         },{
             "header": "Opportunity",
             "text": [{
-                "p": "While there was a call to add more AI to IBM products there was very little AI in prototypes. The AI/ML learning curve is steep. I realized a process was needed to allow a UXE to quickly include a ML model into a prototype without extensive knowledge of model creation."
+                "p": "While there was a call to add more AI to IBM products there was very little AI in prototypes. The AI/ML learning curve is steep. I realized a process was needed to allow a UXE to quickly include an ML model into a prototype without extensive knowledge of model creation."
             }]
         },
         {
             "header": "Solution",
             "text": [{
-                "p":"I developed a tool that would all a UXE to submit structured data and receive a predictive model in return. The UXE could then make API calls to the model to have actual predictions included in their prototypes instead of dummy data.",
+                "p":"I developed a tool that would allow a UXE to submit structured data and receive a predictive model in return. The UXE could then make API calls to the model to have actual predictions included in their prototypes instead of dummy data.",
                 "images": [{
                     "caption": "UI of model creation script.",
                     "url": "/images/ai-utility/01.png"
                 },
                 {
-                    "caption": "UI of model being used. 'Class' column is prediction column.",
+                    "caption": "UI of the model being used. 'Class' column is the prediction column.",
                     "url": "/images/ai-utility/02.png"
                 }]
             }]
-        },
-        {
-            "header": "Tools & Roles",
-            "text": "Tools: Python, ReactJS, Carbon \nRole: UX Design, Front and Backend Development",
-            "images": []
         }]
     },
     "5": {
         "name": "SVG Animation",
-        "sections": [{
+        "sections": [
+            {
+                "header": "Tools & Roles",
+                "text": [{
+                    "p": "Tools: ReactJS \nRole: Frontend Development"
+                }]
+            },{
             "header": "Problem",
             "text": [{
                 "p": "Merging multiple pattern sites into one, there was a desire to highlight the number of patterns being used across the organization. Instead of using a flat chart, there was a desire to use an animated SVG."
@@ -277,23 +282,22 @@
         {
             "header": "Solution",
             "text": [{
-                "p": "I was charged with implementing the animated SVG. Not knowing much about animated SVGs I collaborated with another team member who had a key piece of knowledge. Once I had that key piece of knowledge I was able to implement the animated SVG. Once implemented I began to figure out ways that would optimize the experience. I worked with the designer to understand how the exports were working and how we could exploit that to get our desired results. The animation has now been optimized",
+                "p": "I was charged with implementing the animated SVG. Not knowing much about animated SVGs I collaborated with another team member who had a key piece of knowledge. Once I had that key piece of knowledge I was able to figure out the math required to implement the animated SVG. Once implemented I began to figure out ways that would optimize the experience. I worked with the designer to understand how the exports were working and how we could exploit that to get our desired results. The animation has now been optimized",
                 "videos": [{
-                    "caption": "Animated SVG running on internal website.",
+                    "caption": "Animated SVG running on the internal website.",
                     "url": "https://thompsonjamesquillan-portfolio.s3.us-east-2.amazonaws.com/svg.mp4"
                 }]
-            }]
-        },
-        {
-            "header": "Tools & Roles",
-            "text": [{
-                "p": "Tools: ReactJS \nRole: Frontend Development"
             }]
         }]
     },
     "6": {
         "name": "Watson Assistant",
         "sections": [{
+            "header": "Tools & Roles",
+            "text": [{
+                "p":"Tools: VueJS, \nRole: Frontend Development"
+            }]
+        },{
             "header": "Problem",
             "text": [{
                 "p": "At the time, Watson Assistant 'out of the box' had no user interface. A customer would have to deploy resources to apply a user interface."
@@ -304,15 +308,9 @@
             "text": [{
                 "p": "A generic user interface was applied to Watson Assistant, allowing a customer to focus on training the models and not the user interface. I developed a prototype to demonstrate the new chat window interface.",
                 "videos": [{
-                    "caption": "Simulation of user interacting with coded prototype of Watson Assistant",
+                    "caption": "Simulation of a user interacting with the coded prototype of Watson Assistant.",
                     "url": "https://thompsonjamesquillan-portfolio.s3.us-east-2.amazonaws.com/widget.mp4"
                 }]
-            }]
-        },
-        {
-            "header": "Tools & Roles",
-            "text": [{
-                "p":"Tools: VueJS, \nRole: Frontend Development"
             }]
         }]
     }

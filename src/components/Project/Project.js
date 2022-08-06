@@ -24,13 +24,13 @@ const Project = () => {
                 </div>
             </section>
             <div className="container section-padding-large">
-                <p className="container--section">
+                <div className="container--section">
                     <Link to="/portfolio">
                         <div className="icon--link">
-                            <span class="material-symbols-outlined" aria-label="left arrow back">arrow_circle_left</span> Project list
+                            <span className="material-symbols-outlined" aria-label="left arrow back">arrow_circle_left</span> Project list
                         </div>                        
                     </Link>
-                </p>
+                </div>
                 {
                     projects[id]["sections"].map((section, index) => {                    
                         return(
@@ -75,7 +75,7 @@ const Project = () => {
                                                         <video controls>
                                                             <source src={section.text[p].videos[video]['url']} type="video/mp4" />
                                                         </video>
-                                                        <section  class="is-size-7">{ section.text[p].videos[video]['caption']}</section>
+                                                        <section  className="is-size-7">{ section.text[p].videos[video]['caption']}</section>
                                                     </div>
                                                 ))
                                             }
@@ -86,13 +86,13 @@ const Project = () => {
                         )
                     })
                 }
-                <p className="section">
+                <div className="section">
                     <Link to="/portfolio">
                         <div className="icon--link">
-                            <span class="material-symbols-outlined" aria-label="left arrow back">arrow_circle_left</span> Project list
+                            <span className="material-symbols-outlined" aria-label="left arrow back">arrow_circle_left</span> Project list
                         </div>                        
                     </Link>
-                </p>
+                </div>
             </div>
         </div>
     )
