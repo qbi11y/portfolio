@@ -29,7 +29,7 @@
         {
             "header": "How",
             "text": [{
-                "p": "There was preliminary research that suggested there was an opportunity for our platform to be useful to a large audience. To kick off the project, I facilitated a design thinking workshop to align stakeholders. This workshop allowed everyone (Engineering, executives, Product Management, etc.) to express concerns and desires. The workshop also allowed us to agree on key pain points to address.",
+                "p": "There has been some preliminary research that suggested there was an opportunity for our platform to be useful to a large audience. To kick off the project, I facilitated a design thinking workshop to align stakeholders. This workshop allowed everyone (Engineering, executives, Product Management, etc.) to express concerns and desires. The workshop also allowed us to agree on key pain points to address.",
                 "images": [
                     {
                         "caption": "Exercise in design thinking workshop I facilitated.",
@@ -45,7 +45,7 @@
                     }
                     ]},
             {
-                "p": "After the completion of the workshop, I lead the effort to create the information architecture and lead a team of visual designers to design the UI for the product. The design began to take form after a couple of sketching sessions that allowed us to address issues without being focused on aesthetics.",
+                "p": "After the completion of the workshop, I led the effort to create the information architecture and led a team of visual designers to design the UI for the product. The design began to take form after a couple of sketching sessions that allowed us to address issues without being focused on aesthetics.",
                 "images": [{
                     "caption": "Image from the product sketching session",
                     "url": "/images/cloud-brokerage/process_01.png"
