@@ -1,0 +1,38 @@
+James Q. ThompsonAustin, TX | jamesquillanthompson@gmail.com | 202.271.5700Overview
+Highly motivated strategic thinker with over 15 years of proven design experience. In addition to strongleadership skills, I have expertise in rapid prototyping, information architecture, and design strategy, leading tocompelling design solutions.SkillsetNodeJSJavascriptAngularJS 
+ReactJSCSSMongoDBHTMLSQLAdobe SuiteSketchPHPPythonExperienceIBM  Watson Sr. Experience Design Strategist Austin, TX | Nov 2015 Ð present¥	Collaborate with design executives to drive design strategy throughout the Watson organization¥	Work with engineering and offering management to ensure designs are implemented as designed¥	Engage with customers to understand problems and propose designs to offer solutions¥	Wireframe and code prototypes to communicate designs to users and executive leadership¥	Identify product opportunities and propose comprehensive design solutions¥	Lead Jr. designers through IBM Design Thinking process & Facilitate IBM Design Thinking workshops
+Gravitant  Sr. Lead User Experience Designer / Design TechnologistAustin, TX | Aug 2014 Ð Nov 2015 (acquired by IBM 2015)¥	Engage with executives and architects to build cloud brokerage platform user experience strategy¥	Create full-stack responsive interactive wireframe prototypes¥	Manage and direct supplemental design and development resources¥	Create scenarios used to generate compelling cloud brokerage use cases¥	Engage with architects and developers to implement proper front-end technologies¥	Oversee the creation of reusable component library¥	Review workflows and wireframes of product managers
+
+RxNetwork Lead User Experience DesignerAustin, TX | Feb 2014 Ð Jul 2014¥	Design health care focused mobile and web applications¥	Execute and evangelize design strategy¥	Create scenarios used to generate compelling use cases¥	Engage with executives to ensure designs provide value to users and address business cases¥	Engage with development team to ensure accurate design implementation
+Dell Principal Interaction DesignerAustin, TX | August 2011 Ð February 2014¥	Design compelling user interfaces for converged infrastructure management software¥	Create functional prototypes, wireframes, click-throughs and mockups¥	Participate in user research efforts to gain better understanding of users to ensure delivery of optimal user experience¥	Engage with Marketing and Engineering to help determine product features¥	Using results from customer research to design initial concepts¥	Build relationships with stakeholders outside of design group to ensure user feedback is leveraged¥	Advise multiple business units on benefits of implementing compelling user experiences
+
+Hewlett-Packard Sr. User Experience Manager / Sr. Interaction DesignerHouston, TX | June 2008 Ð August 2011¥	Define and manage overall user experience strategy for enterprise & SMB software applications¥	Create user scenarios functional prototypes, wireframes, click-throughs and mockups¥	Initiate and participate in contextual customer research to assist in gathering requirements and use cases¥	Manage third party vendors in the creation of final deliverables¥	Established user experience design process¥	Led design efforts and managed tactical user interface work for enterprise touchscreen displays¥	Advise multiple business units on benefits of implementing compelling user experiences¥	Effectively manage budgets ranging from $75k - $750k¥	Manage large-scale projects simultaneously (5-7 person teams)¥	Manage and mentor user experience summer intern¥	Designed patent pending hand-held display dockIBM Interaction Designer Durham, NC | October 2004 Ð November 2007¥	Designed compelling and engaging user interfaces for enterprise web and rich client applications¥	Created functional prototypes and mockups¥	Created dynamically extensible concept movie that allowed staff to plug in content to create new
+	concept movies saving 30+ hours per movie¥	Led initial design efforts on groundbreaking web mail applications BlueMail¥	Led a design team of 7 designers and developers to gather user requirements and to redesign
+	administration interface for WebSphere Portal, $100mil+ software application.¥	Created and analyzed user scenarios, use cases and heuristic evaluations to better demonstrate
+	user-centric designs and wrote design specifications
+
+
+
+
+
+
+
+
+
+
+
+
+Stratacomm a Fleishman-Hillard Company Lead Interaction DesignerWashington, DC | February 2003 Ð October 2004¥	Designed and developed dynamic web applications, content management systems and user
+	interfaces using Javascript, Coldfusion, MySQL, CSS, Flash, and XML¥	Led design teams of 2 - 4 members that designed and developed web sites that lead to the
+	passage of targeted federal legislation¥	Managed projects requiring: user requirements gathering; $50k+ budget preparation and execution;
+	evaluation / critique of project budgets / timelines.¥	Utilized use cases, user scenarios, wire frames and prototypes to effectively present designs.¥	Used knowledge of Coldfusion, SQL, CSS, Javascript, Photoshop, Illustrator, to design and
+	develop multiple dynamic web sites including content management systems¥	Developed and adhered to 3 Ð 6 month project schedules
+OÕKeefe Communication Graphic DesignerWashington, DC | July 2001 Ð February 2003¥	Designed large-scale environmental graphic elements, as well as graphics for video, DVD and
+	PowerPoint.¥	Created graphics for award winning video projects.¥	Created large-scale environmental graphics for national association conferences.
+
+Freelance Design Consultant 
+May 2001 Ð present
+¥ 
+
+
+EducationBachelor of Graphic Design, Bachelor of Architecture North Carolina State University School of Design, Raleigh, NCProfessional DevelopmentUniversity of Texas Data Analytics Certification (March 2020)Makersquare Front-End Development 2014
