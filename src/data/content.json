@@ -14,9 +14,5 @@
             "displayName": "Cradle for portable server momitor",
             "url": "https://patents.google.com/patent/USD656940S1/en"
         }
-    },
-    "process": {
-        "title": "My Process",
-        "text": "(Fahad, this a quick write up of the process. I want to add visuals here to support)\n\nWhile projects may vary in size the process remains the same. Each project begins with research to understand the 'who' and the 'why'. Who are we building for and why? With an understanding of purpose and audience conversations can always be brought back to the purpose and we can certain we deliver the right features. The 'what' can now be determined. The 'what' speaks to the functional aspects of the project, what needs to be built? One a small project, the 'what' can typically be determined by myself. On larger projects with multiple moving parts more stakeholders need to come together to contribute to the what. This is usually in the form of a design thinking exercise that I will lead. With an understanding of the 'what' visual design and development can begin the explore the 'how'. Working closely with visual design I begin to develop prototypes that represent our 'who', 'what' and 'why'. The prototypes can be validated with users and refined before giving the green light for production code development.\n\nBelow are a list of projects that demonstrate varied degrees of this process."
     }
 }
