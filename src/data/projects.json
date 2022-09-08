@@ -162,6 +162,11 @@
                     "url": "/images/data-pipeline/05.png"
                 }]
             }]
+        },
+        {
+            "header": "Takeaways",
+            "text": [{
+                "p": "This is an ongoing projectso constant learning is taking place. Recent takeaway is use test driven development to help write better manageable code."}]
         }]
     },
     "3": {
@@ -263,6 +268,11 @@
                     "url": "/images/ai-utility/02.png"
                 }]
             }]
+        },
+        {
+            "header": "Takeaways",
+            "text": [{
+                "p": "This project help me understand the importance of networking within the organization. I had a tool that could be leveraged by other orgs, but struggled getting in front of the right people. I was able to get it in front of the right people that were able to help me better understand the business case for the tool."}]
         }]
     },
     "5": {
@@ -288,6 +298,10 @@
                     "url": "https://thompsonjamesquillan-portfolio.s3.us-east-2.amazonaws.com/svg.mp4"
                 }]
             }]
+        },{
+            "header": "Takeaways",
+            "text": [{
+                "p": "I would have gained a better understanding of the animation framework used. I jumped right into development due to time constraints. Some learning prior to developent would've helped made the development more efficient."}]
         }]
     },
     "6": {
