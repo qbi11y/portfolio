@@ -60,7 +60,7 @@ const Home = () => {
                     </ul>
                     <div className="column">
                         <ul>
-                            <li>v0.1</li>
+                            <li>v0.2</li>
                             <li className="has-text-weight-medium">Built using:</li>
                             <li>AWS s3</li>
                             <li>Bulma</li>
