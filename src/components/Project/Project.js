@@ -2,6 +2,7 @@ import React, { useEffect } from "react"
 import { useParams } from "react-router-dom"
 import { Link } from "react-router-dom";
 import * as projects from '../../data/projects.json'; 
+import { motion } from "framer-motion";
 
 const Project = () => {
     let { id } = useParams()
@@ -62,10 +63,14 @@ const Project = () => {
 
                                                     }
                                                     return(
-                                                    <div className={`section column ${columnClass} column--content`} key={index}>
-                                                        <img alt={index} src={process.env.PUBLIC_URL + section.text[p].images[image]['url']} />
-                                                        <section className="is-size-7">{ section.text[p].images[image]['caption']}</section>
-                                                    </div>
+                                                    <motion.div
+                                                        initial={{ opacity: 0.1 }}
+                                                        whileInView={{ opacity: 1, y: -25, transition: { duration: 1 } }}
+                                                        className={`section column ${columnClass} column--content`}
+                                                        key={index}>
+                                                            <img alt={index} src={process.env.PUBLIC_URL + section.text[p].images[image]['url']} />
+                                                            <section className="is-size-7">{ section.text[p].images[image]['caption']}</section>
+                                                    </motion.div>
                                                 )})
                                             }
                                             </div>

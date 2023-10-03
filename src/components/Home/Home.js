@@ -2,6 +2,7 @@ import React,  { useEffect, useState } from "react";
 import projects from '../../data/projects.json';
 import content from '../../data/content.json';  
 import { useNavigate } from "react-router-dom";
+import { motion } from "framer-motion";
 
 const Home = () => {
     const [ isShort, setIsShort ] = useState(true)
@@ -31,7 +32,17 @@ const Home = () => {
                     {
                         Object.keys(projects).map((project, index) => 
                             (
-                                <li className="project" id={index + 1} onClick={(e)=> {viewProject(e)}}key={index}>{ projects[index + 1]["name"] }</li>
+                                <li className="project-item" onClick={(e)=> {viewProject(e)}} key={index}>
+                                    <motion.div
+                                        className="project"
+                                        id={index + 1}
+                                        whileHover={{
+                                            x: -10,
+                                            transition: { duration: .5 },
+                                        }}>
+                                            { projects[index + 1]["name"] }
+                                    </motion.div>
+                                </li>
                             )
                         )
                     }
