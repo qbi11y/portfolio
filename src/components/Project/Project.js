@@ -76,12 +76,15 @@ const Project = () => {
                                             </div>
                                             {
                                                 section.text[p].videos && Object.keys(section.text[p].videos).map((video, index) => (
-                                                    <div className="section column" key={index}>
-                                                        <video controls>
-                                                            <source src={section.text[p].videos[video]['url']} type="video/mp4" />
-                                                        </video>
-                                                        <section  className="is-size-7">{ section.text[p].videos[video]['caption']}</section>
-                                                    </div>
+                                                    <motion.div
+                                                        initial={{ opacity: 0.1 }}
+                                                        whileInView={{ opacity: 1, y: -25, transition: { duration: 1 } }}
+                                                        className="section column" key={index}>
+                                                            <video controls>
+                                                                <source src={section.text[p].videos[video]['url']} type="video/mp4" />
+                                                            </video>
+                                                            <section  className="is-size-7">{ section.text[p].videos[video]['caption']}</section>
+                                                    </motion.div>
                                                 ))
                                             }
                                         </div>)
