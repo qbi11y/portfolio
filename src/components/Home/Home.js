@@ -64,6 +64,7 @@ const Home = () => {
                             <li className="has-text-weight-medium">Built using:</li>
                             <li>AWS s3</li>
                             <li>Bulma</li>
+                            <li>Framer Motion</li>
                             <li>GitHub Actions (CI/CD)</li>
                             <li>Google Analytics</li>
                             <li>React</li>
