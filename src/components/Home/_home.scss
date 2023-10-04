@@ -31,9 +31,6 @@
 }
 
 .project {
-    // padding: 1em 1em;
-    // font-size: 1.5em;
-    // color: rgb(150,150,150)
     display: inline-flex;
     height: 84px;
     border-top: 3px dotted rgb(235, 235, 235);
@@ -46,20 +43,7 @@
     width: 64px;
     height: 64px;
     margin-right: 24px;
-    opacity: .25;
-}
-
-.card {
-    width: 100%;
-    margin-bottom: 40px;
-}
-
-.card .caption {
-    padding: 5px 10px;
-}
-
-.project-item {
-    //border-top: 3px dotted rgb(235, 235, 235);
+    opacity: .35;
 }
 
 .project-item--list {
@@ -73,16 +57,39 @@
     
 }
 
-.project:hover {
-    cursor: pointer;
-    color: rgb(25, 25, 25)
-}
-
 .header-tag {
     color: $grey-light;
     margin-bottom: 1.5em;
 }
 
+//iPad
+//Portrait mode iPad
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px)
+  and (-webkit-min-device-pixel-ratio: 1) {
+    .projects {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .project {
+        display: block;
+        border-top: none;
+        width: 30%;
+        margin-bottom: 128px;
+        align-items: center;
+    }
+    .project--icon {
+        width: 128px;
+        height: 128px;
+        margin-right: px;
+        opacity: .25;
+    }
+}
+
+//Portrait mode iPad
 @media only screen 
   and (min-device-width: 768px) 
   and (max-device-width: 1024px) 
@@ -102,7 +109,12 @@
     }
 }
 
-@media only screen and (min-device-width: 768px) and (orientation: landscape) {
+//Landscape mode iPad
+@media only screen
+    and (min-device-width: 768px) 
+    and (max-device-width: 1024px)
+    and (orientation: landscape)
+    and (-webkit-min-device-pixel-ratio: 1) {
     .is-size-1-widescreen.header {
         font-size: 6em!important;
         font-weight: 100;
@@ -126,5 +138,40 @@
         font-size: 8em!important;
         line-height: 1.25;
         font-weight: 100;
+    }
+
+    .projects {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .project {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        border-top: none;
+        width: 32%;
+        height: 200px;
+        margin-bottom: 40px;
+        background-color: #fff;
+        border-radius: .25rem;
+        border: 2px solid transparent; /* <- here */
+        transition: all .5s;
+        box-shadow: 0 0.5em 1em -0.125em rgba(10,10, 10, .1);
+        color: #c5c5c5;
+    }
+
+    .project:hover {
+        cursor: pointer;
+        border: 2px solid rgba(197, 197, 197, .5);
+        color: rgb(86, 85, 85)
+    }
+    .project--icon {
+        width: 128px;
+        height: 128px;
+        margin-right: px;
+        opacity: .35;
     }
 }

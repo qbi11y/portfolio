@@ -53,12 +53,7 @@ const Home = () => {
                                     <div className="project--icon">
                                         <img alt={projects[index + 1]["iconAlt"]} src={process.env.PUBLIC_URL + projects[index + 1]["icon"]} />
                                     </div>
-                                    <motion.div
-                                        //whileInView={{ opacity: 1, x: 12, transition: { duration: 1 } }}
-                                        whileHover={{
-                                            x: -10,
-                                            transition: { duration: .25 },
-                                        }}>
+                                    <motion.div>
                                             { projects[index + 1]["name"] }
                                     </motion.div>
                                 </div>
