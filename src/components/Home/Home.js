@@ -56,7 +56,7 @@ const Home = () => {
                                     <motion.div
                                         //whileInView={{ opacity: 1, x: 12, transition: { duration: 1 } }}
                                         whileHover={{
-                                            x: -1,
+                                            x: -10,
                                             transition: { duration: .25 },
                                         }}>
                                             { projects[index + 1]["name"] }
