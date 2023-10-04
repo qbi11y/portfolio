@@ -10,7 +10,7 @@ const Home = () => {
 
     const viewProject = (e) => {
         let id = 0
-        if (e.target == e.currentTarget) {
+        if (e.target === e.currentTarget) {
             id = e.target.id
         } else {
             id = e.currentTarget.id
@@ -51,7 +51,7 @@ const Home = () => {
                                 // </li>
                                 <div className="project" id={index + 1} onClick={(e)=> {viewProject(e)}} key={index}>
                                     <div className="project--icon">
-                                        <img alt='image' src={process.env.PUBLIC_URL + projects[index + 1]["icon"]} />
+                                        <img alt={projects[index + 1]["iconAlt"]} src={process.env.PUBLIC_URL + projects[index + 1]["icon"]} />
                                     </div>
                                     <motion.div
                                         whileInView={{ opacity: 1, x: 12, transition: { duration: 1 } }}
