@@ -1,6 +1,7 @@
 {
     "1": {
         "name": "Cloud Brokerage Platform",
+        "icon": "/icons/cloud.png",
         "sections": [
             {
                 "header": "Tools & Roles",
@@ -97,6 +98,7 @@
     },
     "2": {
         "name": "Data Pipeline",
+        "icon": "/icons/predictive-analytics.png",
         "sections": [
             {
                 "header": "Tools & Roles",
@@ -171,6 +173,7 @@
     },
     "3": {
         "name": "Photography Utility",
+        "icon": "/icons/photography.png",
         "sections": [
             {
                 "header": "Tools & Roles",
@@ -240,6 +243,7 @@
     },
     "4": {
         "name": "Auto AI Utility",
+        "icon": "/icons/automation.png",
         "sections": [{
             "header": "Tools & Roles",
             "text": "Tools: Python, ReactJS, Carbon \nRole: UX Design, Front and Backend Development",
@@ -277,6 +281,7 @@
     },
     "5": {
         "name": "SVG Animation",
+        "icon": "/icons/svg.png",
         "sections": [
             {
                 "header": "Tools & Roles",
@@ -306,6 +311,7 @@
     },
     "6": {
         "name": "Watson Assistant",
+        "icon": "/icons/chatbot.png",
         "sections": [{
             "header": "Tools & Roles",
             "text": [{

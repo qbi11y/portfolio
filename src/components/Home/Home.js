@@ -9,7 +9,13 @@ const Home = () => {
     const navigate = useNavigate()
 
     const viewProject = (e) => {
-        navigate('/portfolio/project/'+e.target.id)
+        let id = 0
+        if (e.target == e.currentTarget) {
+            id = e.target.id
+        } else {
+            id = e.currentTarget.id
+        }
+        navigate('/portfolio/project/'+id)
     }
 
     useEffect(() => {
@@ -28,12 +34,114 @@ const Home = () => {
                 <div className="is-hidden-touch text">{content.personal.longStatement}</div>
             </section>
             <section className="section">
-                {/* <div className="projects list">
-                    <div>left</div>
-                    <div>middle</div>
-                    <div>right</div>
+                <div className="projects">
+                {
+                        Object.keys(projects).map((project, index) => 
+                            (
+                                // <li className="project-item project-item--list" onClick={(e)=> {viewProject(e)}} key={index}>
+                                //     <motion.div
+                                //         className="project"
+                                //         id={index + 1}
+                                //         whileHover={{
+                                //             x: -10,
+                                //             transition: { duration: .5 },
+                                //         }}>
+                                //             { projects[index + 1]["name"] }
+                                //     </motion.div>
+                                // </li>
+                                <div className="project" id={index + 1} onClick={(e)=> {viewProject(e)}} key={index}>
+                                    <div className="project--icon">
+                                        <img alt='image' src={process.env.PUBLIC_URL + projects[index + 1]["icon"]} />
+                                    </div>
+                                    <motion.div
+                                        whileInView={{ opacity: 1, x: 12, transition: { duration: 1 } }}
+                                        whileHover={{
+                                            x: -1,
+                                            transition: { duration: .25 },
+                                        }}>
+                                            { projects[index + 1]["name"] }
+                                    </motion.div>
+                                </div>
+                            )
+                        )
+                    }
+                    {/* <div className="project">
+                        <div className="project--icon">
+                            <img alt='image' src={process.env.PUBLIC_URL + "/icons/cloud.png"} />
+                        </div>
+                        <div>Cloud Brokerage Platform</div>
+                    </div>
+                    <div className="project">
+                        <div className="project--icon">
+                            <img alt='image' src={process.env.PUBLIC_URL + "/icons/predictive-analytics.png"} />
+                        </div>
+                        <div>Data Pipeline</div>
+                    </div>
+                    <div className="project">
+                        <div className="project--icon">
+                            <img alt='image' src={process.env.PUBLIC_URL + "/icons/photography.png"} />
+                        </div>
+                        <div>Photography Utility</div>
+                    </div>
+                    <div className="project">
+                        <div className="project--icon">
+                            <img alt='image' src={process.env.PUBLIC_URL + "/icons/automation.png"} />
+                        </div>
+                        <div>Auto AI Utility</div>
+                    </div>
+                    <div className="project">
+                        <div className="project--icon">
+                            <img alt='image' src={process.env.PUBLIC_URL + "/icons/svg.png"} />
+                        </div>
+                        <div>SVG Animation</div>
+                    </div>
+                    <div className="project">
+                        <div className="project--icon">
+                            <img alt='image' src={process.env.PUBLIC_URL + "/icons/chatbot.png"} />
+                        </div>
+                        <div>Watson Assistant</div>
+                    </div> */}
+                </div>
+
+                {/* <div className="projects">
+                    <div className="project">
+                        <div className="image is-square">
+                            <img alt='image' src={process.env.PUBLIC_URL + "/icons/automation.png"} />
+                        </div>
+                        <p className="caption">project name</p>
+                    </div>
+                    <div className="project">
+                        <div className="image is-square">
+                            <img alt='image' src={process.env.PUBLIC_URL + "/icons/chatbot.png"} />
+                        </div>
+                        <p className="caption">project name</p>
+                    </div>
+                    <div className="project">
+                        <div className="image is-square">
+                            <img alt='image' src={process.env.PUBLIC_URL + "/icons/cloud.png"} />
+                        </div>
+                        <p className="caption">project name</p>
+                    </div>
+                    <div className="project">
+                        <div className="image is-square">
+                            <img alt='image' src={process.env.PUBLIC_URL + "/icons/photography.png"} />
+                        </div>
+                        <p className="caption">project name</p>
+                    </div>
+                    <div className="project">
+                        <div className="image is-square">
+                            <img alt='image' src={process.env.PUBLIC_URL + "/icons/predictive-analytics.png"} />
+                        </div>
+                        <p className="caption">project name</p>
+                    </div>
+                    <div className="project">
+                        <div className="image is-square">
+                            <img alt='image' src={process.env.PUBLIC_URL + "/icons/svg.png"} />
+                        </div>
+                        <p className="caption">project name</p>
+                    </div>
                 </div> */}
-                <ul className="projects--cards">
+                {/* <ul className="projects--cards">
                     {
                         Object.keys(projects).map((project, index) => 
                             (
@@ -51,7 +159,7 @@ const Home = () => {
                             )
                         )
                     }
-                </ul>
+                </ul> */}
             </section>
             <section className="section is-size-7">
                 <footer className="footer columns">                
