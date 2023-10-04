@@ -27,12 +27,17 @@ const Home = () => {
                 </div>
                 <div className="is-hidden-touch text">{content.personal.longStatement}</div>
             </section>
-            <section className="section">                
-                <ul>
+            <section className="section">
+                {/* <div className="projects list">
+                    <div>left</div>
+                    <div>middle</div>
+                    <div>right</div>
+                </div> */}
+                <ul className="projects--cards">
                     {
                         Object.keys(projects).map((project, index) => 
                             (
-                                <li className="project-item" onClick={(e)=> {viewProject(e)}} key={index}>
+                                <li className="project-item project-item--list" onClick={(e)=> {viewProject(e)}} key={index}>
                                     <motion.div
                                         className="project"
                                         id={index + 1}
