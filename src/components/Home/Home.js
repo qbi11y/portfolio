@@ -2,7 +2,6 @@ import React,  { useEffect, useState } from "react";
 import projects from '../../data/projects.json';
 import content from '../../data/content.json';  
 import { useNavigate } from "react-router-dom";
-import { motion } from "framer-motion";
 
 const Home = () => {
     const [ isShort, setIsShort ] = useState(true)
