@@ -53,9 +53,9 @@ const Home = () => {
                                     <div className="project--icon">
                                         <img alt={projects[index + 1]["iconAlt"]} src={process.env.PUBLIC_URL + projects[index + 1]["icon"]} />
                                     </div>
-                                    <motion.div>
-                                            { projects[index + 1]["name"] }
-                                    </motion.div>
+                                    <div>
+                                        { projects[index + 1]["name"] }
+                                    </div>
                                 </div>
                             )
                         )
