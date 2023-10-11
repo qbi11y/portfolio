@@ -44,18 +44,19 @@ const Project = () => {
                                             <p className="mb-1 lh-mobile is-size-6">{section.text[p].p}</p>
                                             <div className="columns is-multiline is-variable">
                                             {
+                                                //display the images
                                                 section.text[p].images && Object.keys(section.text[p].images).map((image, index) => {
                                                     let columnClass = '';
 
                                                     switch (section.text[p].images.length) {
                                                         case 2:
-                                                            columnClass = "is-full-tablet is-half-widescreen";
+                                                            columnClass = "is-full-tablet is-half";
                                                             break;
                                                         case 3:
-                                                            columnClass = "is-full-tablet is-one-third-widescreen";
+                                                            columnClass = "is-full-tablet is-one-third";
                                                             break;
                                                         case 6:
-                                                            columnClass = "is-full-tablet is-one-third-widescreen";
+                                                            columnClass = "is-full-tablet is-one-third";
                                                             break;
                                                         default:
                                                             break;
@@ -74,6 +75,7 @@ const Project = () => {
                                             }
                                             </div>
                                             {
+                                                //display the videos
                                                 section.text[p].videos && Object.keys(section.text[p].videos).map((video, index) => (
                                                     <motion.div
                                                         initial={{ opacity: 0.1 }}
