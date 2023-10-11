@@ -143,8 +143,8 @@
                     "url": "/images/data-pipeline/01.png"
                 },
                 {
-                    "caption": "Stats and scores were scrapped from ESPN.com",
-                    "url": "/images/data-pipeline/03.png"
+                    "caption": "Money distributions scrapped from actionnetwork.com",
+                    "url": "/images/data-pipeline/06.png"
                 }],
                 "videos": [{
                     "caption": "Web scrapping and analysis workflow update automated.",
