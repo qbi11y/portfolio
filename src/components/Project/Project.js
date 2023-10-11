@@ -41,11 +41,10 @@ const Project = () => {
                                     section.text.length !== 0 && Object.keys(section.text).map((p, index) => {
                                         return (
                                         <div key={index}>
-                                            <p className="mb-1 lh-mobile">{section.text[p].p}</p>
+                                            <p className="mb-1 lh-mobile is-size-6">{section.text[p].p}</p>
                                             <div className="columns is-multiline is-variable">
                                             {
                                                 section.text[p].images && Object.keys(section.text[p].images).map((image, index) => {
-                                                    console.log('test', section.text[p].images.length)
                                                     let columnClass = '';
 
                                                     switch (section.text[p].images.length) {
