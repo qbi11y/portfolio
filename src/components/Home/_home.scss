@@ -63,12 +63,16 @@
     margin-bottom: 1.5em;
 }
 
-//iPad
-//Portrait mode iPad
+
+//iPad common styles
 @media only screen 
   and (min-device-width: 768px) 
   and (max-device-width: 1024px)
   and (-webkit-min-device-pixel-ratio: 1) {
+    .section {
+        margin-bottom: 60px;
+    }
+
     .projects {
         flex-direction: row;
         flex-wrap: wrap;
@@ -76,17 +80,26 @@
     }
 
     .project {
-        display: block;
+        display: flex;
+        flex-direction: column;
         border-top: none;
         width: 30%;
         margin-bottom: 128px;
         align-items: center;
+        justify-content: center;
+        text-align: center;
+        padding-bottom: 50px;
+        box-shadow: 0 0.5em 1em -0.125em rgba(10,10, 10, .1);
     }
     .project--icon {
         width: 128px;
         height: 128px;
-        margin-right: px;
+        margin: 0 0 72px 0;
         opacity: .25;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 }
 
@@ -153,6 +166,9 @@
         flex-wrap: wrap;
         justify-content: center;
         border-top: none;
+        align-items: center;
+        
+        text-align: center;
         width: 32%;
         height: 200px;
         margin-bottom: 40px;
@@ -177,7 +193,7 @@
     .project--icon {
         width: 128px;
         height: 128px;
-        margin-right: px;
+        margin-right: 0;
         opacity: .35;
     }
 }

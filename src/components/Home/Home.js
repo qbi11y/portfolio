@@ -52,7 +52,7 @@ const Home = () => {
                                     <div className="project--icon">
                                         <img alt={projects[index + 1]["iconAlt"]} src={process.env.PUBLIC_URL + projects[index + 1]["icon"]} />
                                     </div>
-                                    <div>
+                                    <div className="is-size-6">
                                         { projects[index + 1]["name"] }
                                     </div>
                                 </div>
