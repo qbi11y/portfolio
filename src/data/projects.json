@@ -98,14 +98,14 @@
         }]
     },
     "2": {
-        "name": "Data Pipeline",
+        "name": "Sports Bet Predictor",
         "icon": "/icons/predictive-analytics.png",
         "iconAlt": "predictive analytics icon",
         "sections": [
             {
                 "header": "Tools & Roles",
                 "text": [{
-                    "p": "Tools: Python, GoogleSheets, gspread API, Bash Scripting\nRole: Backend Development, Data Analyst"
+                    "p": "Tools: Python, GoogleSheets, gspread API, Bash Scripting, Framer Motion\nRole: Frontend Development, Backend Development, Data Analyst"
                 }]
             },{
             "header": "Stakeholders",
@@ -159,11 +159,15 @@
                 "images": [
                 {
                     "caption": "Final prediction and result spreadsheet.",
-                    "url": "/images/data-pipeline/04.png"
+                    "url": "/images/data-pipeline/07.png"
                 },
                 {
                     "caption": "Pregame betting predictions.",
-                    "url": "/images/data-pipeline/05.png"
+                    "url": "/images/data-pipeline/07.png"
+                },
+                {
+                    "caption": "Pregame betting predictions.",
+                    "url": "/images/data-pipeline/07.png"
                 }]
             }]
         },
