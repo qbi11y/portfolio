@@ -13,17 +13,7 @@ const Project = () => {
       }, [])
 
     return(
-        <div>
-            {/* <section className="hero is-info">
-                <div className="hero-body container">
-                    <p className="title is-size-1-tablet is-size-4-mobile">
-                    { projects[id]["name"] }
-                    </p>
-                    <p className="subtitle">
-                    { projects[id]["sub"] }
-                    </p>
-                </div>
-            </section> */}
+        <>
             <div className="container section-padding-large">
                 <div className="container--section">
                     <Link to="/portfolio">
@@ -32,75 +22,13 @@ const Project = () => {
                         </div>                        
                     </Link>
                 </div>
+
                 {
                     projects[id]["sections"].map((section, index) => (                        
-                        <Section key={index} data={section} index={index}/>                        
+                        <Section key={index+500} data={section}/>                        
                     ))
                 }
 
-                {/* {
-                    projects[id]["sections"].map((section, index) => {                    
-                        return(
-                            <section className="container--section" key={index}>
-                                <h1 className="has-text-weight-medium is-size-5">{section.header}</h1>
-                                {
-                                    section.text.length !== 0 && Object.keys(section.text).map((p, index) => {
-                                        return (
-                                        <div key={index}>
-                                            <p className="mb-1 lh-mobile is-size-6">{section.text[p].p}</p>
-                                            <div className="columns is-multiline is-variable">
-                                            {
-                                                //display the images
-                                                section.text[p].images && Object.keys(section.text[p].images).map((image, index) => {
-                                                    let columnClass = '';
-
-                                                    switch (section.text[p].images.length) {
-                                                        case 2:
-                                                            columnClass = "is-full-tablet is-half";
-                                                            break;
-                                                        case 3:
-                                                            columnClass = "is-full-tablet is-one-third";
-                                                            break;
-                                                        case 6:
-                                                            columnClass = "is-full-tablet is-one-third";
-                                                            break;
-                                                        default:
-                                                            break;
-
-                                                    }
-                                                    return(
-                                                    <motion.div
-                                                        initial={{ opacity: 0.1 }}
-                                                        whileInView={{ opacity: 1, y: -25, transition: { duration: 1 } }}
-                                                        className={`section column ${columnClass} column--content`}
-                                                        key={index}>
-                                                            <img alt={index} src={process.env.PUBLIC_URL + section.text[p].images[image]['url']} />
-                                                            <section className="is-size-7">{ section.text[p].images[image]['caption']}</section>
-                                                    </motion.div>
-                                                )})
-                                            }
-                                            </div>
-                                            {
-                                                //display the videos
-                                                section.text[p].videos && Object.keys(section.text[p].videos).map((video, index) => (
-                                                    <motion.div
-                                                        initial={{ opacity: 0.1 }}
-                                                        whileInView={{ opacity: 1, y: -25, transition: { duration: 1 } }}
-                                                        className="section column" key={index}>
-                                                            <video controls>
-                                                                <source src={section.text[p].videos[video]['url']} type="video/mp4" />
-                                                            </video>
-                                                            <section  className="is-size-7">{ section.text[p].videos[video]['caption']}</section>
-                                                    </motion.div>
-                                                ))
-                                            }
-                                        </div>)
-                                    })
-                                }
-                            </section>
-                        )
-                    })
-                } */}
                 <div className="section">
                     <Link to="/portfolio">
                         <div className="icon--link">
@@ -109,7 +37,7 @@ const Project = () => {
                     </Link>
                 </div>
             </div>
-        </div>
+        </>
     )
 }
 

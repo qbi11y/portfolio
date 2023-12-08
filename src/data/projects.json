@@ -6,7 +6,7 @@
         "headerImage": "",
         "sections": [
         {
-            "header": "Role, Tools",
+            "header": "",
             "content": [{
                 "text": "Role: Design Lead, Project Manager\n Tools: Sketch"
             }]
@@ -23,23 +23,27 @@
                 "text": "I led a team of designers and developers to create an application that allowed DevOps and executive stakeholders to get insights into their cloud environments and to make adjustments as needed, ensuring budgets stayed intact. I kicked the project off with a Design Thinking workshop in which I invited all stakeholders.",
                 "images": [
                 {
-                    "caption": "caption here",
+                    "caption": "Partial output of a clustering exercise I facilitated during the Design Thinking workshop",
                     "url": "/images/cloud-brokerage/workshop_01.png"
                 },
                 {
-                    "caption": "caption here",
+                    "caption": "Representation of a high level journey map to help identify potential opportunities for an improved user experience.",
+                    "url": "/images/cloud-brokerage/flow.png"
+                },
+                {
+                    "caption": "High level sketching exercise to focus on the required data visualizations.",
                     "url": "/images/cloud-brokerage/process_01.png"
                 },
                 {
-                    "caption": "caption here",
+                    "caption": "High level sketching exercise to focus on the required data visualizations.",
                     "url": "/images/cloud-brokerage/process_02.png"
                 },
                 {
-                    "caption": "caption here",
+                    "caption": "A low fidelity wireframe representing the design phase that started to solidify the overall",
                     "url": "/images/cloud-brokerage/sketch_01.png"
                 },
                 {
-                    "caption": "caption here",
+                    "caption": "A high fidelity wireframe representing the final visual treatment to be applied to the product.",
                     "url": "/images/cloud-brokerage/product_01.png"
                 }]
             }]
@@ -123,12 +127,16 @@
                 "text": "I designed and developed a generic product website skin that allowed for navigation to multiple pages. In addition to the website skin, I developed an OS utility that took advantage of the photographer shooting tethered. As he photographed products, the images would automatically resize and display in the website's skin. He could click around to see how the photos looked on different screens and sizes.",
                 "images": [
                     {
-                        "caption": "Sketch of the product list page.",
+                        "caption": "Photographer's tethered studio setup. He is able to see images in website at a glance",
+                        "url": "/images/photography-utility/studio_02.png"
+                    },
+                    {
+                        "caption": "Themed page showing the product page populated with photos.",
                         "url": "/images/photography-utility/sketch_01.png"
                     },
                     {
-                        "caption": "Sketch of the product page.",
-                        "url": "/images/photography-utility/sketch_02.png"
+                        "caption": "Themed page showing the details of the product",
+                        "url": "/images/photography-utility/sketch_02a.png"
                     }
                 ],
                 "videos": [{
@@ -140,7 +148,7 @@
         {
             "header": "Challenges",
             "content": [{
-                "text": "Working with filesystems programmatically was a challenge for sure."}]
+                "text": "This project forced me to gain an understanding of filesytems and how to code for them."}]
         },
         {
             "header": "Outcome",
@@ -175,12 +183,12 @@
             "content": [{
                 "text": "Possessing a certification in AI/ML, I developed a utility that allowed a developer without knowledge of model training to add a predictive model to a prototype. Working with a product owner, the developer could determine which features were needed to make predictions. They would simply upload the structured data to the tool and receive a file that was used as an API endpoint that provided predictions in their prototype. The predictive data would be a better representation than the dummy data.",
                 "images": [{
-                    "caption": "UI of model creation script.",
-                    "url": "/images/ai-utility/01.png"
+                    "caption": "UI of screen developer would use to upload the structured data and highlight the features and the field the be predicted.",
+                    "url": "/images/ai-utility/01a.png"
                 },
                 {
-                    "caption": "UI of the model being used. 'Class' column is the prediction column.",
-                    "url": "/images/ai-utility/02.png"
+                    "caption": "UI of the model API returning predictive data being used in a mock prototype. 'Class' column is the prediction column.",
+                    "url": "/images/ai-utility/02a.png"
                 }]
             }]
         },

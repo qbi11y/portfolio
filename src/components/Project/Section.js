@@ -1,18 +1,16 @@
 import Image from "./Image"
 import Video from "./Video"
-const Section = ({data, index}) => {
-    console.log('section data', data)
-    const formatString = (str) => {
+const Section = ({data}) => {
+    const formatString = (str, idx) => {
         if (str.split('\n').length === str.split(':').length) return str
-
         let textArray = []
         str.split('\n').forEach(segment => {
             segment.split(':').forEach((elem, index) => {
                 if (index == 0) {
-                    textArray.push(<b>{elem}:</b>)
+                    textArray.push(<b key={Math.round((Math.random() *100) + index)}>{elem}:</b>)
                 } else {
-                    textArray.push(<span>{elem}</span>)
-                    textArray.push(<br />)
+                    textArray.push(<span key={Math.round((Math.random() * 200) + index)}>{elem}</span>)
+                    textArray.push(<br key={Math.round((Math.random() * 300) + index)} />)
                 }
             })
         });
@@ -21,18 +19,18 @@ const Section = ({data, index}) => {
     }
 
     return(
-        <section className="container--section" key={index}>
-            <h1 className="has-text-weight-medium is-size-5">{data.header}</h1>
+        <section className="container--section">
+            <h1 className="has-text-weight-medium is-size-5 is-family-code">{data.header}</h1>
             {
                 data.content?.length !== 0 && data.content?.map((item, index) => { 
                     return(
-                    <div key={index}>
-                        <p className="mb-1 lh-mobile is-size-6">{formatString(item.text)}</p>
+                    <div key={index+10}>
+                        <p className="mb-1 lh-mobile is-size-6">{formatString(item.text, index)}</p>
                         {
                             'images' in item &&                            
-                                <div>
+                                <div className="section--images">
                                     {                                                                               
-                                        item.images?.map((image, index) => {
+                                        item.images?.map((image, indx) => {
                                             let columnClass = '';
                                             switch (item.images.length) {
                                                 case 2:
@@ -48,7 +46,7 @@ const Section = ({data, index}) => {
                                                     break;
                                             }
                                             return (
-                                                <Image key={index} data={image}/>
+                                                <Image key={indx + 300} data={image}/>
                                             )                                            
                                         })
                                     }
@@ -56,7 +54,7 @@ const Section = ({data, index}) => {
                         }
                         {
                             'videos' in item &&
-                                <div>
+                                <div className="section--images">
                                     {
                                         item.videos?.map((video, index) => (                                            
                                             <Video key={index} data={video} />                                            
