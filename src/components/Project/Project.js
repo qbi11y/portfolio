@@ -3,10 +3,10 @@ import { useParams } from "react-router-dom"
 import { Link } from "react-router-dom";
 import * as projects from '../../data/projects.json'; 
 import { motion } from "framer-motion";
+import Section from "./Section";
 
 const Project = () => {
     let { id } = useParams()
-    console.log(projects[id]["name"])
 
     useEffect(() => {
         window.scrollTo(0, 0)
@@ -33,6 +33,12 @@ const Project = () => {
                     </Link>
                 </div>
                 {
+                    projects[id]["sections"].map((section, index) => (                        
+                        <Section key={index} data={section} index={index}/>                        
+                    ))
+                }
+
+                {/* {
                     projects[id]["sections"].map((section, index) => {                    
                         return(
                             <section className="container--section" key={index}>
@@ -94,7 +100,7 @@ const Project = () => {
                             </section>
                         )
                     })
-                }
+                } */}
                 <div className="section">
                     <Link to="/portfolio">
                         <div className="icon--link">
