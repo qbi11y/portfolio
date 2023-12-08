@@ -3,97 +3,63 @@
         "name": "Cloud Brokerage Platform",
         "icon": "/icons/cloud.png",
         "iconAlt": "cloud icon",
+        "headerImage": "",
         "sections": [
-            {
-                "header": "Tools & Roles",
-                "text": [{
-                    "p": "Role: UX Design, Information Architect, Design/Project Manager"
-                }]
-            },
         {
-            "header": "Stakeholders",
-            "text": [{
-                "p": "Executives, Dev Managers, DevOps Professionals"
+            "header": "Role, Skill, Tools",
+            "content": [{
+                "text": "As businesses transition to cloud-based infrastructure, untracked resources can lead to unexpected budget overruns. There was an opportunity to use data analytics to help businesses identify rouge resources before they impacted the budget."
             }]
         },
         {
-            "header": "Why",
-            "text": [{
-                "p": "With businesses moving to the cloud, cost overruns are becoming more common. Executives and managers need better insight into cloud spending before large surprise bills. DevOps team members need to be able to quickly attend to resources that are creating issues from a cost perspective."
+            "header": "Opportunity",
+            "content": [{
+                "text": "As businesses transition to cloud-based infrastructure, untracked resources can lead to unexpected budget overruns. There was an opportunity to use data analytics to help businesses identify rouge resources before they impacted the budget."
             }]
         },
         {
-            "header": "What",
-            "text": [{
-                "p": "The team sets out to deliver a platform that would allow organizations to determine which cloud provider would best serve their purpose as well as help them understand the potential costs at any time with the help of data analytics."
-            }]
-        },
-        {
-            "header": "How",
-            "text": [{
-                "p": "There has been some preliminary research that suggested there was an opportunity for our platform to be useful to a large audience. To kick off the project, I facilitated a design thinking workshop to align stakeholders. This workshop allowed everyone (Engineering, executives, Product Management, etc.) to express concerns and desires. The workshop also allowed us to agree on key pain points to address.",
+            "header": "Solution",
+            "content": [{
+                "text": "I led a team of designers and developers to create an application that allowed DevOps and executive stakeholders to get insights into their cloud environments and to make adjustments as needed, ensuring budgets stayed intact. I kicked the project off with a Design Thinking workshop in which I invited all stakeholders.",
                 "images": [
-                    {
-                        "caption": "Exercise in design thinking workshop I facilitated.",
-                        "url": "/images/cloud-brokerage/workshop_01.png"
-                    },
-                    {
-                        "caption": "Exercise in design thinking workshop I facilitated.",
-                        "url": "/images/cloud-brokerage/workshop_02.png"
-                    },
-                    {
-                        "caption": "Exercise in design thinking workshop I facilitated.",
-                        "url": "/images/cloud-brokerage/workshop_03.png"
-                    }
-                    ]},
-            {
-                "p": "After the completion of the workshop, I led the effort to create the information architecture and led a team of visual designers to design the UI for the product. The design began to take form after a couple of sketching sessions that allowed us to address issues without being focused on aesthetics.",
-                "images": [{
-                    "caption": "Image from the product sketching session",
+                {
+                    "caption": "caption here",
+                    "url": "/images/cloud-brokerage/workshop_01.png"
+                },
+                {
+                    "caption": "caption here",
                     "url": "/images/cloud-brokerage/process_01.png"
                 },
                 {
-                    "caption": "Image from the product sketching session",
+                    "caption": "caption here",
                     "url": "/images/cloud-brokerage/process_02.png"
                 },
                 {
-                    "caption": "Image from the product sketching session",
-                    "url": "/images/cloud-brokerage/process_03.png"
-                }]
-            },
-            {
-                "p": "Once we felt issues were addressed appropriately, I directed the team to start applying visual treatments. The visual design team iterated over visual treatments with my direction until we all aligned.",
-                "images": [{
-                    "caption": "Low fidelity UI sketch",
+                    "caption": "caption here",
                     "url": "/images/cloud-brokerage/sketch_01.png"
                 },
                 {
-                    "caption": "Low fidelity UI sketch",
-                    "url": "/images/cloud-brokerage/sketch_02.png"
-                },
-                {
-                    "caption": "Low fidelity UI sketch",
-                    "url": "/images/cloud-brokerage/sketch_03.png"
-                },
-                {
-                    "caption": "High fidelity UI screen",
+                    "caption": "caption here",
                     "url": "/images/cloud-brokerage/product_01.png"
-                },
-                {
-                    "caption": "High fidelity UI screen",
-                    "url": "/images/cloud-brokerage/product_02.png"
-                },
-                {
-                    "caption": "High fidelity UI screen",
-                    "url": "/images/cloud-brokerage/product_03.png"
                 }]
             }]
-            
         },
         {
-            "header": "Takeaways",
-            "text": [{
-                "p": "The product allowed management to quickly get insight into the month's cloud spending. Should anomalies be identified, DevOps can easily identify problems and using appropriate resources rectify any issues. The product allowed companies to capture money."
+            "header": "Challenges",
+            "content": [{
+                "text": "Ensuring the executive team stayed the course with the design process. I was able to overcome this with constant communication and including them in the process."
+            }]
+        },
+        {
+            "header": "Outcome",
+            "content": [{
+                "text": "The UI delivered allowed businesses to quickly see what was going on in their cloud environments. This allowed them to easily see what resources would possibly lead to budget overruns."
+            }]
+        },
+        {
+            "header": "Takeaway",
+            "content": [{
+                "text": "Having all stakeholders in one room to contribute to the Design Thinking workshop I facilitated to kick the project off was vital. This allowed everyone to have a voice and feel invested in the process."
             }]
         }]
     },
