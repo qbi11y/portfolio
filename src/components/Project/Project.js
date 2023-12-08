@@ -14,7 +14,7 @@ const Project = () => {
 
     return(
         <div>
-            <section className="hero is-info">
+            {/* <section className="hero is-info">
                 <div className="hero-body container">
                     <p className="title is-size-1-tablet is-size-4-mobile">
                     { projects[id]["name"] }
@@ -23,7 +23,7 @@ const Project = () => {
                     { projects[id]["sub"] }
                     </p>
                 </div>
-            </section>
+            </section> */}
             <div className="container section-padding-large">
                 <div className="container--section">
                     <Link to="/portfolio">
