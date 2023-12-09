@@ -1,10 +1,11 @@
 import Image from "./Image"
 import Video from "./Video"
 const Section = ({data}) => {
+    console.log('section comp', data)
     const formatString = (str, idx) => {
-        if (str.split('\n').length === str.split(':').length) return str
+        if (str.split('\\').length === str.split(':').length) return str
         let textArray = []
-        str.split('\n').forEach(segment => {
+        str.split('\\').forEach(segment => {
             segment.split(':').forEach((elem, index) => {
                 if (index == 0) {
                     textArray.push(<b key={Math.round((Math.random() *100) + index)}>{elem}:</b>)
@@ -15,17 +16,18 @@ const Section = ({data}) => {
             })
         });
         return textArray
-
     }
 
     return(
-        <section className="container--section">
-            <h1 className="has-text-weight-medium is-size-5 is-family-code">{data.header}</h1>
+        <section className="section--container">
+            <h1 className="has-text-weight-medium is-size-5 is-family-code section--header"><span className="header--text">{data.header}</span></h1>
+            <p className="is-size-6 is-size-6-mobile section--content">{formatString(data.content[0].text)}</p>
+            {/* <h1 className="has-text-weight-medium is-size-5 is-family-code section--header">{data.header}</h1>
             {
                 data.content?.length !== 0 && data.content?.map((item, index) => { 
                     return(
-                    <div key={index+10}>
-                        <p className="mb-1 lh-mobile is-size-6">{formatString(item.text, index)}</p>
+                    <>
+                        <p className="is-size-6 is-size-6-mobile section--content">{formatString(item.text, index)}</p>
                         {
                             'images' in item &&                            
                                 <div className="section--images">
@@ -62,10 +64,10 @@ const Section = ({data}) => {
                                     }
                                 </div>                             
                         }                        
-                    </div>
+                    </>
                     )                    
                 })
-            }
+            } */}
         </section>
     )
 }

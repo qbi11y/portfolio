@@ -4,11 +4,12 @@
         "icon": "/icons/cloud.png",
         "iconAlt": "cloud icon",
         "headerImage": "",
+        "active": true,
         "sections": [
         {
-            "header": "",
+            "header": "Cloud Brokerage Platform",
             "content": [{
-                "text": "Role: Design Lead, Project Manager\n Tools: Sketch"
+                "text": "Role: Design Lead, Project Manager\\ Tools: Sketch"
             }]
         },
         {
@@ -21,28 +22,34 @@
             "header": "Solution",
             "content": [{
                 "text": "I led a team of designers and developers to create an application that allowed DevOps and executive stakeholders to get insights into their cloud environments and to make adjustments as needed, ensuring budgets stayed intact. I kicked the project off with a Design Thinking workshop in which I invited all stakeholders.",
-                "images": [
+                "media": [
                 {
+                    "type": "image",
                     "caption": "Partial output of a clustering exercise I facilitated during the Design Thinking workshop",
                     "url": "/images/cloud-brokerage/workshop_01.png"
                 },
                 {
+                    "type": "image",
                     "caption": "Representation of a high level journey map to help identify potential opportunities for an improved user experience.",
                     "url": "/images/cloud-brokerage/flow.png"
                 },
                 {
+                    "type": "image",
                     "caption": "High level sketching exercise to focus on the required data visualizations.",
                     "url": "/images/cloud-brokerage/process_01.png"
                 },
                 {
+                    "type": "image",
                     "caption": "High level sketching exercise to focus on the required data visualizations.",
                     "url": "/images/cloud-brokerage/process_02.png"
                 },
                 {
+                    "type": "image",
                     "caption": "A low fidelity wireframe representing the design phase that started to solidify the overall",
                     "url": "/images/cloud-brokerage/sketch_01.png"
                 },
                 {
+                    "type": "image",
                     "caption": "A high fidelity wireframe representing the final visual treatment to be applied to the product.",
                     "url": "/images/cloud-brokerage/product_01.png"
                 }]
@@ -57,7 +64,7 @@
         {
             "header": "Outcome",
             "content": [{
-                "text": "The UI delivered allowed businesses to quickly see what was going on in their cloud environments. This allowed them to easily see what resources would possibly lead to budget overruns."
+                "text": "With the use of the application businesses we able to reduce budget overruns by 25-40%. We were also acquired for this product."
             }]
         },
         {
@@ -72,11 +79,12 @@
         "icon": "/icons/predictive-analytics.png",
         "iconAlt": "predictive analytics icon",
         "headerImage": "",
+        "active": true,
         "sections": [
         {
-            "header": "",
+            "header": "Automated Predictive Analytics",
             "content": [{
-                "text": "Tools: Python, React, Node.js, MySQL, Bulma, AWS, Google Sheets, Framer Motion, Figma\nRole: Frontend Development, Backend Development, Data Analyst"
+                "text": "Tools: Python, React, Node.js, MySQL, Bulma, AWS, Google Sheets, Framer Motion, Figma\\Role: Frontend Development, Backend Development, Data Analyst"
             }]
         },
         {
@@ -87,8 +95,44 @@
         },{
             "header": "Solution",
             "content": [{
-                "text":"I designed and developed an automated system that collected and analyzed data, and trained models based on the collected data. Before the automated system, I began capturing data by hand. This quickly became untenable as there were too many data points to capture promptly. I began to write a script that would capture the needed data in a fraction of the time. I soon realized that the script could be scaled out to multiple sports. With the data now being captured, I then set out to analyze the data and train models to make pre-game and in-game predictions. To avoid the manual process of starting the scripts to collect, analyze, and train, I wrote scripts to automate the entire process. Each morning the server boots and collects data. Once the games begin, the application will make pre-game and in-game predictions. When all games have ended, new models are trained based on the newly collected data. To avoid viewing predictions in a spreadsheet, I developed a UI that would allow a user to quickly see the predictions and track the results.",
-                "images": []
+                "text":"I designed and developed an automated system that collected and analyzed data, and trained models based on the collected data. Before the automated system, I began capturing data by hand. This quickly became untenable as there were too many data points to capture promptly. I began to write a script that would capture the needed data in a fraction of the time. I soon realized that the script could be scaled out to multiple sports.\n\n With the data now being captured, I then set out to analyze the data and train models to make pre-game and in-game predictions. To avoid the manual process of starting the scripts to collect, analyze, and train, I wrote scripts to automate the entire process. Each morning the server boots and collects data. Once the games begin, the application will make pre-game and in-game predictions. When all games have ended, new models are trained based on the newly collected data.\n\nTo avoid viewing predictions in a spreadsheet, I developed a UI that would allow a user to quickly see the predictions and track the results.",
+                "media": [
+                {
+                    "type": "image",
+                    "caption": "Partial output of a clustering exercise I facilitated during the Design Thinking workshop",
+                    "url": "/images/data-pipeline/05.png"
+                },
+                {
+                    "type": "image",
+                    "caption": "Partial output of a clustering exercise I facilitated during the Design Thinking workshop",
+                    "url": "/images/data-pipeline/manual-01.png"
+                },
+                {
+                    "type": "video",
+                    "caption": "Video capture of Python scripts collecting data in real-time.",
+                    "url": "https://thompsonjamesquillan-portfolio.s3.us-east-2.amazonaws.com/pipeline.mp4"
+                },
+                {
+                    "type": "image",
+                    "caption": "Partial output of a clustering exercise I facilitated during the Design Thinking workshop",
+                    "url": "/images/data-pipeline/analysis-01.png"
+                },
+                {
+                    "type": "image",
+                    "caption": "React UI built to display predictions for each game in a user friendly manner.",
+                    "url": "/images/data-pipeline/data-01.png"
+                },
+                {
+                    "type": "image",
+                    "caption": "React UI showing the live games and whether or not the predictions are covering. (Colors have not been tested for accessibility)",
+                    "url": "/images/data-pipeline/data-02.png"
+                },
+                {
+                    "type": "image",
+                    "caption": "React UI showing a basic dashboard of the results of the predictions",
+                    "url": "/images/data-pipeline/data-03.png"
+                }
+                ]
             }]
         },
         {
@@ -109,11 +153,12 @@
         "icon": "/icons/photography.png",
         "iconAlt": "photography icon",
         "headerImage": "",
+        "active": true,
         "sections": [
         {
-            "header": "",
+            "header": "Photography Website Generator",
             "content": [{
-                "text": "Tools: NodeJS, ReactJS, Bash Scripting\nRole: UX Design, Front and Backend Development"}]
+                "text": "Tools: NodeJS, ReactJS, Bash Scripting\\Role: UX Design, Front and Backend Development"}]
         },
         {
             "header": "Opportunity",
@@ -125,24 +170,28 @@
             "header": "Solution",
             "content": [{
                 "text": "I designed and developed a generic product website skin that allowed for navigation to multiple pages. In addition to the website skin, I developed an OS utility that took advantage of the photographer shooting tethered. As he photographed products, the images would automatically resize and display in the website's skin. He could click around to see how the photos looked on different screens and sizes.",
-                "images": [
+                "media": [
                     {
+                        "type": "image",
                         "caption": "Photographer's tethered studio setup. He is able to see images in website at a glance",
                         "url": "/images/photography-utility/studio_02.png"
                     },
                     {
+                        "type": "image",
                         "caption": "Themed page showing the product page populated with photos.",
                         "url": "/images/photography-utility/sketch_01.png"
                     },
                     {
+                        "type": "image",
                         "caption": "Themed page showing the details of the product",
                         "url": "/images/photography-utility/sketch_02a.png"
+                    },
+                    {
+                        "type": "video",
+                        "caption": "Simulation of photograph entering the computer and responsive website updating automatically.",
+                        "url": "https://thompsonjamesquillan-portfolio.s3.us-east-2.amazonaws.com/workflow.mp4"
                     }
-                ],
-                "videos": [{
-                    "caption": "Simulation of photograph entering the computer and responsive website updating automatically.",
-                    "url": "https://thompsonjamesquillan-portfolio.s3.us-east-2.amazonaws.com/workflow.mp4"
-                }]
+                ]
             }]
         },
         {
@@ -167,11 +216,12 @@
         "icon": "/icons/automation.png",
         "iconAlt": "automation icon",
         "headerImage": "",
+        "active": true,
         "sections": [
         {
-            "header": "",
+            "header": "IBM Auto AI Utility",
             "content": [{
-                "text": "Tools: Python, ReactJS, Carbon \nRole: UX Designer, Front and Backend Developer"
+                "text": "Tools: Python, ReactJS, Carbon \\Role: UX Designer, Front and Backend Developer"
             }]
         },{
             "header": "Opportunity",
@@ -182,11 +232,14 @@
             "header": "Solution",
             "content": [{
                 "text": "Possessing a certification in AI/ML, I developed a utility that allowed a developer without knowledge of model training to add a predictive model to a prototype. Working with a product owner, the developer could determine which features were needed to make predictions. They would simply upload the structured data to the tool and receive a file that was used as an API endpoint that provided predictions in their prototype. The predictive data would be a better representation than the dummy data.",
-                "images": [{
+                "media": [
+                {
+                    "type": "image",
                     "caption": "UI of screen developer would use to upload the structured data and highlight the features and the field the be predicted.",
                     "url": "/images/ai-utility/01a.png"
                 },
                 {
+                    "type": "image",
                     "caption": "UI of the model API returning predictive data being used in a mock prototype. 'Class' column is the prediction column.",
                     "url": "/images/ai-utility/02a.png"
                 }]
@@ -209,11 +262,12 @@
         "icon": "/icons/svg.png",
         "iconAlt": "svg icon",
         "headerImage": "",
+        "active": true,
         "sections": [
         {
-            "header": "Tools & Roles",
+            "header": "IBM SVG Animation",
             "content": [{
-                "text": "Tools: ReactJS, Lottie\nRole: Frontend Developer"
+                "text": "Tools: ReactJS, Lottie\\Role: Frontend Developer"
             }]
         },{
             "header": "Opportunity",
@@ -225,7 +279,9 @@
             "header": "Solution",
             "content": [{
                 "text": "I was able to develop a dynamic animated SVG that showed a breakdown of patterns used while giving additional information on hover. ",
-                "videos": [{
+                "media": [
+                {
+                    "type": "video",
                     "caption": "Animated SVG running on the internal website.",
                     "url": "https://thompsonjamesquillan-portfolio.s3.us-east-2.amazonaws.com/svg.mp4"
                 }]
@@ -252,8 +308,10 @@
         "name": "Watson Assistant",
         "icon": "/icons/chatbot.png",
         "iconAlt": "chatbot icon",
+        "headerImage": "",
+        "active": true,
         "sections": [{
-            "header": "Tools & Roles",
+            "header": "Watson Assistant",
             "content": [{
                 "text":"Tools: VueJS, \nRole: Frontend Development"
             }]
@@ -267,7 +325,9 @@
             "header": "Solution",
             "content": [{
                 "text": "A generic user interface was applied to Watson Assistant, allowing a customer to focus on training the models and not the user interface. I developed a prototype to demonstrate the new chat window interface.",
-                "videos": [{
+                "media": [
+                {
+                    "type": "video",
                     "caption": "Simulation of a user interacting with the coded prototype of Watson Assistant.",
                     "url": "https://thompsonjamesquillan-portfolio.s3.us-east-2.amazonaws.com/widget.mp4"
                 }]
