@@ -25,13 +25,13 @@
                 "media": [
                 {
                     "type": "image",
-                    "caption": "Partial output of a clustering exercise I facilitated during the Design Thinking workshop",
-                    "url": "/images/cloud-brokerage/workshop_01.png"
+                    "caption": "Representation of a high level journey map to help identify potential opportunities for an improved user experience.",
+                    "url": "/images/cloud-brokerage/flow.png"
                 },
                 {
                     "type": "image",
-                    "caption": "Representation of a high level journey map to help identify potential opportunities for an improved user experience.",
-                    "url": "/images/cloud-brokerage/flow.png"
+                    "caption": "Partial output of a clustering exercise I facilitated during the Design Thinking workshop",
+                    "url": "/images/cloud-brokerage/workshop_01.png"
                 },
                 {
                     "type": "image",
@@ -41,7 +41,7 @@
                 {
                     "type": "image",
                     "caption": "High level sketching exercise to focus on the required data visualizations.",
-                    "url": "/images/cloud-brokerage/process_02.png"
+                    "url": "/images/cloud-brokerage/process_04.png"
                 },
                 {
                     "type": "image",
@@ -99,36 +99,43 @@
                 "media": [
                 {
                     "type": "image",
+                    "orient": "horizontal",
                     "caption": "Partial output of a clustering exercise I facilitated during the Design Thinking workshop",
-                    "url": "/images/data-pipeline/05.png"
+                    "url": "/images/data-pipeline/05a.png"
                 },
                 {
                     "type": "image",
+                    "orient": "horizontal",
                     "caption": "Partial output of a clustering exercise I facilitated during the Design Thinking workshop",
-                    "url": "/images/data-pipeline/manual-01.png"
+                    "url": "/images/data-pipeline/manual-01a.png"
+                },
+                {
+                    "type": "image",
+                    "orient": "horizontal",
+                    "caption": "Partial output of a clustering exercise I facilitated during the Design Thinking workshop",
+                    "url": "/images/data-pipeline/analysis-01a.png"
                 },
                 {
                     "type": "video",
+                    "orient": "horizontal",
                     "caption": "Video capture of Python scripts collecting data in real-time.",
                     "url": "https://thompsonjamesquillan-portfolio.s3.us-east-2.amazonaws.com/pipeline.mp4"
                 },
                 {
                     "type": "image",
-                    "caption": "Partial output of a clustering exercise I facilitated during the Design Thinking workshop",
-                    "url": "/images/data-pipeline/analysis-01.png"
-                },
-                {
-                    "type": "image",
+                    "orient": "vertical",
                     "caption": "React UI built to display predictions for each game in a user friendly manner.",
                     "url": "/images/data-pipeline/data-01.png"
                 },
                 {
                     "type": "image",
+                    "orient": "vertical",
                     "caption": "React UI showing the live games and whether or not the predictions are covering. (Colors have not been tested for accessibility)",
                     "url": "/images/data-pipeline/data-02.png"
                 },
                 {
                     "type": "image",
+                    "orient": "vertical",
                     "caption": "React UI showing a basic dashboard of the results of the predictions",
                     "url": "/images/data-pipeline/data-03.png"
                 }
@@ -174,7 +181,17 @@
                     {
                         "type": "image",
                         "caption": "Photographer's tethered studio setup. He is able to see images in website at a glance",
+                        "url": "/images/photography-utility/studio_01.png"
+                    },
+                    {
+                        "type": "image",
+                        "caption": "Photographer's tethered studio setup. He is able to see images in website at a glance",
                         "url": "/images/photography-utility/studio_02.png"
+                    },
+                    {
+                        "type": "image",
+                        "caption": "Themed page showing the details of the product",
+                        "url": "/images/photography-utility/inuse_02.png"
                     },
                     {
                         "type": "image",

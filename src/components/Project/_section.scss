@@ -1,3 +1,26 @@
+.content--container {
+    padding: 0 1em;
+    margin: 0 0 3em 0;
+}
+
+.content--container:nth-child(2) > .section--container > .section--header {
+    margin: 0 0 2em 0;  
+}
+
+.content--container:not(:nth-child(2)) > .section--container > .section--header {
+    margin: 0 0 .75em 0;  
+}
+
+.content--container:nth-child(2) > .section--container > .section--header > .header--text {
+    font-size: 1.5em;
+    font-weight: bold;    
+}
+
+.content--container:not(:nth-child(2)) > .section--container > .section--header > .header--text {
+    font-size: 1.25em;
+    font-weight: bold;    
+}
+
 .section--content {
     white-space: pre-line;
 }
@@ -13,29 +36,59 @@
     margin-bottom: 2.5em;
 }
 
-@media screen and (max-device-width: 480px) and (orientation:landscape) {
+.section--media {
+    margin: 4em 0 0 0;
+}
+
+.media--item {
+    margin: 0 0 4em 0;
+}
+
+@media screen and (max-device-width: 768px) and (orientation: portrait) {
     .is-size-6-mobile.test {
         font-size: 50px;
     }
 }
 
 @media only screen and (min-device-width: 768px) and (orientation: portrait) {
-    .container--section {
+    .section--container {
         display: flex;
         flex-direction: row;
+        align-items: flex-start;
         width: 100%;
     }
 
+    .content--container {
+        padding: 5em 2em 0 2em;
+    }
+
+    .content--container:not(:nth-child(2)) {
+        border-top: 1px solid rgba(150, 150, 150, .25);
+    }
+
+    .content--container:nth-child(2) > .section--container > .section--header {
+        margin-top: -1em;
+    }
+    .content--container:nth-child(2) > .section--container > .section--header > .header--text {
+        font-size: 2em;
+        font-weight: bold;
+        
+    }
+  
     .section--header:not(:first-child) {
         width: 100%;
     }
 
-    .section--header {
-        width: 50%;
+   .section--header {
+        width: 40%;
     }
 
     .section--content {
-        width: 50%;
+        width: 60%;
+    }
+
+    .header--text {
+        font-size: 1.5em;
     }
 }
 
@@ -48,8 +101,9 @@
     }
 
     .content--container {
-        padding: 5em 10em;
+        padding: 5em 5em;
     }
+
     .content--container:not(:nth-child(2)) {
         border-top: 1px solid rgba(150, 150, 150, .25);
     }
@@ -73,6 +127,11 @@
 
     .section--content {
         width: 50%;
+    }
+
+    .section--media.columns {
+        align-items: baseline;
+        margin-top: 8em;
     }
 
     .header--text {

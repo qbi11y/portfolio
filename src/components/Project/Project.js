@@ -34,16 +34,31 @@ const Project = () => {
                                 <Section data={section} />
                                 {
                                     'media' in section.content[0] &&
-                                    <div className="section--images">
+                                    <div className="section--media columns is-desktop is-multiline">
                                         {
                                             section.content[0]["media"].map((item, index) => {
+                                                let columnClass = ""
+                                                if (section.content[0]["media"]?.length == 1) {
+                                                    //full
+                                                    columnClass = "is-full"
+                                                }
+
+                                                if (section.content[0]["media"]?.length % 2 == 0) {
+                                                    //half
+                                                    columnClass = "is-half"
+                                                }
+
+                                                if (section.content[0]["media"]?.length % 3 == 0 || section.content[0]["media"]?.length >= 5) {
+                                                    //third
+                                                    columnClass = "is-one-third"
+                                                }
                                                 return(
-                                                    <div>
+                                                    <>
                                                         {
                                                             item.type == "image" ?
-                                                                <Image data={item} /> : <Video data={item} />
+                                                                <Image columnClass={columnClass} data={{"index": index, "item": item, "media": section.content[0]["media"]}} /> : <Video columnClass={columnClass} data={{"index": index, "item": item, "media": section.content[0]["media"]}} />
                                                         }
-                                                    </div>
+                                                    </>
                                                 )
                                             })
                                         }
@@ -54,7 +69,7 @@ const Project = () => {
                     })
                 }
 
-                <div className="section">
+                <div className="container--section">
                     <Link to="/portfolio">
                         <div className="icon--link">
                             <span className="material-symbols-outlined" aria-label="left arrow back">arrow_circle_left</span> Project list
