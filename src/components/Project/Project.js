@@ -15,13 +15,19 @@ const Project = () => {
       }, [])
 
     return(
-        <>
-            <div className="container section-padding-large">
-                <div className="container--section">
+            <div className="container">
+                {/* <div className="container--section">
                     <Link to="/portfolio">
                         <div className="icon--link">
                             <span className="material-symbols-outlined" aria-label="left arrow back">arrow_circle_left</span> Project list
                         </div>                        
+                    </Link>
+                </div> */}
+                <div className="container--section">
+                    <Link to="/portfolio">
+                        <button class="button is-link icon--link">
+                            <span className="material-symbols-outlined" aria-label="left arrow back">arrow_circle_left</span> Project list
+                        </button>                                              
                     </Link>
                 </div>
 
@@ -30,14 +36,16 @@ const Project = () => {
                         console.log('section', section)
 
                         return(
-                            <div className="content--container">
-                                <Section data={section} />
+                            <>
+                                <Section data={{section:section, index:index}} />
                                 {
                                     'media' in section.content[0] &&
-                                    <div className="section--media columns is-desktop is-multiline">
+                                    <div className="section--media columns is-multiline">
                                         {
                                             section.content[0]["media"].map((item, index) => {
                                                 let columnClass = ""
+                                                let w = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth
+                                                console.log('width', w)
                                                 if (section.content[0]["media"]?.length == 1) {
                                                     //full
                                                     columnClass = "is-full"
@@ -64,20 +72,19 @@ const Project = () => {
                                         }
                                     </div>
                                 }
-                            </div>
+                            </>
                         )
                     })
                 }
 
                 <div className="container--section">
                     <Link to="/portfolio">
-                        <div className="icon--link">
+                        <button class="button is-link icon--link">
                             <span className="material-symbols-outlined" aria-label="left arrow back">arrow_circle_left</span> Project list
-                        </div>                        
+                        </button>                                              
                     </Link>
                 </div>
             </div>
-        </>
     )
 }
 

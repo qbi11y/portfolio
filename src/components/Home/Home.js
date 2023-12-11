@@ -24,15 +24,15 @@ const Home = () => {
     return(
         
         <div className="container">
-            <section className="section">
+            
                 <h5 className="header-tag">{content.personal.tag}</h5>
                 <h1 className="is-size-1-widescreen is-size-1-mobile header">{content.personal.title}</h1>
                 <div className="is-hidden-desktop text">{isShort ? content.personal.shortStatement : content.personal.longStatement}
                     <div onClick={() => setIsShort(!isShort)}>{isShort ? "Show more" : "Show less"}</div>
                 </div>
                 <div className="is-hidden-touch text">{content.personal.longStatement}</div>
-            </section>
-            <section className="section">
+            
+            
                 <div className="projects">
                 {
                         Object.keys(projects).map((project, index) => 
@@ -155,7 +155,7 @@ const Home = () => {
                         )
                     }
                 </ul> */}
-            </section>
+            
             <section className="section is-size-7">
                 <footer className="footer columns">                
                     <ul className="column">

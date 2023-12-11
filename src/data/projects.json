@@ -15,13 +15,13 @@
         {
             "header": "Opportunity",
             "content": [{
-                "text": "As businesses transition to cloud-based infrastructure, untracked resources can lead to unexpected budget overruns. There was an opportunity to use data analytics to help businesses identify rouge resources before they impacted the budget."
+                "text": "In the ever-evolving landscape of cloud-based infrastructure, untracked resources can lead to unexpected budget overruns. Recognizing the critical need for proactive solutions, We seized the opportunity to leverage data analytics in aiding businesses to identify potential rogue resources before they could adversely impact their budgets."
             }]
         },
         {
             "header": "Solution",
             "content": [{
-                "text": "I led a team of designers and developers to create an application that allowed DevOps and executive stakeholders to get insights into their cloud environments and to make adjustments as needed, ensuring budgets stayed intact. I kicked the project off with a Design Thinking workshop in which I invited all stakeholders.",
+                "text": "I spearheaded a collaborative initiative, leading a team of skilled designers and developers to craft a cutting-edge application. This transformative tool empowered both DevOps teams and executive stakeholders, offering unparalleled insights into their cloud environments. By facilitating informed adjustments, we successfully safeguarded budgets, ensuring financial objectives remained on track.\n\nTo set the stage for this impactful project, I initiated a comprehensive Design Thinking workshop. This inclusive session brought together a diverse group of stakeholders, fostering a shared understanding and laying the foundation for a user-centric approach. I am now eager to bring this wealth of experience to a growing design team or contribute to a dynamic sales enablement team, where my leadership in fostering collaboration and delivering user-focused solutions can drive success.",
                 "media": [
                 {
                     "type": "image",
@@ -45,32 +45,67 @@
                 },
                 {
                     "type": "image",
+                    "caption": "High level sketching exercise to focus on the required data visualizations.",
+                    "url": "/images/cloud-brokerage/process_05.png"
+                },
+                {
+                    "type": "image",
                     "caption": "A low fidelity wireframe representing the design phase that started to solidify the overall",
                     "url": "/images/cloud-brokerage/sketch_01.png"
                 },
                 {
                     "type": "image",
+                    "caption": "A low fidelity wireframe representing the design phase that started to solidify the overall",
+                    "url": "/images/cloud-brokerage/sketch_02.png"
+                },
+                {
+                    "type": "image",
+                    "caption": "A low fidelity wireframe representing the design phase that started to solidify the overall",
+                    "url": "/images/cloud-brokerage/sketch_03.png"
+                },
+                {
+                    "type": "image",
+                    "caption": "A low fidelity wireframe representing the design phase that started to solidify the overall",
+                    "url": "/images/cloud-brokerage/sketch_04.png"
+                },
+                {
+                    "type": "image",
                     "caption": "A high fidelity wireframe representing the final visual treatment to be applied to the product.",
                     "url": "/images/cloud-brokerage/product_01.png"
+                },
+                {
+                    "type": "image",
+                    "caption": "A high fidelity wireframe representing the final visual treatment to be applied to the product.",
+                    "url": "/images/cloud-brokerage/product_02.png"
+                },
+                {
+                    "type": "image",
+                    "caption": "A high fidelity wireframe representing the final visual treatment to be applied to the product.",
+                    "url": "/images/cloud-brokerage/product_03.png"
+                },
+                {
+                    "type": "image",
+                    "caption": "A high fidelity wireframe representing the final visual treatment to be applied to the product.",
+                    "url": "/images/cloud-brokerage/product_04.png"
                 }]
             }]
         },
         {
             "header": "Challenges",
             "content": [{
-                "text": "Ensuring the executive team stayed the course with the design process. I was able to overcome this with constant communication and including them in the process."
+                "text": "Navigating the alignment of the executive team with the intricacies of the design process presented a notable challenge. Through strategic measures, I successfully addressed this obstacle by maintaining open channels of constant communication and actively involving them in every phase of the design process. This approach not only ensured their continuous support but also fostered a collaborative environment where executive insights seamlessly integrated with the design journey."
             }]
         },
         {
             "header": "Outcome",
             "content": [{
-                "text": "With the use of the application businesses we able to reduce budget overruns by 25-40%. We were also acquired for this product."
+                "text": "Through the implementation of the application, businesses experienced a remarkable 25-40% reduction in budget overruns. This impactful outcome not only demonstrated the tangible success of our user-centric design approach but also contributed to the recognition and acquisition of our product."
             }]
         },
         {
             "header": "Takeaway",
             "content": [{
-                "text": "Having all stakeholders in one room to contribute to the Design Thinking workshop I facilitated to kick the project off was vital. This allowed everyone to have a voice and feel invested in the process."
+                "text": "The pivotal takeaway from initiating the Design Thinking workshop to kick off the project was the essential presence of all stakeholders in one collaborative space. This inclusive approach ensured that every voice was heard and every participant felt genuinely invested in the design process."
             }]
         }]
     },
@@ -90,12 +125,12 @@
         {
             "header": "Opportunity",
             "content": [{
-                "text":"With an interest in sports, I wanted to explore the correlation between in-game statistics and outcomes related to betting lines. If I were able to train a model that delivered an accuracy rate greater than 50%, there would be a possibility of “beating the bookie”."
+                "text":"Fueled by a passion for sports, I embarked on an exploration of the intriguing relationship between in-game statistics and their impact on betting lines. The goal was to develop a model capable of surpassing a 50% accuracy rate, presenting an opportunity to outperform traditional bookmaking strategies and potentially 'beat the bookie.'\n\nThis venture not only underscored my commitment to innovative problem-solving but also showcased my ability to blend domain interest with data-driven insights."
             }]
         },{
             "header": "Solution",
             "content": [{
-                "text":"I designed and developed an automated system that collected and analyzed data, and trained models based on the collected data. Before the automated system, I began capturing data by hand. This quickly became untenable as there were too many data points to capture promptly. I began to write a script that would capture the needed data in a fraction of the time. I soon realized that the script could be scaled out to multiple sports.\n\n With the data now being captured, I then set out to analyze the data and train models to make pre-game and in-game predictions. To avoid the manual process of starting the scripts to collect, analyze, and train, I wrote scripts to automate the entire process. Each morning the server boots and collects data. Once the games begin, the application will make pre-game and in-game predictions. When all games have ended, new models are trained based on the newly collected data.\n\nTo avoid viewing predictions in a spreadsheet, I developed a UI that would allow a user to quickly see the predictions and track the results.",
+                "text":"I designed and developed of a sophisticated automated system geared towards efficient data collection, analysis, and model training. Recognizing the limitations of manual data capture, I initially began with a script to streamline the process, realizing its scalability across multiple sports. This pivotal step marked the transition from labor-intensive manual efforts to a systematic and time-efficient solution.\n\nWith data seamlessly captured, my focus shifted to comprehensive data analysis and model training for pre-game and in-game predictions. To eliminate the need for manual intervention, I meticulously crafted scripts to automate the entire workflow. The system initiates data collection each morning, providing real-time predictions during games, and concludes with the automatic training of new models based on the latest data.\n\nIn addition to optimizing the backend operations, I designed an intuitive user interface (UI) to enhance the user experience. This UI allows users to swiftly access and visualize predictions, eliminating the need for cumbersome spreadsheet analysis. I am eager to bring this blend of technical innovation and user-centric design to a growing design team or contribute to a sales enablement team, where my skills can contribute to impactful, streamlined solutions.",
                 "media": [
                 {
                     "type": "image",
@@ -145,13 +180,13 @@
         {
             "header": "Challenges",
             "content": [{
-                "text": "I had no idea of the scope when I took this on. I went from manually inputting data into a spreadsheet to researching how to deploy a Flask server to AWS."
+                "text": "Embarking on this endeavor, I initially underestimated its scope. What began as a manual input of data into a spreadsheet quickly evolved into a deep dive into deploying a Flask server on AWS. This journey showcased my adaptability and problem-solving skills as I navigated the transition from manual data entry to implementing a robust and scalable server solution."
             }]
         },
         {
             "header": "Outcome",
             "content": [{
-                "text": "The trained models are producing results greater than 50% as desired. "                
+                "text": "I am pleased to share that the meticulously trained models I developed have consistently surpassed the targeted accuracy threshold of 50%. This achievement not only validates the effectiveness of the design and implementation process but also underscores my commitment to delivering impactful outcomes."                
             }]
         }]
     },
@@ -170,13 +205,13 @@
         {
             "header": "Opportunity",
             "content": [{
-                "text": "Speaking with a photographer, he told me he was working on a project that required him to shoot products for a website. I saw an opportunity to help him speed up his workflow. I wanted him to be able to photograph the products and immediately see them in a web layout."
+                "text": "Engaging in a conversation with a photographer working on a project involving product shoots for a website, I recognized a unique opportunity to enhance his workflow. Inspired by the goal to streamline the process, I envisioned a solution where he could capture product images and instantly visualize them within a web layout. This innovative approach not only aimed to expedite the photographer's workflow but also reflected my dedication to crafting user-centric solutions."
             }]
         },
         {
             "header": "Solution",
             "content": [{
-                "text": "I designed and developed a generic product website skin that allowed for navigation to multiple pages. In addition to the website skin, I developed an OS utility that took advantage of the photographer shooting tethered. As he photographed products, the images would automatically resize and display in the website's skin. He could click around to see how the photos looked on different screens and sizes.",
+                "text": "I conceptualized and brought to life a versatile product website skin, meticulously crafted to facilitate seamless navigation across multiple pages. Elevating this solution, I also designed and developed an OS utility tailored for photographers engaged in tethered shooting. This innovative utility automatically resized and showcased images in real-time within the website's skin as products were being photographed.\n\nEmpowering the photographer with the ability to interactively explore how the images appeared on various screens and sizes, this integrated system significantly enhanced the workflow. ",
                 "media": [
                     {
                         "type": "image",
@@ -214,7 +249,7 @@
         {
             "header": "Challenges",
             "content": [{
-                "text": "This project forced me to gain an understanding of filesytems and how to code for them."}]
+                "text": "Undertaking this project compelled me to delve into the intricacies of bash scripting and file systems, challenging me to acquire a comprehensive understanding of coding within this context. The experience not only broadened my technical skill set but also showcased my adaptability and commitment to mastering new domains."}]
         },
         {
             "header": "Outcome",
@@ -225,7 +260,7 @@
         {
             "header": "Takeaways",
             "content": [{
-                "text": "Once deployed I noticed that seemingly duplicate images would be presented in the template. It would be nice to allow a photographer to tag images and only those images tagged would show up giving a better idea of how the website as a whole would look."}]
+                "text": "Upon deployment, I observed an opportunity to enhance the user experience—seemingly duplicate images were appearing in the template. Recognizing the need for refinement, I envisioned a solution that would empower photographers to tag images.\n\nThis feature, when implemented, would selectively showcase only the tagged images, providing a more accurate representation of how the entire website would look. This insight emphasizes my commitment to continuous improvement and user-centric design."}]
         }]
     },
     "4": {
@@ -243,12 +278,12 @@
         },{
             "header": "Opportunity",
             "content": [{
-                "text": "There were calls in the company to include AI in our products. I thought if we could include AI in our prototypes, we could influence executives to assign resources to expand the AI into products. None of the developers on the team were versed in AI/ML and the learning curve was steep."
+                "text": "Recognizing the growing demand for AI integration within our products, I saw an opportunity to strategically incorporate AI into our prototypes. My vision was to leverage these prototypes as persuasive tools to encourage executives to allocate resources for expanding AI integration across our entire product range. Despite the steep learning curve, I proactively navigated the challenge, acknowledging that none of the developers on the team were well-versed in AI/ML.\n\nThis initiative exemplifies my commitment to staying ahead of industry trends and my ability to strategically influence and guide teams through technological advancements. "
             }]
         },{
             "header": "Solution",
             "content": [{
-                "text": "Possessing a certification in AI/ML, I developed a utility that allowed a developer without knowledge of model training to add a predictive model to a prototype. Working with a product owner, the developer could determine which features were needed to make predictions. They would simply upload the structured data to the tool and receive a file that was used as an API endpoint that provided predictions in their prototype. The predictive data would be a better representation than the dummy data.",
+                "text": "Leveraging my expertise with a certification in AI/ML, I crafted a user-friendly utility aimed at empowering developers unfamiliar with model training. This innovative tool facilitated the seamless integration of predictive models into prototypes. Collaborating closely with product owners, developers could identify the essential features for predictions. With a straightforward process, they uploaded structured data to the tool and received a file, transforming into an API endpoint that seamlessly provided predictions within their prototypes.\n\nThis solution not only streamlined the integration of predictive models but also ensured that the generated predictive data offered a more realistic and meaningful representation compared to conventional dummy data. ",
                 "media": [
                 {
                     "type": "image",
@@ -265,13 +300,13 @@
         {
             "header": "Outcome",
             "content": [{
-                "text":"Possessing a certification in AI/ML, I developed a utility that allowed a developer without knowledge of model training to add a predictive model to a prototype. Working with a product owner, the developer could determine which features were needed to make predictions. They would simply upload the structured data to the tool and receive a file that was used as an API endpoint that provided predictions in their prototype. The predictive data would be a better representation than the dummy data."                
+                "text":"Originally conceived to assist developers in seamlessly integrating predictive models into prototypes, the impact of the demo extended far beyond its initial scope. The showcased demo not only fulfilled its primary objective but also sparked a wave of innovative ideas with the potential to significantly contribute to the growth of the organization.\n\nThis experience highlights my ability to envision solutions that transcend immediate challenges, fostering an environment of continuous innovation."                
             }]
         },
         {
             "header": "Takeaways",
             "content": [{
-                "text": "Other skills I possess that I don’t leverage in my day-to-day work can still be used to help people at work make their lives easier. "}]
+                "text": "Beyond my day-to-day responsibilities, I bring additional skills to the table that hold untapped potential for simplifying the lives of my colleagues. Recognizing the broader utility of my skill set, I am eager to explore opportunities where these complementary abilities can contribute to the efficiency and success of the team."}]
         }]
     },
     "5": {
@@ -289,13 +324,13 @@
         },{
             "header": "Opportunity",
             "content": [{
-                "text": "IBM has numerous pattern libraries across the design organization. There was an initiative to place all the libraries under one umbrella giving a user access to all of them from one website. In addition to one website, there was a desire to show a visualization of all of the patterns and their usage across the organization. Not knowing much about animated SVGs I took it upon myself to lead the initiative to get this site completed in the short timeline."
+                "text": "Within IBM's expansive design organization, multiple pattern libraries existed, each serving distinct purposes. Recognizing the potential for enhanced accessibility, I spearheaded an initiative to consolidate all these libraries under a unified umbrella, providing users with streamlined access through a single website. Moreover, I championed the introduction of a visualization feature, offering a comprehensive view of all patterns and their usage across the entire organization.\n\nDespite limited familiarity with animated SVGs, I embraced the challenge and assumed a leadership role in driving the initiative to completion within a tight timeline. This experience showcases my proactive approach to addressing complex challenges and my ability to lead initiatives that contribute to the coherence and efficiency of design ecosystems. I am eager to bring this strategic vision and hands-on leadership to a growing design team or contribute to a sales enablement team, where my skills can foster collaborative design solutions and drive organizational success."
             }]            
         },
         {
             "header": "Solution",
             "content": [{
-                "text": "I was able to develop a dynamic animated SVG that showed a breakdown of patterns used while giving additional information on hover. ",
+                "text": "I successfully crafted a dynamic animated SVG that not only visually showcased a breakdown of patterns but also provided additional information upon hovering. This enhancement not only improved the user experience by offering a more engaging and informative interface but also contributed to the overall success of the initiative to consolidate pattern libraries at IBM.",
                 "media": [
                 {
                     "type": "video",
@@ -307,18 +342,18 @@
         {
             "header": "Challenges",
             "content": [{
-                "text": "While facing a short timeline with changing requirements I was able to overcome these challenges by having frank conversations and being honest with what could be delivered in the given timelines. I was able to deliver an MVP version and add enhancements weekly until the final update was made."
+                "text": "Navigating a tight timeline amidst evolving requirements, I successfully addressed challenges through transparent communication and honest discussions about feasible deliverables within the given constraints. By fostering an environment of open dialogue, I managed to deliver an MVP version promptly and systematically incorporated enhancements on a weekly basis until the final update was achieved.\n\nThis adaptive and collaborative approach showcases my commitment to delivering high-quality solutions in dynamic circumstances."
             }]            
         },
         {
             "header": "Outcome",
             "content": [{
-                "text": "Developers and designers can quickly see how their patterns are being used across the organization. I structured the SVG to read from a data file to ensure that the animation stays in sync with the executive summary file. "
+                "text": "I designed a solution that empowers developers and designers to efficiently track the usage of patterns across the organization. By structuring the SVG to dynamically read from a data file, I ensured seamless synchronization with the executive summary file. This strategic approach not only enhanced the visibility of pattern utilization but also minimized the need for ongoing maintenance.\n\nI am excited to bring this level of efficiency and foresight to a growing design team or contribute to a sales enablement team, where streamlining processes and maintaining clear insights into design ecosystems are crucial for success."
             }]            
         },{
             "header": "Takeaways",
             "content": [{
-                "text": "Clear and honest communication can assist in getting the time needed to complete tasks. "}]
+                "text": "Effective and transparent communication is instrumental in securing the necessary time to successfully complete tasks. This understanding, coupled with my commitment to fostering open and honest dialogue, has proven invaluable in ensuring that projects are given the attention and duration required for optimal outcomes."}]
         }]
     },
     "6": {
@@ -330,18 +365,18 @@
         "sections": [{
             "header": "Watson Assistant",
             "content": [{
-                "text":"Tools: VueJS, \nRole: Frontend Development"
+                "text":"Tools: VueJS\\Role: Frontend Developer"
             }]
         },{
-            "header": "Problem",
+            "header": "Opportunity",
             "content": [{
-                "text": "At the time, Watson Assistant 'out of the box' had no user interface. A customer would have to deploy resources to apply a user interface."
+                "text": "At the time, Watson Assistant lacked a pre-built user interface, requiring customers to allocate resources for deploying a UI instead of concentrating on training models. Recognizing the need to streamline this process, the team took the initiative to develop a user-friendly interface that seamlessly integrated with Watson Assistant. "
             }]
         },
         {
             "header": "Solution",
             "content": [{
-                "text": "A generic user interface was applied to Watson Assistant, allowing a customer to focus on training the models and not the user interface. I developed a prototype to demonstrate the new chat window interface.",
+                "text": "I engineered a prototype that seamlessly integrated a generic user interface with Watson Assistant, showcasing a novel chat window interface. This strategic solution aimed to empower customers to concentrate on model training, relieving them of the intricacies of developing a user interface.\n\nBy providing a tangible example, this prototype demonstrated the potential for a more streamlined and user-centric approach to utilizing Watson Assistant.",
                 "media": [
                 {
                     "type": "video",
@@ -349,6 +384,85 @@
                     "url": "https://thompsonjamesquillan-portfolio.s3.us-east-2.amazonaws.com/widget.mp4"
                 }]
             }]
+        }]
+    },
+    "7": {
+        "name": "Additional Skills",
+        "icon": "/icons/party.png",
+        "iconAlt": "party icon",
+        "headerImage": "",
+        "active": true,
+        "sections": [{
+            "header": "Additional Skills",
+            "content": [{
+                "text":"Skills: Customer service, contract negotiations, sales, accounting, finance, logistics, social media, human resources\\Role: Co-founder, Photographer, IT Architect"
+            }]
+        },{
+            "header": "Problem",
+            "content": [{
+                "text": "As young professionals seeking vibrant nightlife options, my friend and I noticed a distinct gap in the market for engaging entertainment. Having recently moved from the DC area, where options were plentiful, we identified an opportunity to address this gap and enhance the nightlife scene. "
+            }]
+        },
+        {
+            "header": "Solution",
+            "content": [
+            {
+                "text": "I co-founded a thriving event planning company that catered to the vibrant social scene of young professionals in the area. Our success prompted expansion into other metro areas in North Carolina, garnering a following that surged from a handful of friends to over 25,000 individuals throughout the Mid-Atlantic region. Our events became the go-to gatherings, known for their must-attend appeal.\n\nIn my role, I spearheaded the development of a robust marketing system designed to capture client information and disseminate targeted emails about upcoming events. Working in close collaboration with venues and vendors, I played a pivotal role in budgeting and contract negotiations.\n\nAdditionally, I managed a dynamic team encompassing security, DJs, hostesses, and marketing personnel.",
+                "media": [
+                {
+                    "type": "image",
+                    "orient": "horizontal",
+                    "caption": "We hosted events to donate to charities (Pink party for breast cancer awareness)",
+                    "url": "/images/soft-skills/pink.png"
+                },
+                {
+                    "type": "image",
+                    "orient": "horizontal",
+                    "caption": "We built relationships with corporate sponsors to enhance the experience for our customers.",
+                    "url": "/images/soft-skills/sponsors.png"
+                },
+                {
+                    "type": "image",
+                    "orient": "horizontal",
+                    "caption": "Our network allowed us to work with celebrities to separate our events from others. We even had celebrities attend our events. (Lance Gross pictured)",
+                    "url": "/images/soft-skills/celebrity.png"
+                },
+                {
+                    "type": "image",
+                    "orient": "horizontal",
+                    "caption": "A big part of a successful event was atmosphere. We took great care in decorating spaces according to the event.",
+                    "url": "/images/soft-skills/decoration.png"
+                },
+                {
+                    "type": "image",
+                    "orient": "horizontal",
+                    "caption": "Hard work paying off as customers come out and enjoy themselves while creating memories for life",
+                    "url": "/images/soft-skills/party_02.png"
+                },
+                {
+                    "type": "image",
+                    "orient": "horizontal",
+                    "caption": "Our events brought people of various walks of life together under one roof to have wonderful evenings.",
+                    "url": "/images/soft-skills/group.png"
+                }]
+            }]
+        },
+        {
+            "header": "Challenges",
+            "content": [{
+                "text": "Though inexperienced in event planning, my friend and I undertook the challenge of not only attending but organizing events to fill the nightlife gap we identified. The primary obstacle was securing suitable venues, and I honed my negotiation skills to articulate the mutual benefits for both parties.\n\nRecognizing the importance of financial management, I navigated the accounting and finance aspects diligently to ensure the sustainability of our venture. Striking a balance, I maintained budgets for events while achieving profitability for over 95% of them. To streamline logistics, we introduced a will-call protocol, simplifying the attendee experience and ensuring our events ran seamlessly.\n\nThis experience reflects my adaptability, financial acumen, and problem-solving skills. I am enthusiastic about bringing these attributes to a growing design team or contributing to a sales enablement team, where strategic planning and operational efficiency are crucial for success."
+            }]            
+        },
+        {
+            "header": "Outcome",
+            "content": [{
+                "text": "What began as an endeavor with the anticipation of support from close friends and their networks surpassed our expectations in terms of success. Our annual profits consistently soared by approximately 50%, and our customer base expanded to an impressive 25,000 individuals. The paradigm shifted as venues actively sought our collaboration to host events on their premises. Remarkably, our impact extended beyond events, as we played a role in fostering connections that led to several marriages.\n\nThis journey showcases my ability to not only identify opportunities but to also leverage them for sustained growth and positive community impact."
+            }]            
+        },
+        {
+            "header": "Takeaways",
+            "content": [{
+                "text": "Embracing the philosophy of 'if you build it, they will come,' our venture exemplified the transformative power of creation. In constructing something from nothing, we witnessed a remarkable influx of people who resonated with our vision. The essence of this experience is a testament to the adage- just do it. It underscores the idea that taking bold steps, even if the outcome is uncertain, can lead to unforeseen successes.\n\nThis perspective reflects my proactive and fearless approach to design challenges. I am enthusiastic about contributing this mindset to a growing design team or a sales enablement team, where the courage to innovate and the drive to overcome challenges are instrumental in achieving collective success."}]
         }]
     }
 }

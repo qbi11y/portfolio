@@ -16,8 +16,8 @@ const Image = ({columnClass, data}) => {
     <motion.div
         initial={{ opacity: 0.1 }}
         whileInView={{ opacity: 1, y: -25, transition: { duration: 1 } }}
-        className={`media--item column ${columnClass}`}>
-            <img src={process.env.PUBLIC_URL + data.item.url} />
+        className={`media--item column image ${columnClass}`}>
+            <img class="image" src={process.env.PUBLIC_URL + data.item.url} />
             <section className="is-size-7">{ data.item.caption }</section>
     </motion.div>
     )}
