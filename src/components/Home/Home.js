@@ -48,7 +48,7 @@ const Home = () => {
                                 //             { projects[index + 1]["name"] }
                                 //     </motion.div>
                                 // </li>
-                                projects[index+1]["active"] == true &&
+                                projects[index+1]["active"] === true &&
                                 <div className="project" id={index + 1} onClick={(e)=> {viewProject(e)}} key={index}>
                                     <div className="project--icon">
                                         <img alt={projects[index + 1]["iconAlt"]} src={process.env.PUBLIC_URL + projects[index + 1]["icon"]} />

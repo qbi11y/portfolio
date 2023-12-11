@@ -1,8 +1,7 @@
 import React, { useEffect, Fragment } from "react"
 import { useParams } from "react-router-dom"
 import { Link } from "react-router-dom";
-import * as projects from '../../data/projects.json'; 
-import { motion } from "framer-motion";
+import * as projects from '../../data/projects.json';
 import Section from "./Section";
 import Image from "./Image";
 import Video from "./Video";
@@ -46,24 +45,24 @@ const Project = () => {
                                                 let columnClass = ""
                                                 let w = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth
                                                 console.log('width', w)
-                                                if (section.content[0]["media"]?.length == 1) {
+                                                if (section.content[0]["media"]?.length === 1) {
                                                     //full
                                                     columnClass = "is-full"
                                                 }
 
-                                                if (section.content[0]["media"]?.length % 2 == 0) {
+                                                if (section.content[0]["media"]?.length % 2 === 0) {
                                                     //half
                                                     columnClass = "is-half"
                                                 }
 
-                                                if (section.content[0]["media"]?.length % 3 == 0 || section.content[0]["media"]?.length >= 5) {
+                                                if (section.content[0]["media"]?.length % 3 === 0 || section.content[0]["media"]?.length >= 5) {
                                                     //third
                                                     columnClass = "is-one-third"
                                                 }
                                                 return(
                                                     <>
                                                         {
-                                                            item.type == "image" ?
+                                                            item.type === "image" ?
                                                                 <Image columnClass={columnClass} data={{"index": index, "item": item, "media": section.content[0]["media"]}} /> : <Video columnClass={columnClass} data={{"index": index, "item": item, "media": section.content[0]["media"]}} />
                                                         }
                                                     </>

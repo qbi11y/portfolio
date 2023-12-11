@@ -25,66 +25,79 @@
                 "media": [
                 {
                     "type": "image",
+                    "alt": "",
                     "caption": "A high-level journey map to identify potential opportunities for an enhanced user experience.",
                     "url": "/images/cloud-brokerage/flow.png"
                 },
                 {
                     "type": "image",
+                    "alt": "",
                     "caption": "Partial output from a clustering exercise I facilitated during the Design Thinking workshop.",
                     "url": "/images/cloud-brokerage/workshop_01.png"
                 },
                 {
                     "type": "image",
+                    "alt": "",
                     "caption": "A high-level sketching exercise to emphasize the required data visualizations.",
                     "url": "/images/cloud-brokerage/process_01.png"
                 },
                 {
                     "type": "image",
+                    "alt": "",
                     "caption": "High level sketching exercise to focus on the required data visualizations.",
                     "url": "/images/cloud-brokerage/process_04.png"
                 },
                 {
                     "type": "image",
+                    "alt": "",
                     "caption": "High level sketching exercise to focus on the required data visualizations.",
                     "url": "/images/cloud-brokerage/process_05.png"
                 },
                 {
                     "type": "image",
+                    "alt": "",
                     "caption": "A low-fidelity wireframe representing the design phase that started to solidify the overall concept.",
                     "url": "/images/cloud-brokerage/sketch_01.png"
                 },
                 {
                     "type": "image",
+                    "alt": "",
                     "caption": "A low-fidelity wireframe representing the design phase that started to solidify the overall concept.",
                     "url": "/images/cloud-brokerage/sketch_02.png"
                 },
                 {
                     "type": "image",
+                    "alt": "",
                     "caption": "A low-fidelity wireframe representing the design phase that started to solidify the overall concept.",
                     "url": "/images/cloud-brokerage/sketch_03.png"
                 },
                 {
                     "type": "image",
+                    "alt": "",
                     "caption": "A low-fidelity wireframe representing an exploration in gamification.",
                     "url": "/images/cloud-brokerage/sketch_04.png"
                 },
                 {
                     "type": "image",
+                    "alt": "",
                     "caption": "A high fidelity wireframe representing the final visual treatment to be applied to the product.",
                     "url": "/images/cloud-brokerage/product_01.png"
                 },
                 {
                     "type": "image",
+                    "alt": "",
                     "caption": "A high fidelity wireframe representing the final visual treatment to be applied to the product.",
                     "url": "/images/cloud-brokerage/product_02.png"
                 },
                 {
                     "type": "image",
+                    "alt": "",
                     "caption": "A high fidelity wireframe representing the final visual treatment to be applied to the product.",
                     "url": "/images/cloud-brokerage/product_03.png"
                 },
                 {
                     "type": "image",
+                    "alt": "",
                     "caption": "A high fidelity wireframe representing the final visual treatment to be applied to the product.",
                     "url": "/images/cloud-brokerage/product_04.png"
                 }]
@@ -134,18 +147,21 @@
                 "media": [
                 {
                     "type": "image",
+                    "alt": "",
                     "orient": "horizontal",
                     "caption": "A screenshot representing the initial manual predictions.",
                     "url": "/images/data-pipeline/05a.png"
                 },
                 {
                     "type": "image",
+                    "alt": "",
                     "orient": "horizontal",
                     "caption": "A screenshot representing the scale of the manual data that was input by hand.",
                     "url": "/images/data-pipeline/manual-01a.png"
                 },
                 {
                     "type": "image",
+                        "alt": "",
                     "orient": "horizontal",
                     "caption": "A screenshot representing the initial data analysis.",
                     "url": "/images/data-pipeline/analysis-01a.png"
@@ -158,18 +174,21 @@
                 },
                 {
                     "type": "image",
+                        "alt": "",
                     "orient": "vertical",
                     "caption": "React UI built to display predictions for each game in a user friendly manner.",
                     "url": "/images/data-pipeline/data-01.png"
                 },
                 {
                     "type": "image",
+                    "alt": "",
                     "orient": "vertical",
                     "caption": "A React UI displaying live games and indicating whether the predictions are accurate or not. (Colors have not been tested for accessibility.)",
                     "url": "/images/data-pipeline/data-02.png"
                 },
                 {
                     "type": "image",
+                    "alt": "",
                     "orient": "vertical",
                     "caption": "React UI showing a low fidelity dashboard of the results of the predictions.",
                     "url": "/images/data-pipeline/data-03.png"
@@ -215,26 +234,31 @@
                 "media": [
                     {
                         "type": "image",
+                        "alt": "",
                         "caption": "The photographer's tethered studio setup allows him to view images on a website at a glance.",
                         "url": "/images/photography-utility/studio_01.png"
                     },
                     {
                         "type": "image",
+                        "alt": "",
                         "caption": "The photographer's tethered studio setup allows him to view images on a website at a glance.",
                         "url": "/images/photography-utility/studio_02.png"
                     },
                     {
                         "type": "image",
+                        "alt": "",
                         "caption": "Themed page showing the product page populated with photos.",
                         "url": "/images/photography-utility/sketch_01.png"
                     },
                     {
                         "type": "image",
+                        "alt": "",
                         "caption": "Themed page showing the details of the product.",
                         "url": "/images/photography-utility/sketch_02a.png"
                     },
                     {
                         "type": "image",
+                        "alt": "",
                         "caption": "Themed page showing the details of the product.",
                         "url": "/images/photography-utility/inuse_02.png"
                     },
@@ -287,11 +311,13 @@
                 "media": [
                 {
                     "type": "image",
+                    "alt": "",
                     "caption": "UI screen that a developer would use to upload the structured data and highlight the features and the field to be predicted.",
                     "url": "/images/ai-utility/01a.png"
                 },
                 {
                     "type": "image",
+                    "alt": "",
                     "caption": "UI of the model API returning predictive data used in a mock prototype. The 'Class' column serves as the prediction column.",
                     "url": "/images/ai-utility/02a.png"
                 }]
@@ -411,36 +437,42 @@
                 "media": [
                 {
                     "type": "image",
+                    "alt": "",
                     "orient": "horizontal",
                     "caption": "We hosted events to raise funds for charities, such as the Pink Party for breast cancer awareness.",
                     "url": "/images/soft-skills/pink.png"
                 },
                 {
                     "type": "image",
+                    "alt": "",
                     "orient": "horizontal",
                     "caption": "We built relationships with corporate sponsors to enhance the experience for our customers.",
                     "url": "/images/soft-skills/sponsors.png"
                 },
                 {
                     "type": "image",
+                    "alt": "",
                     "orient": "horizontal",
                     "caption": "Our network allowed us to work with celebrities to separate our events from others. We even had celebrities attend our events. (Lance Gross pictured)",
                     "url": "/images/soft-skills/celebrity.png"
                 },
                 {
                     "type": "image",
+                    "alt": "",
                     "orient": "horizontal",
                     "caption": "A big part of a successful event was atmosphere. We took great care in decorating spaces according to the event.",
                     "url": "/images/soft-skills/decoration.png"
                 },
                 {
                     "type": "image",
+                    "alt": "",
                     "orient": "horizontal",
                     "caption": "Hard work paying off as customers come out and enjoy themselves while creating memories for life.",
                     "url": "/images/soft-skills/party_02.png"
                 },
                 {
                     "type": "image",
+                    "alt": "",
                     "orient": "horizontal",
                     "caption": "Our events brought people of various walks of life together under one roof to have wonderful evenings.",
                     "url": "/images/soft-skills/group.png"

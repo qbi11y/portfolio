@@ -3,11 +3,11 @@ import { motion } from "framer-motion";
 const Video = ({columnClass, data}) => { 
     //ensure that vertical images are show in thirds
     if (data.index < data.media.length) {
-        if (data?.media[data.index]?.orient != "vertical" && data?.media[data.index+1]?.orient == "vertical") {
+        if (data?.media[data.index]?.orient !== "vertical" && data?.media[data.index+1]?.orient === "vertical") {
             columnClass = "is-full"
         }
 
-        if (data?.media[data.index]?.orient == "vertical") {
+        if (data?.media[data.index]?.orient === "vertical") {
             columnClass = "is-third"
         }
     }
