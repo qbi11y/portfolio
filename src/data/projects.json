@@ -25,17 +25,17 @@
                 "media": [
                 {
                     "type": "image",
-                    "caption": "Representation of a high level journey map to help identify potential opportunities for an improved user experience.",
+                    "caption": "A high-level journey map to identify potential opportunities for an enhanced user experience.",
                     "url": "/images/cloud-brokerage/flow.png"
                 },
                 {
                     "type": "image",
-                    "caption": "Partial output of a clustering exercise I facilitated during the Design Thinking workshop",
+                    "caption": "Partial output from a clustering exercise I facilitated during the Design Thinking workshop.",
                     "url": "/images/cloud-brokerage/workshop_01.png"
                 },
                 {
                     "type": "image",
-                    "caption": "High level sketching exercise to focus on the required data visualizations.",
+                    "caption": "A high-level sketching exercise to emphasize the required data visualizations.",
                     "url": "/images/cloud-brokerage/process_01.png"
                 },
                 {
@@ -50,22 +50,22 @@
                 },
                 {
                     "type": "image",
-                    "caption": "A low fidelity wireframe representing the design phase that started to solidify the overall",
+                    "caption": "A low-fidelity wireframe representing the design phase that started to solidify the overall concept.",
                     "url": "/images/cloud-brokerage/sketch_01.png"
                 },
                 {
                     "type": "image",
-                    "caption": "A low fidelity wireframe representing the design phase that started to solidify the overall",
+                    "caption": "A low-fidelity wireframe representing the design phase that started to solidify the overall concept.",
                     "url": "/images/cloud-brokerage/sketch_02.png"
                 },
                 {
                     "type": "image",
-                    "caption": "A low fidelity wireframe representing the design phase that started to solidify the overall",
+                    "caption": "A low-fidelity wireframe representing the design phase that started to solidify the overall concept.",
                     "url": "/images/cloud-brokerage/sketch_03.png"
                 },
                 {
                     "type": "image",
-                    "caption": "A low fidelity wireframe representing the design phase that started to solidify the overall",
+                    "caption": "A low-fidelity wireframe representing an exploration in gamification.",
                     "url": "/images/cloud-brokerage/sketch_04.png"
                 },
                 {
@@ -135,19 +135,19 @@
                 {
                     "type": "image",
                     "orient": "horizontal",
-                    "caption": "Partial output of a clustering exercise I facilitated during the Design Thinking workshop",
+                    "caption": "A screenshot representing the initial manual predictions.",
                     "url": "/images/data-pipeline/05a.png"
                 },
                 {
                     "type": "image",
                     "orient": "horizontal",
-                    "caption": "Partial output of a clustering exercise I facilitated during the Design Thinking workshop",
+                    "caption": "A screenshot representing the scale of the manual data that was input by hand.",
                     "url": "/images/data-pipeline/manual-01a.png"
                 },
                 {
                     "type": "image",
                     "orient": "horizontal",
-                    "caption": "Partial output of a clustering exercise I facilitated during the Design Thinking workshop",
+                    "caption": "A screenshot representing the initial data analysis.",
                     "url": "/images/data-pipeline/analysis-01a.png"
                 },
                 {
@@ -165,13 +165,13 @@
                 {
                     "type": "image",
                     "orient": "vertical",
-                    "caption": "React UI showing the live games and whether or not the predictions are covering. (Colors have not been tested for accessibility)",
+                    "caption": "A React UI displaying live games and indicating whether the predictions are accurate or not. (Colors have not been tested for accessibility.)",
                     "url": "/images/data-pipeline/data-02.png"
                 },
                 {
                     "type": "image",
                     "orient": "vertical",
-                    "caption": "React UI showing a basic dashboard of the results of the predictions",
+                    "caption": "React UI showing a low fidelity dashboard of the results of the predictions.",
                     "url": "/images/data-pipeline/data-03.png"
                 }
                 ]
@@ -215,18 +215,13 @@
                 "media": [
                     {
                         "type": "image",
-                        "caption": "Photographer's tethered studio setup. He is able to see images in website at a glance",
+                        "caption": "The photographer's tethered studio setup allows him to view images on a website at a glance.",
                         "url": "/images/photography-utility/studio_01.png"
                     },
                     {
                         "type": "image",
-                        "caption": "Photographer's tethered studio setup. He is able to see images in website at a glance",
+                        "caption": "The photographer's tethered studio setup allows him to view images on a website at a glance.",
                         "url": "/images/photography-utility/studio_02.png"
-                    },
-                    {
-                        "type": "image",
-                        "caption": "Themed page showing the details of the product",
-                        "url": "/images/photography-utility/inuse_02.png"
                     },
                     {
                         "type": "image",
@@ -235,12 +230,17 @@
                     },
                     {
                         "type": "image",
-                        "caption": "Themed page showing the details of the product",
+                        "caption": "Themed page showing the details of the product.",
                         "url": "/images/photography-utility/sketch_02a.png"
                     },
                     {
+                        "type": "image",
+                        "caption": "Themed page showing the details of the product.",
+                        "url": "/images/photography-utility/inuse_02.png"
+                    },
+                    {
                         "type": "video",
-                        "caption": "Simulation of photograph entering the computer and responsive website updating automatically.",
+                        "caption": "Simulation of a photograph entering the computer with the responsive website updating automatically.",
                         "url": "https://thompsonjamesquillan-portfolio.s3.us-east-2.amazonaws.com/workflow.mp4"
                     }
                 ]
@@ -287,12 +287,12 @@
                 "media": [
                 {
                     "type": "image",
-                    "caption": "UI of screen developer would use to upload the structured data and highlight the features and the field the be predicted.",
+                    "caption": "UI screen that a developer would use to upload the structured data and highlight the features and the field to be predicted.",
                     "url": "/images/ai-utility/01a.png"
                 },
                 {
                     "type": "image",
-                    "caption": "UI of the model API returning predictive data being used in a mock prototype. 'Class' column is the prediction column.",
+                    "caption": "UI of the model API returning predictive data used in a mock prototype. The 'Class' column serves as the prediction column.",
                     "url": "/images/ai-utility/02a.png"
                 }]
             }]
@@ -412,7 +412,7 @@
                 {
                     "type": "image",
                     "orient": "horizontal",
-                    "caption": "We hosted events to donate to charities (Pink party for breast cancer awareness)",
+                    "caption": "We hosted events to raise funds for charities, such as the Pink Party for breast cancer awareness.",
                     "url": "/images/soft-skills/pink.png"
                 },
                 {
@@ -436,7 +436,7 @@
                 {
                     "type": "image",
                     "orient": "horizontal",
-                    "caption": "Hard work paying off as customers come out and enjoy themselves while creating memories for life",
+                    "caption": "Hard work paying off as customers come out and enjoy themselves while creating memories for life.",
                     "url": "/images/soft-skills/party_02.png"
                 },
                 {
