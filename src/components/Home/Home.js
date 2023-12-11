@@ -23,139 +23,33 @@ const Home = () => {
 
     return(
         
-        <div className="container">
-            
-                <h5 className="header-tag">{content.personal.tag}</h5>
-                <h1 className="is-size-1-widescreen is-size-1-mobile header">{content.personal.title}</h1>
-                <div className="is-hidden-desktop text">{isShort ? content.personal.shortStatement : content.personal.longStatement}
-                    <div onClick={() => setIsShort(!isShort)}>{isShort ? "Show more" : "Show less"}</div>
-                </div>
-                <div className="is-hidden-touch text">{content.personal.longStatement}</div>
-            
-            
-                <div className="projects">
-                {
-                        Object.keys(projects).map((project, index) => 
-                            (
-                                // <li className="project-item project-item--list" onClick={(e)=> {viewProject(e)}} key={index}>
-                                //     <motion.div
-                                //         className="project"
-                                //         id={index + 1}
-                                //         whileHover={{
-                                //             x: -10,
-                                //             transition: { duration: .5 },
-                                //         }}>
-                                //             { projects[index + 1]["name"] }
-                                //     </motion.div>
-                                // </li>
-                                projects[index+1]["active"] === true &&
-                                <div className="project" id={index + 1} onClick={(e)=> {viewProject(e)}} key={index}>
-                                    <div className="project--icon">
-                                        <img alt={projects[index + 1]["iconAlt"]} src={process.env.PUBLIC_URL + projects[index + 1]["icon"]} />
-                                    </div>
-                                    <div className="is-size-6">
-                                        { projects[index + 1]["name"] }
-                                    </div>
+        <div className="container">            
+            <h5 className="header-tag">{content.personal.tag}</h5>
+            <h1 className="is-size-1-widescreen is-size-1-mobile header">{content.personal.title}</h1>
+            <div className="is-hidden-desktop text">{isShort ? content.personal.shortStatement : content.personal.longStatement}
+                <div onClick={() => setIsShort(!isShort)}>{isShort ? "Show more" : "Show less"}</div>
+            </div>
+            <div className="is-hidden-touch text">{content.personal.longStatement}</div>
+        
+        
+            <div className="projects">
+            {
+                    Object.keys(projects).map((project, index) => 
+                        (
+                            projects[index+1]["active"] === true &&
+                            <div className="project" id={index + 1} onClick={(e)=> {viewProject(e)}} key={index}>
+                                <div className="project--icon">
+                                    <img alt={projects[index + 1]["iconAlt"]} src={process.env.PUBLIC_URL + projects[index + 1]["icon"]} />
                                 </div>
-                            )
+                                <div className="is-size-6">
+                                    { projects[index + 1]["name"] }
+                                </div>
+                            </div>
                         )
-                    }
-                    {/* <div className="project">
-                        <div className="project--icon">
-                            <img alt='image' src={process.env.PUBLIC_URL + "/icons/cloud.png"} />
-                        </div>
-                        <div>Cloud Brokerage Platform</div>
-                    </div>
-                    <div className="project">
-                        <div className="project--icon">
-                            <img alt='image' src={process.env.PUBLIC_URL + "/icons/predictive-analytics.png"} />
-                        </div>
-                        <div>Data Pipeline</div>
-                    </div>
-                    <div className="project">
-                        <div className="project--icon">
-                            <img alt='image' src={process.env.PUBLIC_URL + "/icons/photography.png"} />
-                        </div>
-                        <div>Photography Utility</div>
-                    </div>
-                    <div className="project">
-                        <div className="project--icon">
-                            <img alt='image' src={process.env.PUBLIC_URL + "/icons/automation.png"} />
-                        </div>
-                        <div>Auto AI Utility</div>
-                    </div>
-                    <div className="project">
-                        <div className="project--icon">
-                            <img alt='image' src={process.env.PUBLIC_URL + "/icons/svg.png"} />
-                        </div>
-                        <div>SVG Animation</div>
-                    </div>
-                    <div className="project">
-                        <div className="project--icon">
-                            <img alt='image' src={process.env.PUBLIC_URL + "/icons/chatbot.png"} />
-                        </div>
-                        <div>Watson Assistant</div>
-                    </div> */}
-                </div>
+                    )
+                }
+            </div>
 
-                {/* <div className="projects">
-                    <div className="project">
-                        <div className="image is-square">
-                            <img alt='image' src={process.env.PUBLIC_URL + "/icons/automation.png"} />
-                        </div>
-                        <p className="caption">project name</p>
-                    </div>
-                    <div className="project">
-                        <div className="image is-square">
-                            <img alt='image' src={process.env.PUBLIC_URL + "/icons/chatbot.png"} />
-                        </div>
-                        <p className="caption">project name</p>
-                    </div>
-                    <div className="project">
-                        <div className="image is-square">
-                            <img alt='image' src={process.env.PUBLIC_URL + "/icons/cloud.png"} />
-                        </div>
-                        <p className="caption">project name</p>
-                    </div>
-                    <div className="project">
-                        <div className="image is-square">
-                            <img alt='image' src={process.env.PUBLIC_URL + "/icons/photography.png"} />
-                        </div>
-                        <p className="caption">project name</p>
-                    </div>
-                    <div className="project">
-                        <div className="image is-square">
-                            <img alt='image' src={process.env.PUBLIC_URL + "/icons/predictive-analytics.png"} />
-                        </div>
-                        <p className="caption">project name</p>
-                    </div>
-                    <div className="project">
-                        <div className="image is-square">
-                            <img alt='image' src={process.env.PUBLIC_URL + "/icons/svg.png"} />
-                        </div>
-                        <p className="caption">project name</p>
-                    </div>
-                </div> */}
-                {/* <ul className="projects--cards">
-                    {
-                        Object.keys(projects).map((project, index) => 
-                            (
-                                <li className="project-item project-item--list" onClick={(e)=> {viewProject(e)}} key={index}>
-                                    <motion.div
-                                        className="project"
-                                        id={index + 1}
-                                        whileHover={{
-                                            x: -10,
-                                            transition: { duration: .5 },
-                                        }}>
-                                            { projects[index + 1]["name"] }
-                                    </motion.div>
-                                </li>
-                            )
-                        )
-                    }
-                </ul> */}
-            
             <section className="section is-size-7">
                 <footer className="footer columns">                
                     <ul className="column">
