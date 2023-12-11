@@ -1,7 +1,4 @@
-import Image from "./Image"
-import Video from "./Video"
 const Section = ({data}) => {
-    console.log('section comp', data)
     const formatString = (idx, str) => {
         if (str.split('\\').length === str.split(':').length) return str
         let textArray = []
