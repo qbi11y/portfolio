@@ -413,13 +413,13 @@
         }]
     },
     "7": {
-        "name": "Additional Skills",
+        "name": "Event Planning",
         "icon": "/icons/party.png",
         "iconAlt": "party icon",
         "headerImage": "",
         "active": true,
         "sections": [{
-            "header": "Additional Skills",
+            "header": "Event Planning",
             "content": [{
                 "text":"Skills: Customer service, contract negotiations, sales, accounting, finance, logistics, social media, human resources\\Role: Co-founder, Photographer, IT Architect"
             }]
