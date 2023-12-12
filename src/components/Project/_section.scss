@@ -53,78 +53,78 @@
     border-radius: 2px;
 }
 
-//iPad portrait
-@media screen and (min-device-width: 376px) and (max-device-width: 800px) and (orientation: portrait) {
-    .section--container {
-        display: flex;
-        flex-direction: row;
-        align-items: flex-start;
-        width: 100%;
-    }
+// //iPad portrait
+// @media screen and (min-device-width: 376px) and (max-device-width: 800px) and (orientation: portrait) {
+//     .section--container {
+//         display: flex;
+//         flex-direction: row;
+//         align-items: flex-start;
+//         width: 100%;
+//     }
 
-    .section--header {
-        width: 40%;
-        margin: -.25em 0 0 0;
-    }
+//     .section--header {
+//         width: 40%;
+//         margin: -.25em 0 0 0;
+//     }
 
-    .section--content {
-        width: 60%;
-    }
-}
+//     .section--content {
+//         width: 60%;
+//     }
+// }
 
-//iPad landscape
-@media screen and (min-device-width: 376px) and (max-device-width: 800px) and (orientation: landscape) {
-    .section--container {
-        display: flex;
-        flex-direction: row;
-        align-items: flex-start;
-        width: 100%;
-    }
+// //iPad landscape
+// @media screen and (min-device-width: 376px) and (max-device-width: 800px) and (orientation: landscape) {
+//     .section--container {
+//         display: flex;
+//         flex-direction: row;
+//         align-items: flex-start;
+//         width: 100%;
+//     }
 
-    .section--header {
-        width: 40%;
-        margin: -.25em 0 0 0;
-    }
+//     .section--header {
+//         width: 40%;
+//         margin: -.25em 0 0 0;
+//     }
 
-    .section--content {
-        width: 60%;
-    }
-}
+//     .section--content {
+//         width: 60%;
+//     }
+// }
 
-@media screen and (min-device-width: 1200px) {
-    .section--container {
-        display: flex;
-        flex-direction: row;
-        align-items: flex-start;
-        width: 100%;
-        margin: 1em 1em 4em -1em;
-        padding: -1em 1em 1em 1em
-    }
+// @media screen and (min-device-width: 1200px) {
+//     .section--container {
+//         display: flex;
+//         flex-direction: row;
+//         align-items: flex-start;
+//         width: 100%;
+//         margin: 1em 1em 4em -1em;
+//         padding: -1em 1em 1em 1em
+//     }
     
-    .section--container:not(:nth-child(2)) {
-        background-color: #fff;
-        border-radius: 2px;
-        box-shadow: 0 0 7px 0 rgba(0,0,0,0.05);
-        padding: 2em 2em 3em 2em;
-        margin: 0 0 2em 0;
-    }
+//     .section--container:not(:nth-child(2)) {
+//         background-color: #fff;
+//         border-radius: 2px;
+//         box-shadow: 0 0 7px 0 rgba(0,0,0,0.05);
+//         padding: 2em 2em 3em 2em;
+//         margin: 0 0 2em 0;
+//     }
 
-    .section--container:nth-child(2) > .section--header {
-        margin: -.45em 1.3em 0 0;
-    }
-    .section--header {
-        width: 40%;
-        margin: -.25em 1em 0 0;
-    }
+//     .section--container:nth-child(2) > .section--header {
+//         margin: -.45em 1.3em 0 0;
+//     }
+//     .section--header {
+//         width: 40%;
+//         margin: -.25em 1em 0 0;
+//     }
 
-    .section--content {
-        width: 60%;
-    }
+//     .section--content {
+//         width: 60%;
+//     }
 
-    .media--item > .image {
-        margin: 0 0 .5em 0;
-    }
-}
+//     .media--item > .image {
+//         margin: 0 0 .5em 0;
+//     }
+// }
 
 
 // .content--container:not(:nth-child(2)) {

@@ -15,16 +15,9 @@ const Project = () => {
 
     return(
             <div className="container">
-                {/* <div className="container--section">
-                    <Link to="/portfolio">
-                        <div className="icon--link">
-                            <span className="material-symbols-outlined" aria-label="left arrow back">arrow_circle_left</span> Project list
-                        </div>                        
-                    </Link>
-                </div> */}
                 <div className="container--section">
                     <Link to="/portfolio">
-                        <button class="button is-link icon--link">
+                        <button className="button is-link icon--link">
                             <span className="material-symbols-outlined" aria-label="left arrow back">arrow_circle_left</span> Project list
                         </button>                                              
                     </Link>
@@ -78,7 +71,7 @@ const Project = () => {
 
                 <div className="container--section">
                     <Link to="/portfolio">
-                        <button class="button is-link icon--link">
+                        <button className="button is-link icon--link">
                             <span className="material-symbols-outlined" aria-label="left arrow back">arrow_circle_left</span> Project list
                         </button>                                              
                     </Link>
