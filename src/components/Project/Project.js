@@ -18,7 +18,6 @@ const Project = () => {
             <div className="container">
                 <div className="container--section">
                     <Link to="/portfolio">
-                        <p>{w}</p>
                         <button className="button is-link icon--link">
                             <span className="material-symbols-outlined" aria-label="left arrow back">arrow_circle_left</span> Project list
                         </button>                                              

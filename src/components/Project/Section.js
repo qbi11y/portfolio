@@ -17,7 +17,7 @@ const Section = ({data}) => {
 
     return(
         <section className="section--container">
-            <h1 className={`has-text-weight-medium ${data.index === 0 ? "is-size-1-desktop is-size-1-tablet is-size-1" : "is-size-3-desktop is-size-3-tablet is-size-3"} section--header`}>{data.section.header}</h1>
+            <h1 className={`has-text-weight-medium ${data.index === 0 ? "is-size-2-widescreen is-size-3-desktop is-size-3-tablet is-size-3" : "is-size-4-widescreen is-size-4-desktop is-size-4-tablet is-size-4"} section--header`}>{data.section.header}</h1>
             <p className={`is-size-6 section--content ${'media' in data.section.content[0] && "has-media"}`}>{formatString(data.section.index, data.section.content[0].text)}</p>
         </section>
     )
