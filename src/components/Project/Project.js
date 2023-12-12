@@ -8,6 +8,7 @@ import Video from "./Video";
 
 const Project = () => {
     let { id } = useParams()
+    let w = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth
 
     useEffect(() => {
         window.scrollTo(0, 0)
@@ -17,6 +18,7 @@ const Project = () => {
             <div className="container">
                 <div className="container--section">
                     <Link to="/portfolio">
+                        <p>{w}</p>
                         <button className="button is-link icon--link">
                             <span className="material-symbols-outlined" aria-label="left arrow back">arrow_circle_left</span> Project list
                         </button>                                              
@@ -36,7 +38,7 @@ const Project = () => {
                                         {
                                             section.content[0]["media"].map((item, index) => {
                                                 let columnClass = ""
-                                                let w = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth
+                                                
                                                 console.log('width', w)
                                                 if (section.content[0]["media"]?.length === 1) {
                                                     //full
@@ -54,6 +56,7 @@ const Project = () => {
                                                 }
                                                 return(
                                                     <>
+                                                        
                                                         {
                                                             item.type === "image" ?
                                                                 <Image columnClass={columnClass} data={{"index": index, "item": item, "media": section.content[0]["media"]}} /> : <Video columnClass={columnClass} data={{"index": index, "item": item, "media": section.content[0]["media"]}} />
