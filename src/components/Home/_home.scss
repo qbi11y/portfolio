@@ -121,7 +121,7 @@
         border-top: none;
         width: 30%;
         height: 250px;
-        margin-bottom: 128px;
+        margin-bottom: 2em;
         //align-items: center;
         //justify-content: center;
         text-align: center;
@@ -153,7 +153,28 @@
     }
 
     .projects {
-        margin: 10em 0 0 0;
+        margin: 4em 0 0 0;
+    }
+
+    .project {
+        display: flex;
+        flex-direction: column;
+        border-top: none;
+        width: 30%;
+        height: 250px;
+        margin-bottom: 2em;
+        //align-items: center;
+        //justify-content: center;
+        text-align: center;
+        padding: 2em 0 2em 0;
+        box-shadow: 0 0.5em 1em -0.125em rgba(10,10, 10, .1);
+    }
+
+    .project--icon {
+        width: 96px;
+        height: 96px;
+        margin: 0 0 1em 0;
+        opacity: .5;
     }
 }
 
@@ -176,6 +197,7 @@
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: space-between;
+        margin: 4em 0 0 0;
     }
 
     .project {
@@ -189,7 +211,7 @@
         text-align: center;
         width: 32%;
         height: 200px;
-        margin-bottom: 40px;
+        margin-bottom: 1em;
         background-color: #fff;
         border-radius: .25rem;
         border: 2px solid transparent; /* <- here */
