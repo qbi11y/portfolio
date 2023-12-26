@@ -210,6 +210,103 @@
         }]
     },
     "3": {
+        "name": "IBM Design System",
+        "icon": "/icons/system.png",
+        "iconAlt": "design system icon",
+        "headerImage": "",
+        "active": true,
+        "sections": [
+        {
+            "header": "Carbon for IBM Products",
+            "content": [{
+                "text": "Tools: ReactJS, Storybook\\Role: Design Technologist, Developer"}]
+        },
+        {
+            "header": "Opportunity",
+            "content": [{
+                "text": "My team migrated to focusing on the development of reusable components for Carbon, the IBM design system. I had the opportunity to expand my knowledge of design system development."
+            }]
+        },
+        {
+            "header": "Solution",
+            "content": [{
+                "text": "I developed and contributed reusable components to the design system. Additionally, I designed and developed a component playground that enables designers to see how the components interact with each other.",
+                "media": [
+                    {
+                        "type": "image",
+                        "alt": "",
+                        "caption": "Storybook implementation or the 'User Profile Image' component. Image variation shown.",
+                        "url": "/images/design-system/profile-image.png"
+                    },
+                    {
+                        "type": "image",
+                        "alt": "",
+                        "caption": "Storybook implementation or the 'User Profile Image' component. Icon variation shown.",
+                        "url": "/images/design-system/profile-icon.png"
+                    },
+                    {
+                        "type": "image",
+                        "alt": "",
+                        "caption": "Storybook implementation or the 'User Profile Image' component. Initials variation shown.",
+                        "url": "/images/design-system/profile-initials.png"
+                    },
+                    {
+                        "type": "image",
+                        "alt": "",
+                        "caption": "Storybook implementation or the 'Combo Button' component. Closed variation shown.",
+                        "url": "/images/design-system/combo.png"
+                    },
+                    {
+                        "type": "image",
+                        "alt": "",
+                        "caption": "Storybook implementation or the 'Combo Button' component. Opened variation shown.",
+                        "url": "/images/design-system/combo-open.png"
+                    },
+                    {
+                        "type": "image",
+                        "alt": "",
+                        "caption": "Storybook implementation or the 'Button' component.",
+                        "url": "/images/design-system/button.png"
+                    },
+                    {
+                        "type": "image",
+                        "alt": "",
+                        "caption": "Component playgound landing page.",
+                        "url": "/images/design-system/playground.png"
+                    },
+                    {
+                        "type": "image",
+                        "alt": "",
+                        "caption": "Component playgound edit page.",
+                        "url": "/images/design-system/playground-edit.png"
+                    },
+                    {
+                        "type": "image",
+                        "alt": "",
+                        "caption": "Component playgound wizard page.",
+                        "url": "/images/design-system/playground-wizard.png"
+                    }
+                ]
+            }]
+        },
+        {
+            "header": "Challenges",
+            "content": [{
+                "text": "I was not well-versed in DevOps. This endeavor allowed me to gain a better understanding of DevOps, forcing me into the uncomfortable position of not knowing and having to learn and figure it out. I am now more comfortable in the DevOps space due to this experience."}]
+        },
+        {
+            "header": "Outcome",
+            "content": [{
+                "text": "My contributions help expand the library, expediting development across the organization by enabling developers to easily plug in components, rather than wasting time writing new code."
+            }]
+        },
+        {
+            "header": "Takeaways",
+            "content": [{
+                "text": "Working closely with the design team was crucial to our success. It allowed us to inform designers about what was possible and what had already been developed, minimizing waste."}]
+        }]
+    },
+    "4": {
         "name": "Photography Website Generator",
         "icon": "/icons/photography.png",
         "iconAlt": "photography icon",
@@ -287,7 +384,7 @@
                 "text": "Upon deployment, I observed an opportunity to enhance the user experience—seemingly duplicate images were appearing in the template. Recognizing the need for refinement, I envisioned a solution that would empower photographers to tag images.\n\nThis feature, when implemented, would selectively showcase only the tagged images, providing a more accurate representation of how the entire website would look. This insight emphasizes my commitment to continuous improvement and user-centric design."}]
         }]
     },
-    "4": {
+    "5": {
         "name": "IBM Auto AI Utility",
         "icon": "/icons/automation.png",
         "iconAlt": "automation icon",
@@ -335,7 +432,7 @@
                 "text": "Beyond my day-to-day responsibilities, I bring additional skills to the table that hold untapped potential for simplifying the lives of my colleagues. Recognizing the broader utility of my skill set, I am eager to explore opportunities where these complementary abilities can contribute to the efficiency and success of the team."}]
         }]
     },
-    "5": {
+    "6": {
         "name": "IBM SVG Animation",
         "icon": "/icons/svg.png",
         "iconAlt": "svg icon",
@@ -382,7 +479,7 @@
                 "text": "Effective and transparent communication is instrumental in securing the necessary time to successfully complete tasks. This understanding, coupled with my commitment to fostering open and honest dialogue, has proven invaluable in ensuring that projects are given the attention and duration required for optimal outcomes."}]
         }]
     },
-    "6": {
+    "7": {
         "name": "Watson Assistant",
         "icon": "/icons/chatbot.png",
         "iconAlt": "chatbot icon",
@@ -412,7 +509,7 @@
             }]
         }]
     },
-    "7": {
+    "8": {
         "name": "Event Planning",
         "icon": "/icons/party.png",
         "iconAlt": "party icon",

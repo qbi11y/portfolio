@@ -47,7 +47,8 @@ const Home = () => {
                             </div>
                         )
                     )
-                }
+            }
+            <div className="project spacer"></div>
             </div>
 
             <section className="section is-size-7">

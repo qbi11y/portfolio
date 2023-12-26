@@ -206,8 +206,7 @@
         flex-wrap: wrap;
         justify-content: center;
         border-top: none;
-        align-items: center;
-        
+        align-items: center;        
         text-align: center;
         width: 32%;
         height: 200px;
@@ -218,6 +217,16 @@
         transition: all .25s;
         color: #c5c5c5;
     }
+
+    .project.spacer {
+        background-color: transparent;
+    }
+
+    .project.spacer:hover {
+        box-shadow: none;
+        cursor: auto;
+    }
+    
 
     .project:hover .project--icon {
         opacity: .7;
