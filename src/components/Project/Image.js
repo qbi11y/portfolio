@@ -1,10 +1,6 @@
 import { motion } from "framer-motion";
 
 const Image = ({handleOverlay, columnClass, data}) => {
-    const handleClick = (e, img) => {
-        console.log(e, img)
-        handleOverlay()
-    }
     //ensure that vertical images are show in thirds
     if (data.index < data.media.length) {
         if (data?.media[data.index]?.orient !== "vertical" && data?.media[data.index+1]?.orient === "vertical") {
