@@ -1,4 +1,4 @@
-import React, { useEffect, Fragment } from "react"
+import React, { useEffect, Fragment, useState } from "react"
 import { useParams } from "react-router-dom"
 import { Link } from "react-router-dom";
 import * as projects from '../../data/projects.json';
@@ -7,15 +7,35 @@ import Image from "./Image";
 import Video from "./Video";
 
 const Project = () => {
+    const [ showOverlay, setShowOverlay ] = useState(false)
+    const [ overlayImage, setOverlayImage ] = useState({})
     let { id } = useParams()
     let w = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth
 
+    const handleOverlay = (e, img) => {
+        if (w < 1200) {
+            return null
+        }
+
+        if (img) {
+            console.log('the image', img)
+            setOverlayImage(img)
+        }        
+        setShowOverlay(prev => !prev)
+        
+    }
     useEffect(() => {
         window.scrollTo(0, 0)
       }, [])
 
     return(
             <div className="container">
+                <div className={`overlay ${showOverlay ? "" : "hidden"}`}>                    
+                    <div className="overlay--content">
+                        <div className="overlay--close" onClick={handleOverlay}><button className="button is-light is-small"><ion-icon name="close-outline"></ion-icon></button></div>
+                        <img className="image" alt={overlayImage.alt} src={process.env.PUBLIC_URL + overlayImage.url} />
+                    </div>
+                </div>
                 <div className="container--section">
                     <Link to="/portfolio">
                         <button className="button is-link icon--link">
@@ -26,11 +46,9 @@ const Project = () => {
 
                 {
                     projects[id]["sections"].map((section, index) => {
-                        console.log('section', section)
-
                         return(
                             <>
-                                <Section data={{section:section, index:index}} />
+                                <Section key={index} data={{section:section, index:index}} />
                                 {
                                     'media' in section.content[0] &&
                                     <div className="section--media columns is-multiline">
@@ -38,7 +56,6 @@ const Project = () => {
                                             section.content[0]["media"].map((item, index) => {
                                                 let columnClass = ""
                                                 
-                                                console.log('width', w)
                                                 if (section.content[0]["media"]?.length === 1) {
                                                     //full
                                                     columnClass = "is-full"
@@ -58,7 +75,7 @@ const Project = () => {
                                                         
                                                         {
                                                             item.type === "image" ?
-                                                                <Image columnClass={columnClass} data={{"index": index, "item": item, "media": section.content[0]["media"]}} /> : <Video columnClass={columnClass} data={{"index": index, "item": item, "media": section.content[0]["media"]}} />
+                                                                <Image handleOverlay={handleOverlay} columnClass={columnClass} data={{"index": index, "item": item, "media": section.content[0]["media"]}} /> : <Video columnClass={columnClass} data={{"index": index, "item": item, "media": section.content[0]["media"]}} />
                                                         }
                                                     </>
                                                 )

@@ -1,4 +1,7 @@
 @import "./section.scss";
+.hidden {
+    display: none;
+}
 
 .container {
     padding: .75em;
@@ -43,6 +46,36 @@
 
     .container--section:first-child {
         margin: 0 0 4em 0;
+    }
+
+    .overlay {
+        background-color: rgba(125,125,125, .75);
+        backdrop-filter: blur(4px);
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        z-index: 2;
+    }
+
+    .overlay--close {
+        text-align: right;
+        width: 75vw;
+        margin: 1em 0 1em 0;
+        
+    }
+    .overlay--content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: auto;
+    }
+
+    .overlay .image {
+        max-width: 75vw;
+        max-height: 80vh;
     }
 }
 

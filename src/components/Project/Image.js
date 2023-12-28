@@ -1,6 +1,10 @@
 import { motion } from "framer-motion";
 
-const Image = ({columnClass, data}) => {
+const Image = ({handleOverlay, columnClass, data}) => {
+    const handleClick = (e, img) => {
+        console.log(e, img)
+        handleOverlay()
+    }
     //ensure that vertical images are show in thirds
     if (data.index < data.media.length) {
         if (data?.media[data.index]?.orient !== "vertical" && data?.media[data.index+1]?.orient === "vertical") {
@@ -16,7 +20,8 @@ const Image = ({columnClass, data}) => {
     <motion.div
         initial={{ opacity: 0.1 }}
         whileInView={{ opacity: 1, y: -25, transition: { duration: 1 } }}
-        className={`media--item column image ${columnClass}`}>
+        className={`media--item column image ${columnClass}`}
+        onClick={(e) => handleOverlay(e, data.item)}>
             <img className="image" alt={data.item.alt} src={process.env.PUBLIC_URL + data.item.url} />
             <section className="is-size-7">{ data.item.caption }</section>
     </motion.div>
