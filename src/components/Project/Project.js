@@ -13,6 +13,8 @@ const Project = () => {
     let w = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth
 
     const handleOverlay = (e, img) => {
+        console.log(e)
+        
         if (w < 1200) {
             return null
         }
@@ -30,7 +32,7 @@ const Project = () => {
 
     return(
             <div className="container">
-                <div className={`overlay ${showOverlay ? "" : "hidden"}`}>                    
+                <div className={`overlay ${showOverlay ? "show" : "hidden"}`}>                    
                     <div className="overlay--content">
                         <div className="overlay--close" onClick={handleOverlay}><button className="button is-light is-small"><ion-icon name="close-outline"></ion-icon></button></div>
                         <img className="image" alt={overlayImage.alt} src={process.env.PUBLIC_URL + overlayImage.url} />

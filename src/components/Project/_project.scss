@@ -1,7 +1,7 @@
 @import "./section.scss";
-.hidden {
-    display: none;
-}
+// .hidden {
+//     display: none;
+// }
 
 .container {
     padding: .75em;
@@ -57,6 +57,20 @@
         width: 100vw;
         height: 100vh;
         z-index: 2;
+    }
+
+    .overlay.hidden {
+        visibility: hidden;
+        backdrop-filter: blur(0);
+        opacity: 0;
+        transition: all .5s ease;
+    }
+
+    .overlay.show {
+        visibility: visible;
+        backdrop-filter: blur(4px);
+        opacity: 1;
+        transition: all .5s ease;
     }
 
     .overlay--close {
