@@ -52,6 +52,7 @@
     }
 
     .overlay {
+        display: block;
         background-color: rgba(125,125,125, .75);
         backdrop-filter: blur(4px);
         position: fixed;

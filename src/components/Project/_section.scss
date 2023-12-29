@@ -130,6 +130,10 @@
     .media--item > .image {
         margin: 0 0 .5em 0;
     }
+
+    .media--item > .image:hover {
+        cursor: pointer;
+    }
 }
 
 
