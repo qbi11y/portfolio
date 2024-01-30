@@ -15,6 +15,7 @@
         {
             "header": "Opportunity",
             "content": [{
+                "callout": "callout here",
                 "text": "In the ever-evolving landscape of cloud-based infrastructure, untracked resources can lead to unexpected budget overruns. Recognizing the critical need for proactive solutions, We seized the opportunity to leverage data analytics in aiding businesses to identify potential rogue resources before they could adversely impact their budgets."
             }]
         },

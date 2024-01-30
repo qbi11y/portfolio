@@ -1,4 +1,5 @@
 const Section = ({data}) => {
+    console.log(data)
     const formatString = (idx, str) => {
         if (str.split('\\').length === str.split(':').length) return str
         let textArray = []
@@ -17,7 +18,13 @@ const Section = ({data}) => {
 
     return(
         <section className="section--container">
-            <h1 className={`has-text-weight-medium ${data.index === 0 ? "is-size-2-widescreen is-size-3-desktop is-size-3-tablet is-size-3" : "is-size-4-widescreen is-size-4-desktop is-size-4-tablet is-size-4"} section--header`}>{data.section.header}</h1>
+            <div className="section--header">
+                <h1 className={`has-text-weight-medium ${data.index === 0 ? "is-size-2-widescreen is-size-3-desktop is-size-3-tablet is-size-3" : "is-size-4-widescreen is-size-4-desktop is-size-4-tablet is-size-4"}`}>{data.section.header}</h1>
+                {
+                    'callout' in data.section.content[0] && <p>{data.section.content[0].callout}</p>
+                }
+            </div>
+            
             <p className={`is-size-6 section--content ${'media' in data.section.content[0] && "has-media"}`}>{formatString(data.section.index, data.section.content[0].text)}</p>
         </section>
     )
