@@ -59,6 +59,11 @@
     border-radius: 2px;
 }
 
+.callout {
+    font-size: 2em;
+    font-weight: bold;
+}
+
 //iPad portrait
 @media screen and (min-device-width: 480px) and (max-device-width: 1024px) and (orientation: portrait) {
     .section--container {
@@ -133,6 +138,10 @@
 
     .media--item > .image:hover {
         cursor: pointer;
+    }
+
+    .callout {
+        margin: 1em 1.25em 0 0;
     }
 }
 

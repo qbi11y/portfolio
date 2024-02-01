@@ -7,7 +7,7 @@
         "active": true,
         "sections": [
         {
-            "header": "Cloud Brokerage Platform",
+            "header": "Cloud Cost Management Platform",
             "content": [{
                 "text": "Role: Design Lead, Project Manager\\Tools: Sketch"
             }]
@@ -15,13 +15,13 @@
         {
             "header": "Opportunity",
             "content": [{
-                "callout": "callout here",
                 "text": "In the ever-evolving landscape of cloud-based infrastructure, untracked resources can lead to unexpected budget overruns. Recognizing the critical need for proactive solutions, We seized the opportunity to leverage data analytics in aiding businesses to identify potential rogue resources before they could adversely impact their budgets."
             }]
         },
         {
             "header": "Solution",
             "content": [{
+                "callout": "Led design effort for UI of product that saved customers $10,000 - $100,000+.",
                 "text": "I spearheaded a collaborative initiative, leading a team of skilled designers and developers to craft a cutting-edge application. This transformative tool empowered both DevOps teams and executive stakeholders, offering unparalleled insights into their cloud environments. By facilitating informed adjustments, we successfully safeguarded budgets, ensuring financial objectives remained on track.\n\nTo set the stage for this impactful project, I initiated a comprehensive Design Thinking workshop. This inclusive session brought together a diverse group of stakeholders, fostering a shared understanding and laying the foundation for a user-centric approach. I am now eager to bring this wealth of experience to a growing design team or contribute to a dynamic sales enablement team, where my leadership in fostering collaboration and delivering user-focused solutions can drive success.",
                 "media": [
                 {
@@ -144,7 +144,8 @@
         },{
             "header": "Solution",
             "content": [{
-                "text":"I designed and developed of a sophisticated automated system geared towards efficient data collection, analysis, and model training. Recognizing the limitations of manual data capture, I initially began with a script to streamline the process, realizing its scalability across multiple sports. This pivotal step marked the transition from labor-intensive manual efforts to a systematic and time-efficient solution.\n\nWith data seamlessly captured, my focus shifted to comprehensive data analysis and model training for pre-game and in-game predictions. To eliminate the need for manual intervention, I meticulously crafted scripts to automate the entire workflow. The system initiates data collection each morning, providing real-time predictions during games, and concludes with the automatic training of new models based on the latest data.\n\nIn addition to optimizing the backend operations, I designed an intuitive user interface (UI) to enhance the user experience. This UI allows users to swiftly access and visualize predictions, eliminating the need for cumbersome spreadsheet analysis. I am eager to bring this blend of technical innovation and user-centric design to a growing design team or contribute to a sales enablement team, where my skills can contribute to impactful, streamlined solutions.",
+                "callout": "Developed an automated platform that reduced data collection from 7 minutes to 30 seconds.",
+                "text":"I designed and developed of a sophisticated automated system geared towards efficient data collection, analysis, and model training. Recognizing the limitations of manual data capture, I initially began with a script to streamline the process, realizing its scalability across multiple sports. This pivotal step marked the transition from labor-intensive manual efforts to a systematic and time-efficient solution.\n\nWith data cleanly captured, my focus shifted to comprehensive data analysis and model training for pre-game and in-game predictions. To eliminate the need for manual intervention, I meticulously crafted scripts to automate the entire workflow. The system initiates data collection each morning, providing real-time predictions during games, and concludes with the automatic training of new models based on the latest data.\n\nIn addition to optimizing the backend operations, I designed an intuitive user interface (UI) to enhance the user experience. This UI allows users to swiftly access and visualize predictions, eliminating the need for cumbersome spreadsheet analysis. I am eager to bring this blend of technical innovation and user-centric design to a growing design team or contribute to a sales enablement team, where my skills can contribute to impactful, streamlined solutions.",
                 "media": [
                 {
                     "type": "image",
@@ -225,14 +226,33 @@
         {
             "header": "Opportunity",
             "content": [{
-                "text": "My team migrated to focusing on the development of reusable components for Carbon, the IBM design system. I had the opportunity to expand my knowledge of design system development."
+                "text": "My team migrated to focusing on the development of reusable components for Carbon, the IBM design system. I had the opportunity to expand my knowledge of design system development. I noticed an opportunity to bring the design system to life with an interactive playground."
             }]
         },
         {
             "header": "Solution",
             "content": [{
+                "callout": "Designed and developed an interactive component playground that drove adoption.",
                 "text": "I developed and contributed reusable components to the design system. Additionally, I designed and developed a component playground that enables designers to see how the components interact with each other.",
                 "media": [
+                    {
+                        "type": "image",
+                        "alt": "",
+                        "caption": "Component playgound landing page.",
+                        "url": "/images/design-system/playground.png"
+                    },
+                    {
+                        "type": "image",
+                        "alt": "",
+                        "caption": "Component playgound edit page.",
+                        "url": "/images/design-system/playground-edit.png"
+                    },
+                    {
+                        "type": "image",
+                        "alt": "",
+                        "caption": "Component playgound wizard page.",
+                        "url": "/images/design-system/playground-wizard.png"
+                    },
                     {
                         "type": "image",
                         "alt": "",
@@ -268,24 +288,6 @@
                         "alt": "",
                         "caption": "Storybook implementation or the 'Button' component.",
                         "url": "/images/design-system/button.png"
-                    },
-                    {
-                        "type": "image",
-                        "alt": "",
-                        "caption": "Component playgound landing page.",
-                        "url": "/images/design-system/playground.png"
-                    },
-                    {
-                        "type": "image",
-                        "alt": "",
-                        "caption": "Component playgound edit page.",
-                        "url": "/images/design-system/playground-edit.png"
-                    },
-                    {
-                        "type": "image",
-                        "alt": "",
-                        "caption": "Component playgound wizard page.",
-                        "url": "/images/design-system/playground-wizard.png"
                     }
                 ]
             }]
@@ -293,7 +295,7 @@
         {
             "header": "Challenges",
             "content": [{
-                "text": "I was not well-versed in DevOps. This endeavor allowed me to gain a better understanding of DevOps, forcing me into the uncomfortable position of not knowing and having to learn and figure it out. I am now more comfortable in the DevOps space due to this experience."}]
+                "text": "This endeavor allowed me to gain a better understanding of DevOps, forcing me into the uncomfortable position of not knowing and having to learn and figure it out. I am now more comfortable in the DevOps space due to this experience."}]
         },
         {
             "header": "Outcome",
@@ -328,6 +330,7 @@
         {
             "header": "Solution",
             "content": [{
+                "callout": "Developed a utility allowing a product photographer to see images in a web layout instantly.",
                 "text": "I conceptualized and brought to life a versatile product website skin, meticulously crafted to facilitate seamless navigation across multiple pages. Elevating this solution, I also designed and developed an OS utility tailored for photographers engaged in tethered shooting. This innovative utility automatically resized and showcased images in real-time within the website's skin as products were being photographed.\n\nEmpowering the photographer with the ability to interactively explore how the images appeared on various screens and sizes, this integrated system significantly enhanced the workflow. ",
                 "media": [
                     {
@@ -405,6 +408,7 @@
         },{
             "header": "Solution",
             "content": [{
+                "callout": "Created tool that allowed devs to implement predictive models in less than 10 mins.",
                 "text": "Leveraging my expertise with a certification in AI/ML, I crafted a user-friendly utility aimed at empowering developers unfamiliar with model training. This innovative tool facilitated the seamless integration of predictive models into prototypes. Collaborating closely with product owners, developers could identify the essential features for predictions. With a straightforward process, they uploaded structured data to the tool and received a file, transforming into an API endpoint that seamlessly provided predictions within their prototypes.\n\nThis solution not only streamlined the integration of predictive models but also ensured that the generated predictive data offered a more realistic and meaningful representation compared to conventional dummy data. ",
                 "media": [
                 {
@@ -424,7 +428,7 @@
         {
             "header": "Outcome",
             "content": [{
-                "text":"Originally conceived to assist developers in seamlessly integrating predictive models into prototypes, the impact of the demo extended far beyond its initial scope. The showcased demo not only fulfilled its primary objective but also sparked a wave of innovative ideas with the potential to significantly contribute to the growth of the organization.\n\nThis experience highlights my ability to envision solutions that transcend immediate challenges, fostering an environment of continuous innovation."                
+                "text":"Originally conceived to assist developers in integrating predictive models into prototypes, the impact of the demo extended far beyond its initial scope. The showcased demo not only fulfilled its primary objective but also sparked a wave of innovative ideas with the potential to significantly contribute to the growth of the organization.\n\nThis experience highlights my ability to envision solutions that transcend immediate challenges, fostering an environment of continuous innovation."                
             }]
         },
         {
@@ -454,6 +458,7 @@
         {
             "header": "Solution",
             "content": [{
+                "callout": "Leveraged CSS animations to convert AfterEffects animation to performant web animation.",
                 "text": "I successfully crafted a dynamic animated SVG that not only visually showcased a breakdown of patterns but also provided additional information upon hovering. This enhancement not only improved the user experience by offering a more engaging and informative interface but also contributed to the overall success of the initiative to consolidate pattern libraries at IBM.",
                 "media": [
                 {
@@ -531,6 +536,7 @@
             "header": "Solution",
             "content": [
             {
+                "callout": "Created and grew an entertainment company to 30,000+ customers from 0",
                 "text": "I co-founded a thriving event planning company that catered to the vibrant social scene of young professionals in the area. Our success prompted expansion into other metro areas in North Carolina, garnering a following that surged from a handful of friends to over 25,000 individuals throughout the Mid-Atlantic region. Our events became the go-to gatherings, known for their must-attend appeal.\n\nIn my role, I spearheaded the development of a robust marketing system designed to capture client information and disseminate targeted emails about upcoming events. Working in close collaboration with venues and vendors, I played a pivotal role in budgeting and contract negotiations.\n\nAdditionally, I managed a dynamic team encompassing security, DJs, hostesses, and marketing personnel.",
                 "media": [
                 {

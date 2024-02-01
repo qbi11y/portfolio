@@ -21,7 +21,10 @@ const Section = ({data}) => {
             <div className="section--header">
                 <h1 className={`has-text-weight-medium ${data.index === 0 ? "is-size-2-widescreen is-size-3-desktop is-size-3-tablet is-size-3" : "is-size-4-widescreen is-size-4-desktop is-size-4-tablet is-size-4"}`}>{data.section.header}</h1>
                 {
-                    'callout' in data.section.content[0] && <p>{data.section.content[0].callout}</p>
+                    'callout' in data.section.content[0] && <p className="callout">{data.section.content[0].callout}</p>
+                }
+                {
+                    'thumbnail' in data.section.content[0] && <p>thumbnail</p>
                 }
             </div>
             
