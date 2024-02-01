@@ -236,22 +236,9 @@
                 "text": "I developed and contributed reusable components to the design system. Additionally, I designed and developed a component playground that enables designers to see how the components interact with each other.",
                 "media": [
                     {
-                        "type": "image",
-                        "alt": "",
-                        "caption": "Component playgound landing page.",
-                        "url": "/images/design-system/playground.png"
-                    },
-                    {
-                        "type": "image",
-                        "alt": "",
-                        "caption": "Component playgound edit page.",
-                        "url": "/images/design-system/playground-edit.png"
-                    },
-                    {
-                        "type": "image",
-                        "alt": "",
-                        "caption": "Component playgound wizard page.",
-                        "url": "/images/design-system/playground-wizard.png"
+                        "type": "video",
+                        "caption": "Video capture showing the responsiveness of the playground in addition to editing and creating a card.",
+                        "url": "https://thompsonjamesquillan-portfolio.s3.us-east-2.amazonaws.com/playground.mp4"
                     },
                     {
                         "type": "image",
