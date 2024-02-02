@@ -26,6 +26,7 @@ const Home = () => {
         <div className="container">            
             <h5 className="header-tag">{content.personal.tag}</h5>
             <h1 className="is-size-1-widescreen is-size-1-mobile header">{content.personal.title}</h1>
+            <h2 className="is-size-2 sub-header" >Infusing life into designs through code</h2>
             <div className="is-hidden-desktop text">{isShort ? content.personal.shortStatement : content.personal.longStatement}
                 <div onClick={() => setIsShort(!isShort)}>{isShort ? "Show more" : "Show less"}</div>
             </div>
