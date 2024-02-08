@@ -1,3 +1,6 @@
+import { Suspense } from 'react';
+import Thumbnail from './Thumbnail';
+
 const Section = ({data}) => {
     console.log(data)
     const formatString = (idx, str) => {
@@ -16,6 +19,7 @@ const Section = ({data}) => {
         return textArray
     }
 
+    console.log('data', data)
     return(
         <section className="section--container">
             <div className="section--header">
@@ -23,12 +27,20 @@ const Section = ({data}) => {
                 {
                     'callout' in data.section.content[0] && <p className="callout">{data.section.content[0].callout}</p>
                 }
-                {
-                    'thumbnail' in data.section.content[0] && <p>thumbnail</p>
-                }
             </div>
-            
-            <p className={`is-size-6 section--content ${'media' in data.section.content[0] && "has-media"}`}>{formatString(data.section.index, data.section.content[0].text)}</p>
+            <div className="section--content">
+                <p className={`is-size-6 ${'media' in data.section.content[0] && "has-media"}`}>{formatString(data.section.index, data.section.content[0].text)}</p>
+                <div className="thumbnails">
+                {
+                    'thumbnails' in data.section.content[0] && data.section.content[0].thumbnails.map((thumbnail, index) => (
+                        <Suspense>
+                            <Thumbnail data={thumbnail} index={index}/>
+                        </Suspense>                        
+                    ))
+                }
+                </div>
+                
+            </div>
         </section>
     )
 }

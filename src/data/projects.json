@@ -9,7 +9,9 @@
         {
             "header": "Cloud Cost Management Platform",
             "content": [{
-                "text": "Role: Design Lead, Project Manager\\Tools: Sketch"
+                "text": "Role: Design Lead, Project Manager\\Tools: Sketch",
+                "thumbnails": [{"url": "/images/cloud-brokerage/workshop_01.png"}, {"url": "/images/cloud-brokerage/process_01.png"}, {"url": "/images/cloud-brokerage/product_01.png"}
+                ]
             }]
         },
         {
@@ -221,19 +223,21 @@
         {
             "header": "Carbon for IBM Products",
             "content": [{
-                "text": "Tools: ReactJS, Storybook\\Role: Design Technologist, Developer"}]
-        },
+                "text": "Tools: ReactJS, Storybook\\Role: Design Technologist, Developer",
+                "thumbnails": [{"url": "/images/design-system/playground-edit.png"}, {"url": "/images/design-system/combo.png"}]
+            }
+        ]},
         {
             "header": "Opportunity",
             "content": [{
-                "text": "My team migrated to focusing on the development of reusable components for Carbon, the IBM design system. I had the opportunity to expand my knowledge of design system development. I noticed an opportunity to bring the design system to life with an interactive playground."
+                "text": "In our team's shift towards concentrating on the development of reusable components for Carbon, the IBM design system, I seized the chance to deepen my expertise in design system development. During this process, I identified a unique opportunity to infuse vitality into the design system by creating an interactive playground."
             }]
         },
         {
             "header": "Solution",
             "content": [{
                 "callout": "Designed and developed an interactive component playground that drove adoption.",
-                "text": "I developed and contributed reusable components to the design system. Additionally, I designed and developed a component playground that enables designers to see how the components interact with each other.",
+                "text": "To facilitate adoption, I crafted a simulated application enabling developers and designers to visualize the interaction of reusable components within a real layout. Emphasizing responsiveness, the solution allowed users to observe how components behaved across various screen sizes.",
                 "media": [
                     {
                         "type": "video",
@@ -306,7 +310,9 @@
         {
             "header": "Photography Website Generator",
             "content": [{
-                "text": "Tools: NodeJS, ReactJS, Bash Scripting\\Role: UX Design, Frontend Developer and Backend Developer"}]
+                "text": "Tools: NodeJS, ReactJS, Bash Scripting\\Role: UX Design, Frontend Developer and Backend Developer",
+                "thumbnails": [{"url": "/images/photography-utility/sketch_01.png"}, {"url": "/images/photography-utility/studio_01.png"}]
+            }]
         },
         {
             "header": "Opportunity",
@@ -511,7 +517,8 @@
         "sections": [{
             "header": "Event Planning",
             "content": [{
-                "text":"Skills: Customer service, contract negotiations, sales, accounting, finance, logistics, social media, human resources\\Role: Co-founder, Photographer, IT Architect"
+                "text":"Skills: Customer service, contract negotiations, sales, accounting, finance, logistics, social media, human resources\\Role: Co-founder, Photographer, IT Architect",
+                "thumbnails": [{"url": "/images/soft-skills/decoration.png"}, {"url": "/images/soft-skills/party_02.png"}, {"url": "/images/soft-skills/group.png"}]
             }]
         },{
             "header": "Problem",
