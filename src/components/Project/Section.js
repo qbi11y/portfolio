@@ -1,4 +1,3 @@
-import { Suspense } from 'react';
 import Thumbnail from './Thumbnail';
 
 const Section = ({data}) => {
@@ -33,9 +32,7 @@ const Section = ({data}) => {
                 <div className="thumbnails">
                 {
                     'thumbnails' in data.section.content[0] && data.section.content[0].thumbnails.map((thumbnail, index) => (
-                        <Suspense>
-                            <Thumbnail data={thumbnail} index={index}/>
-                        </Suspense>                        
+                        <Thumbnail data={thumbnail} index={index}/>                      
                     ))
                 }
                 </div>

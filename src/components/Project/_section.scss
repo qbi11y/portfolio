@@ -161,6 +161,8 @@
     }
 
     .thumbnail img {
+        min-height: 0;
+        min-width: 0;
         max-height: 54px;
     }
 }

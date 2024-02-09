@@ -1,4 +1,5 @@
 import React, { useEffect, Fragment, useState } from "react"
+import { Suspense } from 'react';
 import { useParams } from "react-router-dom"
 import { Link } from "react-router-dom";
 import * as projects from '../../data/projects.json';
@@ -45,7 +46,7 @@ const Project = () => {
                         </button>                                              
                     </Link>
                 </div>
-
+                <Suspense fallback={<></>}>
                 {
                     projects[id]["sections"].map((section, index) => {
                         return(
@@ -89,7 +90,7 @@ const Project = () => {
                         )
                     })
                 }
-
+                </Suspense>
                 <div className="container--section">
                     <Link to="/portfolio">
                         <button className="button is-link icon--link">
