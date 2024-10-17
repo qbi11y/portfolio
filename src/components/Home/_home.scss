@@ -7,6 +7,14 @@
 .header {
     font-weight: 100;
     line-height: 1.25;
+    width: 100%;
+    //overflow-wrap: break-word; /* Modern property */
+    white-space: nowrap; /* Allow text to wrap */
+    overflow: hidden;
+}
+
+.sub-header {
+    margin-bottom: 1em;
 }
 
 .text {
@@ -149,6 +157,9 @@
 
     .header {
         margin-bottom: .5em;
+        width: 80%;
+        overflow-wrap: break-word; /* Modern property */
+        white-space: normal; /* Allow text to wrap */
     }
 
     .projects {
@@ -184,6 +195,9 @@
 
     .header {
         margin-bottom:0;
+        width: 80%;
+        overflow-wrap: break-word; /* Modern property */
+        white-space: normal; /* Allow text to wrap */
     }
 
     .sub-header {

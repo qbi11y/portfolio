@@ -2,9 +2,12 @@ import React,  { useEffect, useState } from "react";
 import projects from '../../data/projects.json';
 import content from '../../data/content.json';  
 import { useNavigate } from "react-router-dom";
+import { Odometer } from "../Odometer";
+import { motion } from "framer-motion";
 
 const Home = () => {
     const [ isShort, setIsShort ] = useState(true)
+    const [value, setValue] = useState(100);
     const navigate = useNavigate()
 
     const viewProject = (e) => {
@@ -23,10 +26,15 @@ const Home = () => {
 
     return(
         
-        <div className="container">            
+        <div className="container">         
             <h5 className="header-tag">{content.personal.tag}</h5>
-            <h1 className="is-size-1-widescreen is-size-1-mobile header">{content.personal.title}</h1>
-            <h2 className="is-size-2 sub-header" >Infusing life into designs through code</h2>
+            <motion.h1
+                initial={{opacity: 0}}
+                animate={{opacity: 1,transition: { duration: 5 }}}
+                className="is-size-1-widescreen is-size-1-mobile header"><Odometer value={value} />
+            </motion.h1>
+            {/* <h1 className="is-size-1-widescreen is-size-1-mobile header">{content.personal.title}</h1> */}
+            <h2 className="is-size-2 is-size-4-mobile sub-header" >Infusing life into designs through code</h2>
             <div className="is-hidden-desktop text">{isShort ? content.personal.shortStatement : content.personal.longStatement}
                 <div onClick={() => setIsShort(!isShort)}>{isShort ? "Show more" : "Show less"}</div>
             </div>
