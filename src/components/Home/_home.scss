@@ -195,9 +195,9 @@
 
     .header {
         margin-bottom:0;
-        width: 80%;
+        width: 100%;
         overflow-wrap: break-word; /* Modern property */
-        white-space: normal; /* Allow text to wrap */
+        white-space: nowrap; /* Allow text to wrap */
     }
 
     .sub-header {
