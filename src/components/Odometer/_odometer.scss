@@ -1,0 +1,23 @@
+.odometer {
+    display: flex;
+    justify-content: center;
+    font-size: 48px;
+    font-weight: bold;
+    overflow: hidden;
+    height: 1em; /* Set height to fit a single digit */
+  }
+  
+  .odometer-digit {
+    position: relative;
+    animation: roll 0.5s ease-out forwards;
+  }
+  
+  @keyframes roll {
+    0% {
+      transform: translateY(100%); /* Start below */
+    }
+    100% {
+      transform: translateY(0); /* Finish at the correct position */
+    }
+  }
+  
