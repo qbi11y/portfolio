@@ -7,7 +7,6 @@ import { motion } from "framer-motion";
 
 const Home = () => {
     const [ isShort, setIsShort ] = useState(true)
-    const [value, setValue] = useState(100);
     const navigate = useNavigate()
 
     const viewProject = (e) => {
@@ -31,7 +30,7 @@ const Home = () => {
             <motion.h1
                 initial={{opacity: 0}}
                 animate={{opacity: 1,transition: { duration: 5 }}}
-                className="is-size-1-widescreen is-size-1-mobile header"><Odometer value={value} />
+                className="is-size-1-widescreen is-size-1-mobile header"><Odometer />
             </motion.h1>
             {/* <h1 className="is-size-1-widescreen is-size-1-mobile header">{content.personal.title}</h1> */}
             <h2 className="is-size-2 is-size-4-mobile sub-header" >Infusing life into designs through code</h2>

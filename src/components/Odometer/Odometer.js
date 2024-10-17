@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react';
 import './_odometer.scss';  // We'll define this later
-import { clear } from '@testing-library/user-event/dist/clear';
 
 const Odometer = () => {
     const max_array_len = 19
