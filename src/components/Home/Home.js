@@ -1,4 +1,5 @@
 import React,  { useEffect, useState } from "react";
+// eslint-disable-next-line no-unused-vars -- kept ready for when the case study archive below is uncommented
 import projects from '../../data/projects.json';
 import content from '../../data/content.json';
 import narrative from '../../data/narrative.json';
@@ -43,6 +44,11 @@ const Home = () => {
                 <p className="narrative--how is-size-6">{narrative.howIWork}</p>
             </section>
 
+            <div className="is-hidden-desktop text">{isShort ? content.personal.shortStatement : content.personal.longStatement}
+                <div onClick={() => setIsShort(!isShort)}>{isShort ? "Show more" : "Show less"}</div>
+            </div>
+            <div className="is-hidden-touch text">{content.personal.longStatement}</div>
+
             <section className="proof-strip">
                 {narrative.proofPoints.map((point) => (
                     <div className="proof-card" id={point.projectId} onClick={(e) => viewProject(e)} key={point.projectId}>
@@ -54,11 +60,7 @@ const Home = () => {
 
             <p className="narrative--close is-size-6">{narrative.close}</p>
 
-            <div className="is-hidden-desktop text">{isShort ? content.personal.shortStatement : content.personal.longStatement}
-                <div onClick={() => setIsShort(!isShort)}>{isShort ? "Show more" : "Show less"}</div>
-            </div>
-            <div className="is-hidden-touch text">{content.personal.longStatement}</div>
-
+            {/* Full case study archive temporarily hidden — only the 4 featured proof-strip projects are shown for now.
             <h3 className="all-work-header is-size-4">All Case Studies</h3>
             <div className="projects">
             {
@@ -78,6 +80,7 @@ const Home = () => {
             }
             <div className="project spacer"></div>
             </div>
+            */}
 
             <section className="section is-size-7">
                 <footer className="footer columns">                
