@@ -71,6 +71,89 @@
     margin-bottom: 1.5em;
 }
 
+.narrative {
+    margin: 2em 0 1.5em 0;
+    text-align: left;
+}
+
+.narrative--eyebrow {
+    text-transform: uppercase;
+    letter-spacing: .05em;
+    color: $grey-light;
+    margin-bottom: .5em;
+}
+
+.narrative--headline {
+    font-weight: 400;
+    line-height: 1.3;
+    margin-bottom: .75em;
+}
+
+.narrative--subhead,
+.narrative--how,
+.narrative--close {
+    color: $grey;
+}
+
+.narrative--subhead {
+    margin-bottom: 1.25em;
+}
+
+.narrative--how {
+    margin-bottom: .5em;
+}
+
+.narrative--close {
+    margin: 2em 0;
+}
+
+.all-work-header {
+    margin-top: 1em;
+    font-weight: 400;
+    text-align: left;
+}
+
+.proof-strip {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25em;
+    margin: 1.5em 0;
+}
+
+.proof-card {
+    text-align: left;
+    padding: 1.5em;
+    border-radius: .25rem;
+    border: 1px solid rgb(235, 235, 235);
+    background-color: #fff;
+    cursor: pointer;
+    transition: box-shadow .25s;
+}
+
+.proof-card:hover {
+    box-shadow: 0 0 7px 0 rgba(0,0,0,0.05);
+}
+
+.proof-card--headline {
+    font-weight: 500;
+    margin-bottom: .5em;
+}
+
+.proof-card--blurb {
+    color: $grey;
+}
+
+@media screen and (min-width: 1024px) {
+    .proof-strip {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .proof-card {
+        width: calc(50% - .625em);
+    }
+}
+
 
 //iPad common styles
 @media only screen 

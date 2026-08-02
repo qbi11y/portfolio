@@ -1,6 +1,7 @@
 import React,  { useEffect, useState } from "react";
 import projects from '../../data/projects.json';
-import content from '../../data/content.json';  
+import content from '../../data/content.json';
+import narrative from '../../data/narrative.json';
 import { useNavigate } from "react-router-dom";
 import { Odometer } from "../Odometer";
 import { motion } from "framer-motion";
@@ -34,15 +35,34 @@ const Home = () => {
             </motion.h1>
             {/* <h1 className="is-size-1-widescreen is-size-1-mobile header">{content.personal.title}</h1> */}
             <h2 className="is-size-2 is-size-4-mobile sub-header" >Infusing life into designs through code</h2>
+
+            <section className="narrative">
+                <p className="narrative--eyebrow is-size-7">{narrative.eyebrow}</p>
+                <h3 className="narrative--headline is-size-3-widescreen is-size-4-mobile">{narrative.headline}</h3>
+                <p className="narrative--subhead is-size-6">{narrative.subhead}</p>
+                <p className="narrative--how is-size-6">{narrative.howIWork}</p>
+            </section>
+
+            <section className="proof-strip">
+                {narrative.proofPoints.map((point) => (
+                    <div className="proof-card" id={point.projectId} onClick={(e) => viewProject(e)} key={point.projectId}>
+                        <h4 className="proof-card--headline is-size-5">{point.headline}</h4>
+                        <p className="proof-card--blurb is-size-6">{point.blurb}</p>
+                    </div>
+                ))}
+            </section>
+
+            <p className="narrative--close is-size-6">{narrative.close}</p>
+
             <div className="is-hidden-desktop text">{isShort ? content.personal.shortStatement : content.personal.longStatement}
                 <div onClick={() => setIsShort(!isShort)}>{isShort ? "Show more" : "Show less"}</div>
             </div>
             <div className="is-hidden-touch text">{content.personal.longStatement}</div>
-        
-        
+
+            <h3 className="all-work-header is-size-4">All Case Studies</h3>
             <div className="projects">
             {
-                    Object.keys(projects).map((project, index) => 
+                    Object.keys(projects).map((_, index) =>
                         (
                             projects[index+1]["active"] === true &&
                             <div className="project" id={index + 1} onClick={(e)=> {viewProject(e)}} key={index}>

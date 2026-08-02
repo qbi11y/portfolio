@@ -1,0 +1,29 @@
+{
+    "eyebrow": "Organizational Strategist · Design × AI × Technology",
+    "headline": "I turn field-level friction into executive-validated investment decisions.",
+    "subhead": "I embed directly where work happens, use AI to compress weeks of discovery into days, and turn what I find into evidence leaders can act on.",
+    "howIWork": "Most organizations discover what's broken the same way they always have — reports, meetings, assumptions. I get closer than that. I spend time on the floor, with the people actually doing the work, and use AI to go from open question to working prototype in days instead of months. The goal isn't just to build faster — it's to give leadership confidence, faster, in what's actually worth building.",
+    "proofPoints": [
+        {
+            "projectId": 9,
+            "headline": "One demo. One executive relationship. AI trust across an entire org.",
+            "blurb": "A prototype built to solve one designer's UI problem became the reason a business unit funded its own AI initiative — and earned a standing invitation from a senior executive to keep surfacing opportunities like it."
+        },
+        {
+            "projectId": 10,
+            "headline": "$40M+ found in one week.",
+            "blurb": "A one-week embed at a distribution center uncovered a data blind spot nobody had traced to its source — validated fast, funded, and now moving toward network-wide rollout."
+        },
+        {
+            "projectId": 11,
+            "headline": "Redefining how design discovers what's worth building.",
+            "blurb": "AI let me compress a multi-week, multi-person discovery cycle into about a week, solo — and that shift is becoming the basis for a new way design partners with the business."
+        },
+        {
+            "projectId": 12,
+            "headline": "Design now owns its own quality.",
+            "blurb": "Built and lead adoption of an AI-powered pipeline that generates near-production code directly from design files — catching costly errors before they ever reach engineering."
+        }
+    ],
+    "close": "Below are the full stories behind each of these — how they started, what surprised me, and what they taught me about where design's real leverage is."
+}
