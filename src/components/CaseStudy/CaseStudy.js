@@ -27,7 +27,6 @@ const CaseStudy = () => {
             <header className="case-study--hero">
                 <p className="case-study--kicker">{study.kicker}</p>
                 <h1 className="case-study--name">{study.name}</h1>
-                <p className="case-study--meta"><strong>Role:</strong> {study.role} &nbsp;·&nbsp; <strong>Tools:</strong> {study.tools}</p>
 
                 <div className="case-study--stat">
                     <span className="case-study--stat-value">{study.heroStat.value}</span>
