@@ -54,8 +54,22 @@ This repo does not contain the source material for case studies, resume copy, or
 - Frameworks & IP (reusable methodologies, e.g. the Operational Innovation Pipeline): https://app.notion.com/p/3b036fb649258112a4e8ea29b0e7f37f
 - Hub page: https://app.notion.com/p/3b036fb64925807387b3dd250ccad09a
 
-Rules that follow from that:
+### Moving a Projects row from Captured to Validated
 
-- **Don't invent case study content directly in this repo.** A Projects row is only safe to turn into a `projects.json` entry once its `Status` is `Validated` or `Published` — `Captured` means the business context is documented but Discovery/Outcomes/Reflection haven't been interviewed yet, and writing polished copy from a `Captured` row skips the validation gate the whole system is built around.
+A row does not move past `Captured` by being written up — it moves by being **interviewed**. Before touching Discovery Notes, Outcomes, Reflection, or Stakeholders on a row, ask questions; don't draft prose and ask for edits to it. Cover, in roughly this order:
+
+- **Business Context** — why did it exist, what problem was being solved, why did it matter, who requested it?
+- **Stakeholders** — who was involved (execs, peers, frontline), why they cared, what they specifically decided, your relationship with them. Each stakeholder worth naming gets (or updates) a row in the People / Executive Relationship Map, not just a mention in prose.
+- **Discovery** — what surprised you, what assumptions changed, what did others miss, what pattern emerged?
+- **Outcomes** — business, organizational, technical, *and* learning outcomes. Don't stop at "shipped X."
+- **Reflection** — what did this teach you, what larger philosophy emerged, does it reinforce or challenge the Career Thesis?
+
+**Validation gate (mandatory, do not skip):** once you have enough to write, summarize your understanding back in one paragraph and get explicit confirmation before writing anything into the row or into `projects.json`. If the answer is "close but X is wrong," fix X and ask again — don't treat a correction as approval. Only write `Status: Validated` after that confirmation. See the "Cleburne Cube/Weight Discovery" row in the Projects database for a worked example of this end-to-end (interview answers → summary → correction → confirmed → written up).
+
+Scoring (the `Priority Score` field, 0–50 across executive influence, business impact, strategic thinking, uniqueness, repeatability, IP potential, storytelling value, portfolio value, executive visibility, future leverage) is a separate pass from the interview — don't assign a score as a side effect of an interview unless asked to.
+
+Rules that follow from all of this:
+
+- **Don't invent case study content directly in this repo.** A Projects row is only safe to turn into a `projects.json` entry once its `Status` is `Validated` or `Published`.
 - **The current 8 entries in `projects.json` predate this system** (IBM/Gravitant-era work plus personal side projects) and haven't been scored against the Quarry's Tier/Priority framework yet. Don't delete or deprioritize them without asking — that's a scoring decision, not a code decision.
 - **`content.json`'s bio (`personal.tag`, `longStatement`, `shortStatement`) is stale job-seeker copy** ("Design Technologist" looking for a design/sales-enablement team) and doesn't reflect the Career Thesis being developed in the Quarry. Flag it rather than silently rewriting it — the Career Thesis page is still being validated project-by-project.
