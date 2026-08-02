@@ -4,7 +4,9 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## What this repository is
 
-A personal portfolio site (Create React App, deployed to `qbi11y.github.io/portfolio` via GitHub Pages). It is the **publishing layer only** — the last stop for career content, not where that content originates. See "Body of Work system" below before adding or editing any case study content.
+A personal portfolio site (Create React App). It is the **publishing layer only** — the last stop for career content, not where that content originates. See "Body of Work system" below before adding or editing any case study content.
+
+**Hosting is in transition:** the site is moving off GitHub Pages to GCP. No target GCP service, domain, or CI/CD approach has been decided yet — don't assume any specific GCP architecture, and don't build toward one without checking first.
 
 ## Commands
 
@@ -15,12 +17,9 @@ npm run build         # production build to /build
 npm test              # jest via react-scripts, runs in watch mode by default
 CI=true npm test       # single non-interactive run (use this, not the watch-mode default)
 npm test -- Home.test  # run a single test file (matches by filename substring)
-npm run deploy         # build + publish /build to the gh-pages branch (gh-pages package)
 ```
 
 There is no standalone lint script. ESLint runs as part of `start`/`build` via the `eslintConfig` block in `package.json` (`extends: react-app, react-app/jest`).
-
-CI (`.github/workflows`) builds on push to `main` and deploys via `JamesIves/github-pages-deploy-action`. It's pinned to Node 15.x — bumping this is safe and overdue, but do it deliberately, not as a drive-by change.
 
 ## Architecture
 
