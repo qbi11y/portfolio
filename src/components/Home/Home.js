@@ -82,9 +82,9 @@ const Home = () => {
             </div>
             */}
 
-            <section className="section is-size-7">
-                <footer className="footer columns">
-                    <ul className="column">
+            <section className="is-size-7">
+                <footer className="footer">
+                    <ul>
                         <li><a href="https://www.linkedin.com/in/jamesqthompson/" target="_blank" rel="noreferrer">LinkedIn</a></li>
                         <li>
                             <p><a href="mailto:thompsonjamesquillan@gmail.com">thompsonjamesquillan@gmail.com</a></p>
