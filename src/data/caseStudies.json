@@ -1,0 +1,54 @@
+{
+    "9": {
+        "name": "AI-Powered Decision Engine",
+        "kicker": "How one demo became an executive relationship",
+        "role": "Design Technologist, AI Prototyping Lead",
+        "tools": "Python, SQL, LLM APIs",
+        "heroStat": { "value": "$300K+", "label": "AI investment it inspired" },
+        "problem": "A designer on my team was stuck exposing 50+ filters in a clunky UI. Rather than design another complex filter panel, I asked a different question: what if people could just describe what they wanted to see, in plain language, and get it back automatically?",
+        "approach": "I built a prototype that translated natural-language requests into database queries, starting as a simple smart filter with the data I had on hand. It worked well enough to demo to an adjacent operations team, who immediately saw the potential to use AI to speed up their weekly reporting — a process that used to take hours of manual work. That demo directly inspired them to fund and build their own AI reporting initiative. Meanwhile, the original tool kept evolving: instead of just answering questions about what already happened, I pushed it to surface actionable next steps — moving from a smart filter to something closer to a decision-support engine.",
+        "callout": "A demo built to solve one UI problem ended up shaping how an entire org talks about AI.",
+        "learned": "The hardest part wasn't the AI — it was proving the idea mattered before I had any data infrastructure to lean on. I had to build enough of a working prototype, fast, to make the opportunity tangible to people who couldn't otherwise picture it.",
+        "result": "The tool is now a live reporting feature used by a dedicated team, and the demo itself became a catalyst: it opened a direct relationship with a senior executive who has since connected me with other leaders facing similar problems, and it's shaped how AI gets talked about and trusted across the broader organization.",
+        "takeaway": "Autonomy is one of the most powerful communication tools available. Rather than pitching an idea in a meeting, I've learned it's far more persuasive to just build it and let people see what's possible — show, don't tell."
+    },
+    "10": {
+        "name": "Network-Scale Data Discovery",
+        "kicker": "Finding an eight-figure blind spot in one week",
+        "role": "Design Technologist, Field Researcher",
+        "tools": "Excel, Rapid Prototyping",
+        "heroStat": { "value": "$40M+", "label": "projected annual network savings" },
+        "problem": "A regional operations leader asked me to look into a recurring problem: delivery trucks were consistently either poorly loaded or coming back overweight, and nobody could pin down why. I spent a week embedded on-site to find out.",
+        "approach": "Working directly alongside the team, I traced the problem upstream — the issue wasn't how trucks were loaded, it was inaccurate data coming in earlier in the process. I built a quick, low-fidelity system in the field — tagging items by rough size and tracking it by hand — to prove that better data would reduce the rework. That experiment led to a bigger discovery: more precise, already-available data could solve the problem even better than my interim fix. I proposed shifting to that more precise approach and worked with a UX designer to update the receiving workflow to support it.",
+        "callout": "A scrappy field prototype led to a validated $40M+ network-wide opportunity.",
+        "learned": "The instinct in a big organization is to trust the existing system. But an experienced operator on the floor didn't trust the data he was given, and worked around it with his own tribal knowledge. Learning to treat that distrust as a signal — not noise — is what led to the real root cause.",
+        "result": "The finding was packaged into a business case and validated with finance, landing on a projected $40M+ in annual network-wide savings. The effort has since been formally prioritized and is being scoped for the resources needed to build it out.",
+        "takeaway": "Being physically embedded surfaces root causes far faster than remote analysis ever could. It reinforced something I now build every engagement around: get close to the actual problem, not just the reports about it."
+    },
+    "11": {
+        "name": "A New Operating Model for Design",
+        "kicker": "Compressing weeks of discovery into days, with AI",
+        "role": "Design Technologist, Strategist",
+        "tools": "AI Prototyping, Field Research",
+        "heroStat": { "value": "Weeks → Days", "label": "discovery-to-validation cycle, solo" },
+        "problem": "After a string of successful field engagements, I started asking a bigger question: was I just getting lucky, or was there a repeatable way of working here? I pushed to spend a week embedded with a team across multiple sites specifically to test that idea.",
+        "approach": "Using AI throughout the trip, I was able to research, prototype, and validate a working solution on my own in about a week — work that would normally take a designer and a developer several weeks together. That realization became the seed of a broader thesis: AI doesn't just change how we build products, it changes how fast we can discover what's worth building in the first place. I've since written that thinking up as a formal proposal for how design could work differently across the organization.",
+        "callout": "AI let me compress a multi-week, multi-person process into about a week, solo.",
+        "learned": "Testing across multiple site types in the same trip showed me the solution couldn't be one-size-fits-all — different environments needed meaningfully different approaches, which meant designing for adaptability from the start, not retrofitting it later.",
+        "result": "A senior sponsor has confirmed the underlying direction is worth pursuing, and identified a specific, high-value problem area to use as the next test case — proving the approach can be taught to someone else, not just repeated by me.",
+        "takeaway": "This shifted how I see my own role — from executing projects inside an existing structure to actively helping define how design works in an AI era. It's brought the design function a level of visibility with leadership it didn't have before."
+    },
+    "12": {
+        "name": "AI-Powered Design-to-Code Pipeline",
+        "kicker": "Giving design ownership of its own quality",
+        "role": "Design Technologist, Pipeline Lead",
+        "tools": "Figma API, AI/LLMs, React",
+        "heroStat": { "value": "~1:1", "label": "design-to-code output accuracy" },
+        "problem": "Design would hand off files, and engineering would rebuild them by hand in code — and quality slipped through the cracks every time, because recreating a design by eye isn't the same as owning it. I set out to remove that translation step entirely.",
+        "approach": "I built an AI-powered pipeline that generates near-production-ready front-end code directly from design files, rather than relying on engineers to manually rebuild them. A token-mapping technique — having the AI map color and spacing rules before touching the design itself — pushed output accuracy close to 1:1. I also created documentation to help designers structure their files in a way the pipeline can use well, since output quality is only as good as the file it starts from.",
+        "callout": "Design now owns its own quality, instead of hoping engineering recreates it faithfully.",
+        "learned": "The adoption curve surprised me — designers picked it up faster than expected once they saw a peer using it, which shifted my role from lone tool-builder to the person actively teaching the rest of the team how to work this way.",
+        "result": "The pipeline is now used by two teams and roughly 7-10 designers, with core components already live and more coming online. Beyond adoption, it's giving the design team a capability it didn't have before: catching quality issues early, before they become slower and more expensive to fix in engineering.",
+        "takeaway": "My manager put it well: this is about design owning the front end so we can be sure what ships matches what we designed, instead of hoping it survives translation. That's a strategic shift in how design and engineering work together, not just a tooling upgrade."
+    }
+}

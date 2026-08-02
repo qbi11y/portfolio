@@ -1,0 +1,137 @@
+$ink: #1f3a5f;
+$serif: Georgia, 'Iowan Old Style', 'Times New Roman', serif;
+
+.case-study {
+    text-align: left;
+}
+
+.back-link {
+    display: inline-block;
+    color: $grey;
+    font-size: .9em;
+    text-decoration: none;
+    margin-bottom: 1.5em;
+}
+
+.back-link:hover {
+    color: $ink;
+}
+
+.case-study--hero {
+    margin-bottom: 2.5em;
+    padding-bottom: 2em;
+    border-bottom: 1px solid rgb(235, 235, 235);
+}
+
+.case-study--kicker {
+    text-transform: uppercase;
+    letter-spacing: .05em;
+    font-size: .8em;
+    color: $grey-light;
+    margin-bottom: .5em;
+}
+
+.case-study--name {
+    font-family: $serif;
+    font-weight: 400;
+    font-size: 2.25em;
+    line-height: 1.2;
+    color: #1a1a1a;
+    margin-bottom: .5em;
+}
+
+.case-study--meta {
+    color: $grey;
+    font-size: .95em;
+    margin-bottom: 1.75em;
+}
+
+.case-study--stat {
+    display: flex;
+    flex-direction: column;
+    gap: .1em;
+}
+
+.case-study--stat-value {
+    font-family: $serif;
+    font-size: 2.75em;
+    font-weight: 400;
+    color: $ink;
+    line-height: 1.1;
+}
+
+.case-study--stat-label {
+    color: $grey;
+    font-size: .9em;
+}
+
+.case-study--block {
+    display: flex;
+    flex-direction: column;
+    gap: .5em;
+    margin-bottom: 2.25em;
+    max-width: 42em;
+}
+
+.case-study--label {
+    text-transform: uppercase;
+    letter-spacing: .05em;
+    font-size: .8em;
+    font-weight: 600;
+    color: $ink;
+}
+
+.case-study--body {
+    color: #333;
+    font-size: 1.05em;
+    line-height: 1.7;
+    white-space: pre-line;
+}
+
+.case-study--callout {
+    font-family: $serif;
+    font-style: italic;
+    font-size: 1.5em;
+    line-height: 1.4;
+    color: $ink;
+    border-left: 3px solid $ink;
+    padding: .25em 0 .25em 1em;
+    margin: 2.5em 0;
+    max-width: 38em;
+}
+
+.case-study--block-result,
+.case-study--block-takeaway {
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 0 0 7px 0 rgba(0,0,0,0.05);
+    padding: 1.5em 1.75em;
+    max-width: 42em;
+}
+
+.case-study--footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 3em;
+    padding-top: 1.5em;
+    border-top: 1px solid rgb(235, 235, 235);
+}
+
+@media screen and (min-width: 768px) {
+    .case-study--name {
+        font-size: 3em;
+    }
+
+    .case-study--stat-value {
+        font-size: 3.5em;
+    }
+
+    .case-study--body {
+        font-size: 1.1em;
+    }
+
+    .case-study--callout {
+        font-size: 1.75em;
+    }
+}

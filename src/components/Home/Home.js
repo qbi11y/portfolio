@@ -1,16 +1,16 @@
-import React,  { useEffect, useState } from "react";
+import React, { useEffect, useState } from "react";
 // eslint-disable-next-line no-unused-vars -- kept ready for when the case study archive below is uncommented
 import projects from '../../data/projects.json';
 import content from '../../data/content.json';
 import narrative from '../../data/narrative.json';
 import { useNavigate } from "react-router-dom";
-import { Odometer } from "../Odometer";
 import { motion } from "framer-motion";
 
 const Home = () => {
     const [ isShort, setIsShort ] = useState(true)
     const navigate = useNavigate()
 
+    // eslint-disable-next-line no-unused-vars -- kept ready for when the case study archive below is uncommented
     const viewProject = (e) => {
         let id = 0
         if (e.target === e.currentTarget) {
@@ -21,28 +21,26 @@ const Home = () => {
         navigate('/portfolio/project/'+id)
     }
 
+    const viewCaseStudy = (id) => {
+        navigate('/portfolio/case-study/'+id)
+    }
+
     useEffect(() => {
         window.scrollTo(0, 0)
       }, [isShort])
 
     return(
-        
-        <div className="container">         
-            <h5 className="header-tag">{content.personal.tag}</h5>
-            <motion.h1
-                initial={{opacity: 0}}
-                animate={{opacity: 1,transition: { duration: 5 }}}
-                className="is-size-1-widescreen is-size-1-mobile header"><Odometer />
-            </motion.h1>
-            {/* <h1 className="is-size-1-widescreen is-size-1-mobile header">{content.personal.title}</h1> */}
-            <h2 className="is-size-2 is-size-4-mobile sub-header" >Infusing life into designs through code</h2>
 
-            <section className="narrative">
+        <div className="container">
+            <motion.section
+                className="narrative"
+                initial={{ opacity: 0, y: 8 }}
+                animate={{ opacity: 1, y: 0, transition: { duration: .6 } }}>
                 <p className="narrative--eyebrow is-size-7">{narrative.eyebrow}</p>
-                <h3 className="narrative--headline is-size-3-widescreen is-size-4-mobile">{narrative.headline}</h3>
+                <h1 className="narrative--headline is-size-3-widescreen is-size-4-mobile">{narrative.headline}</h1>
                 <p className="narrative--subhead is-size-6">{narrative.subhead}</p>
                 <p className="narrative--how is-size-6">{narrative.howIWork}</p>
-            </section>
+            </motion.section>
 
             <div className="is-hidden-desktop text">{isShort ? content.personal.shortStatement : content.personal.longStatement}
                 <div onClick={() => setIsShort(!isShort)}>{isShort ? "Show more" : "Show less"}</div>
@@ -51,7 +49,9 @@ const Home = () => {
 
             <section className="proof-strip">
                 {narrative.proofPoints.map((point) => (
-                    <div className="proof-card" id={point.projectId} onClick={(e) => viewProject(e)} key={point.projectId}>
+                    <div className="proof-card" onClick={() => viewCaseStudy(point.projectId)} key={point.projectId}>
+                        <p className="proof-card--stat-value">{point.stat}</p>
+                        <p className="proof-card--stat-label">{point.statLabel}</p>
                         <h4 className="proof-card--headline is-size-5">{point.headline}</h4>
                         <p className="proof-card--blurb is-size-6">{point.blurb}</p>
                     </div>
@@ -83,18 +83,17 @@ const Home = () => {
             */}
 
             <section className="section is-size-7">
-                <footer className="footer columns">                
+                <footer className="footer columns">
                     <ul className="column">
                         <li><a href="https://www.linkedin.com/in/jamesqthompson/" target="_blank" rel="noreferrer">LinkedIn</a></li>
                         <li>
                             <p><a href="mailto:thompsonjamesquillan@gmail.com">thompsonjamesquillan@gmail.com</a></p>
                             <p>Austin, TX</p>
                         </li>
-                        
+
                     </ul>
                     <div className="column">
                         <ul>
-                            <li>v0.2</li>
                             <li className="has-text-weight-medium">Built using:</li>
                             <li>AWS s3</li>
                             <li>Bulma</li>
@@ -102,17 +101,11 @@ const Home = () => {
                             <li>GitHub Actions (CI/CD)</li>
                             <li>Google Analytics</li>
                             <li>React</li>
-                            
+
                         </ul>
                     </div>
-                    <div className="column">
-                        
-                        <p className="is-italic">
-                            I am using this portfolio as a code sandbox to continue to grow my dev skills. If something is broken, I am probably experimenting!
-                        </p>
-                    </div>
                 </footer>
-            </section>     
+            </section>
         </div>
     )}
 

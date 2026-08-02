@@ -6,21 +6,29 @@
     "proofPoints": [
         {
             "projectId": 9,
-            "headline": "One demo. One executive relationship. AI trust across an entire org.",
+            "stat": "$300K+",
+            "statLabel": "AI investment it inspired",
+            "headline": "One demo became an executive relationship and AI trust across an entire org.",
             "blurb": "A prototype built to solve one designer's UI problem became the reason a business unit funded its own AI initiative — and earned a standing invitation from a senior executive to keep surfacing opportunities like it."
         },
         {
             "projectId": 10,
-            "headline": "$40M+ found in one week.",
+            "stat": "$40M+",
+            "statLabel": "projected annual network savings",
+            "headline": "Found in one week, embedded on the floor.",
             "blurb": "A one-week embed at a distribution center uncovered a data blind spot nobody had traced to its source — validated fast, funded, and now moving toward network-wide rollout."
         },
         {
             "projectId": 11,
+            "stat": "Weeks → Days",
+            "statLabel": "discovery-to-validation cycle, solo",
             "headline": "Redefining how design discovers what's worth building.",
             "blurb": "AI let me compress a multi-week, multi-person discovery cycle into about a week, solo — and that shift is becoming the basis for a new way design partners with the business."
         },
         {
             "projectId": 12,
+            "stat": "~1:1",
+            "statLabel": "design-to-code output accuracy",
             "headline": "Design now owns its own quality.",
             "blurb": "Built and lead adoption of an AI-powered pipeline that generates near-production code directly from design files — catching costly errors before they ever reach engineering."
         }
