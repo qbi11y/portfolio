@@ -62,20 +62,27 @@ footer.footer ul {
     list-style: none;
 }
 
-.narrative--eyebrow {
-    text-transform: uppercase;
-    letter-spacing: .05em;
+.narrative--hero-text {
+    font-family: $serif;
+    font-weight: 500;
+    font-size: 2.75em;
+    line-height: 1.15;
     color: $ink;
+    margin-bottom: .2em;
+}
+
+.narrative--sub-heading {
+    text-transform: uppercase;
+    letter-spacing: .08em;
+    color: $grey;
     font-weight: 600;
-    margin-bottom: .75em;
+    margin-bottom: 1.25em;
 }
 
 .narrative--headline {
-    font-family: $serif;
     font-weight: 400;
-    font-size: 2em;
-    line-height: 1.3;
-    color: #1a1a1a;
+    line-height: 1.4;
+    color: #333;
     margin-bottom: .75em;
 }
 
@@ -159,6 +166,14 @@ footer.footer ul {
 
     .proof-card {
         width: calc(50% - .625em);
+    }
+
+    .narrative--hero-text {
+        font-size: 3.75em;
+    }
+
+    .narrative--headline {
+        font-size: 1.5em;
     }
 }
 

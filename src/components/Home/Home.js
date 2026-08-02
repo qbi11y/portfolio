@@ -36,8 +36,9 @@ const Home = () => {
                 className="narrative"
                 initial={{ opacity: 0, y: 8 }}
                 animate={{ opacity: 1, y: 0, transition: { duration: .6 } }}>
-                <p className="narrative--eyebrow is-size-7">{narrative.eyebrow}</p>
-                <h1 className="narrative--headline is-size-3-widescreen is-size-4-mobile">{narrative.headline}</h1>
+                <h1 className="narrative--hero-text">{narrative.heroText}</h1>
+                <p className="narrative--sub-heading is-size-6">{narrative.subHeading}</p>
+                <h2 className="narrative--headline is-size-4-widescreen is-size-5-mobile">{narrative.headline}</h2>
                 <p className="narrative--subhead is-size-6">{narrative.subhead}</p>
                 <p className="narrative--how is-size-6">{narrative.howIWork}</p>
             </motion.section>
