@@ -1,11 +1,19 @@
 import React, { useEffect } from "react";
 import { useParams, useNavigate, Link } from "react-router-dom";
 import caseStudies from '../../data/caseStudies.json';
+import PipelineDiagram from './PipelineDiagram';
+import DiscoveryDiagram from './DiscoveryDiagram';
+
+const diagrams = {
+    pipeline: PipelineDiagram,
+    discovery: DiscoveryDiagram,
+};
 
 const CaseStudy = () => {
     const { id } = useParams();
     const navigate = useNavigate();
     const study = caseStudies[id];
+    const Diagram = study && diagrams[study.diagram];
 
     useEffect(() => {
         window.scrollTo(0, 0);
@@ -43,6 +51,12 @@ const CaseStudy = () => {
                 <p className="case-study--label">The Approach</p>
                 <p className="case-study--body">{study.approach}</p>
             </section>
+
+            {Diagram && (
+                <div className="case-study--diagram">
+                    <Diagram />
+                </div>
+            )}
 
             <blockquote className="case-study--callout">{study.callout}</blockquote>
 

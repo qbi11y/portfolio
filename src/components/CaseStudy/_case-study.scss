@@ -109,6 +109,73 @@ $serif: Georgia, 'Iowan Old Style', 'Times New Roman', serif;
     max-width: 42em;
 }
 
+.case-study--diagram {
+    margin: 2em 0 2.5em 0;
+    max-width: 48em;
+}
+
+.diagram {
+    width: 100%;
+    height: auto;
+}
+
+.diagram-icon-shape--back {
+    fill: #fff;
+    stroke: rgb(220, 220, 220);
+    stroke-width: 2;
+}
+
+.diagram-icon-shape--front {
+    fill: #fff;
+    stroke: $ink;
+    stroke-width: 2;
+}
+
+.diagram-arrow-line {
+    stroke: rgb(200, 200, 200);
+    stroke-width: 2;
+    fill: none;
+}
+
+.diagram-arrow-head {
+    stroke: rgb(200, 200, 200);
+    stroke-width: 2;
+    fill: none;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+}
+
+.diagram-code-bracket {
+    stroke: $ink;
+    stroke-width: 2.5;
+    fill: none;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+}
+
+.diagram-tag-text {
+    fill: $ink;
+    font-size: 13px;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+
+.diagram-barcode {
+    fill: $ink;
+}
+
+.diagram-stat-value {
+    fill: $ink;
+    font-family: $serif;
+    font-size: 28px;
+}
+
+.diagram-label {
+    fill: $grey;
+    font-size: 13px;
+    font-family: sans-serif;
+}
+
 .case-study--footer {
     display: flex;
     align-items: center;
