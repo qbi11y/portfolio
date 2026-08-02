@@ -65,15 +65,16 @@ footer.footer ul {
 .narrative--hero-text {
     font-family: $serif;
     font-weight: 500;
-    font-size: 2.75em;
+    font-size: 3.25em;
     line-height: 1.15;
     color: $ink;
-    margin-bottom: .2em;
+    margin-bottom: .25em;
 }
 
 .narrative--sub-heading {
     text-transform: uppercase;
     letter-spacing: .08em;
+    font-size: 1.3em;
     color: $grey;
     font-weight: 600;
     margin-bottom: 1.25em;
@@ -169,7 +170,11 @@ footer.footer ul {
     }
 
     .narrative--hero-text {
-        font-size: 3.75em;
+        font-size: 4.5em;
+    }
+
+    .narrative--sub-heading {
+        font-size: 1.6em;
     }
 
     .narrative--headline {
