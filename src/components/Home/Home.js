@@ -58,7 +58,7 @@ const Home = () => {
                 ))}
             </section>
 
-            <p className="narrative--close is-size-6">{narrative.close}</p>
+            {/* <p className="narrative--close is-size-6">{narrative.close}</p> */}
 
             {/* Full case study archive temporarily hidden — only the 4 featured proof-strip projects are shown for now.
             <h3 className="all-work-header is-size-4">All Case Studies</h3>
