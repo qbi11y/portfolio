@@ -70,6 +70,13 @@ const CaseStudy = () => {
                 <p className="case-study--body">{study.result}</p>
             </section>
 
+            {study.quote && (
+                <figure className="case-study--quote">
+                    <blockquote>&ldquo;{study.quote.text}&rdquo;</blockquote>
+                    <figcaption>&mdash; {study.quote.attribution}</figcaption>
+                </figure>
+            )}
+
             <section className="case-study--block case-study--block-takeaway">
                 <p className="case-study--label">Why It Matters</p>
                 <p className="case-study--body">{study.takeaway}</p>

@@ -100,6 +100,31 @@ $serif: Georgia, 'Iowan Old Style', 'Times New Roman', serif;
     max-width: 38em;
 }
 
+.case-study--quote {
+    max-width: 42em;
+    margin: 2em 0;
+    padding: 1.5em 1.75em;
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 0 0 7px 0 rgba(0,0,0,0.05);
+}
+
+.case-study--quote blockquote {
+    font-family: $serif;
+    font-size: 1.3em;
+    line-height: 1.5;
+    color: #1a1a1a;
+    margin: 0 0 .5em 0;
+}
+
+.case-study--quote figcaption {
+    text-transform: uppercase;
+    letter-spacing: .05em;
+    font-size: .8em;
+    font-weight: 600;
+    color: $ink;
+}
+
 .case-study--block-result,
 .case-study--block-takeaway {
     background-color: #fff;
