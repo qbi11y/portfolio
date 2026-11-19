@@ -25,7 +25,10 @@ There is no standalone lint script. ESLint runs as part of `start`/`build` via t
 
 ### Content-as-data model
 
-Case studies are **not** individual components or pages. They're entries in `src/data/projects.json`, rendered generically by `Home` → `Project` → `Section` → `Thumbnail`/`Image`/`Video`. To add or edit a case study, edit the JSON — don't create new components or routes.
+Case studies are **not** individual components or pages. They're JSON entries rendered by generic components. To add or edit a case study, edit the JSON. Don't create new components or routes. There are two parallel systems:
+
+- **Current (what visitors see):** `Home` renders a hero from `src/data/narrative.json` plus a 4-card "proof strip" (`narrative.proofPoints`, each with a `projectId`). Each card links to `/portfolio/case-study/:id`, rendered by `CaseStudy.js` from `src/data/caseStudies.json` (flat fields: `kicker`, `heroStat`, `problem`, `approach`, `callout`, `learned`, `result`, `quote`, `takeaway`, optional `diagram`). **New case studies go here.** Note: `role` and `tools` are in the data but `CaseStudy.js` doesn't render them.
+- **Legacy archive (hidden):** `src/data/projects.json` (entries 1–12) rendered by `Project` → `Section` → `Thumbnail`/`Image`/`Video` at `/portfolio/project/:id`. The archive grid in `Home.js` is commented out, so these pages are only reachable by direct URL. IDs 9–12 duplicate the four `caseStudies.json` entries in the older format.
 
 `src/data/content.json` holds the personal bio/positioning statement and contact info. `src/data/patents.json` holds patent references.
 
@@ -52,6 +55,9 @@ This repo does not contain the source material for case studies, resume copy, or
 - People / Executive Relationship Map: https://app.notion.com/p/9e5936ddb3514f109c97f59014ed3154
 - Frameworks & IP (reusable methodologies, e.g. the Operational Innovation Pipeline): https://app.notion.com/p/3b036fb649258112a4e8ea29b0e7f37f
 - Hub page: https://app.notion.com/p/3b036fb64925807387b3dd250ccad09a
+- Design Level Rubric (Walmart's design career ladder, useful for checking evidence against a level): https://app.notion.com/p/3c936fb64925802c9f4acd01d258bcb6
+
+**Primary evidence lives outside the Quarry**, in the **Daily Log & Tracker**: https://app.notion.com/p/Daily-Log-Tracker-23236fb6492580b68df8e3360934d86b. It's a dated work journal that is usually more current than the Quarry pages. Check it before interviewing a row, and treat a claim that appears in the Career Thesis or LinkedIn copy but nowhere in the log as unsourced until he confirms where it comes from.
 
 ### Role and philosophy
 
@@ -77,7 +83,7 @@ A row does not move past `Captured` by being written up — it moves by being **
 
 Also capture supporting artifacts where they exist — emails, presentations, metrics, decisions influenced — as pointers in Source Evidence. Don't let the narrative fields stand in for actual evidence.
 
-**Validation gate (mandatory, do not skip):** once you have enough to write, summarize your understanding back in one paragraph and get explicit confirmation before writing anything into the row or into `projects.json`. If the answer is "close but X is wrong," fix X and ask again — don't treat a correction as approval. Only write `Status: Validated` after that confirmation. See the "Cleburne Cube/Weight Discovery" row in the Projects database for a worked example of this end-to-end (interview answers → summary → correction → confirmed → written up).
+**Validation gate (mandatory, do not skip):** once you have enough to write, summarize your understanding back in one paragraph and get explicit confirmation before writing anything into the row or into `caseStudies.json`. If the answer is "close but X is wrong," fix X and ask again — don't treat a correction as approval. Only write `Status: Validated` after that confirmation. See the "Cleburne Cube/Weight Discovery" row in the Projects database for a worked example of this end-to-end (interview answers → summary → correction → confirmed → written up).
 
 ### Pattern detection and IP creation
 
@@ -95,6 +101,8 @@ This is the authoritative tiering from the source brief — treat it as ground t
 - **Tier 2 – Organizational Influence:** Ask Atlas, Design-to-Code Pipeline, Figma Code Connect, ThermoPen, AI Champion, Wibey workflows, Shipping Area Manager, Natural Language SQL, $300K GCP investment, $42M opportunity discovery
 - **Tier 3 – Career Foundation:** IBM, Gravitant, Dell, HP, Yahoo
 
+A scoring pass has since moved AskAtlas (45) and the Figma-to-Code Pipeline (40) to Tier 1 in the Projects database. That counts as the "scoring pass explicitly changes it" exception, so the database tier wins for those two.
+
 Known gap: several Tier 1/2 names above (Learning Before Investing, Shift Start, Decision Gates, Operational Tools Become Living Business Cases, AI Champion, Wibey workflows, and the Tier 3 employer-era work) don't have Projects rows yet — they're candidates for future interviews, not things to invent rows for speculatively.
 
 ### Scoring (Priority Score)
@@ -108,13 +116,15 @@ Score every validated project 1–5 on each of: Executive Influence, Business Im
 
 Scoring is a separate pass from the interview — don't assign a score as a side effect of an interview unless asked to. Whenever a project is newly scored: compare it to existing scored projects, decide whether it changes the Career Thesis, decide whether it deserves new IP, and recommend where to invest further documentation effort.
 
-### Portfolio Test (gate before anything ships to `projects.json`)
+### Portfolio Test (gate before anything ships to `caseStudies.json`)
 
-Before a Projects row becomes a public `projects.json` entry, it must answer yes to all of: Why me? Why is this unique? Would an executive care? Does it communicate organizational impact? Does it strengthen the professional narrative? If any answer is no, that's a reason to revise the row, not to publish it as-is.
+Before a Projects row becomes a public `caseStudies.json` entry, it must answer yes to all of: Why me? Why is this unique? Would an executive care? Does it communicate organizational impact? Does it strengthen the professional narrative? If any answer is no, that's a reason to revise the row, not to publish it as-is.
 
 ### This repo's place in the system
 
 This repo is the **Publishing Agent**. The Quarry (Notion) is the **Body of Work Agent**. The Publishing Agent should never invent information — it only publishes what the Body of Work Agent has already validated. If asked to add a case study here and the source material in the Quarry isn't validated yet, that's a signal to go interview it first, not to draft something plausible-sounding from what's already in `Captured`.
+
+**The `add-project` skill (`.claude/skills/add-project/`) runs this whole flow.** Use it when James says "add project to portfolio," "interview me about X," or similar: pre-read evidence → interview → validation gate → Portfolio Test → draft → publish to `caseStudies.json`. Its reference files hold the interview question bank and the recruiter-facing case study structure. Update them rather than duplicating that guidance here.
 
 ### Be proactive
 
@@ -122,6 +132,7 @@ If while working here you notice an opportunity to strengthen the body of work, 
 
 ### Rules that follow from all of this
 
-- **Don't invent case study content directly in this repo.** A Projects row is only safe to turn into a `projects.json` entry once its `Status` is `Validated` or `Published`.
-- **The current 8 entries in `projects.json` predate this system** (IBM/Gravitant-era work plus personal side projects) and haven't been scored against the Quarry's Tier/Priority framework yet. Don't delete or deprioritize them without asking — that's a scoring decision, not a code decision.
-- **`content.json`'s bio (`personal.tag`, `longStatement`, `shortStatement`) is stale job-seeker copy** ("Design Technologist" looking for a design/sales-enablement team) and doesn't reflect the Career Thesis being developed in the Quarry. Flag it rather than silently rewriting it — the Career Thesis page is still being validated project-by-project.
+- **Don't invent case study content directly in this repo.** A Projects row is only safe to turn into a `caseStudies.json` entry once its `Status` is `Validated` or `Published`.
+- **`projects.json` entries 1–8 predate this system** (IBM/Gravitant-era work plus personal side projects) and haven't been scored against the Quarry's Tier/Priority framework yet. Entries 9–12 are the older-format copies of the four validated Walmart-era case studies. Don't delete or deprioritize any of them without asking. That's a scoring decision, not a code decision. Their copy (e.g. entries 6 and 8 pitching for "a sales enablement team") is outdated job-seeker language, so rewrite it through the Quarry before un-hiding the archive.
+- **`content.json`'s `shortStatement`/`longStatement` have been updated toward the Career Thesis, but `personal.title` still says "Design Technologist"** and the positioning is still being validated project by project. Flag bio changes rather than silently rewriting them.
+- **Numbers must match the Quarry.** The Quarry is the source when the live site, LinkedIn, or the Career Thesis copy disagree (e.g. Cleburne is $42M in the Quarry but "$40M+" on the site as of Nov 2026).
